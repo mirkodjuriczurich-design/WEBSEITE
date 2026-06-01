@@ -4,8 +4,12 @@ export function Logo({ inverse = false }: { inverse?: boolean }) {
   return (
     <Link href="/" className="inline-flex items-center gap-3 group" aria-label="Swiss Longevity Labs AG — zur Startseite">
       <span
-        className="inline-flex h-10 w-10 items-center justify-center font-[var(--font-display)] text-[var(--color-paper)] text-[20px] leading-none font-medium"
-        style={{ background: "var(--color-swiss-red)" }}
+        className="inline-flex h-10 w-10 items-center justify-center text-[var(--color-paper)] text-[22px] leading-none font-medium"
+        style={{
+          background: "var(--color-swiss-red)",
+          fontFamily: "Georgia, 'Times New Roman', serif",
+          letterSpacing: "-0.04em",
+        }}
         aria-hidden
       >
         LL
