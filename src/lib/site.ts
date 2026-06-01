@@ -19,6 +19,79 @@ export const nav = [
   { label: "Unternehmen", href: "/unternehmen" },
 ] as const;
 
+export interface SubNavItem {
+  label: string;
+  href: string;
+  description: string;
+}
+
+export interface NavGroup {
+  label: string;
+  href: string;
+  intro: string;
+  items: SubNavItem[];
+}
+
+export const navGroups: NavGroup[] = [
+  {
+    label: "Leistungen",
+    href: "/leistungen",
+    intro: "Sechs Säulen — einzeln oder integriert buchbar.",
+    items: [
+      { label: "Private Label", href: "/leistungen/private-label", description: "Eure Marke, unsere Rezeptur." },
+      { label: "White Label", href: "/leistungen/white-label", description: "Unsere Rezeptur, eure Marke." },
+      { label: "Full Service & R&D", href: "/leistungen/full-service-rd", description: "End-to-End unter einem Dach." },
+      { label: "Produktentwicklung", href: "/leistungen/produktentwicklung", description: "Rezeptur, Galenik, Stabilität." },
+      { label: "Regulatorik & Compliance", href: "/leistungen/regulatorik", description: "Swissmedic, EFSA, FDA, EU." },
+      { label: "Distribution", href: "/leistungen/distribution", description: "Logistik weltweit, effizient & sicher." },
+    ],
+  },
+  {
+    label: "Expertise",
+    href: "/expertise",
+    intro: "Was uns als Schweizer Hersteller ausweist.",
+    items: [
+      { label: "Capabilities", href: "/expertise/capabilities", description: "Analytik, Galenik, Produktion." },
+      { label: "Prozess", href: "/expertise/prozess", description: "Vom Konzept zum globalen Roll-out." },
+      { label: "Qualität", href: "/expertise/qualitaet", description: "GMP, Swissmedic, ISO." },
+      { label: "Standort", href: "/expertise/standort", description: "Eine Schweizer Adresse, eine Verantwortung." },
+    ],
+  },
+  {
+    label: "Produkte",
+    href: "/produkte",
+    intro: "Sechs Produkte unter Schweizer Eigenmarke.",
+    items: [
+      { label: "Night Repair", href: "/produkte/night-repair", description: "Schlaf als Anti-Aging-Strategie." },
+      { label: "Brain Age", href: "/produkte/brain-age", description: "Neurale Langlebigkeit." },
+      { label: "Resilience", href: "/produkte/resilience", description: "Stress trifft Adaptogen." },
+      { label: "GLP-1 Armor", href: "/produkte/glp1-armor", description: "Für Anwender von GLP-1-Medikamenten." },
+      { label: "Senolytic Cleanse", href: "/produkte/senolytic-cleanse", description: "Quartalsweiser Zell-Reset." },
+      { label: "Spermidine Ritual", href: "/produkte/spermidine-ritual", description: "Autophagie in flüssiger Form." },
+    ],
+  },
+  {
+    label: "Wissen",
+    href: "/wissen",
+    intro: "Forschung, Partner und Editorial-Insights.",
+    items: [
+      { label: "Forschung", href: "/wissen/forschung", description: "Eigene Studien und Methoden-Reviews." },
+      { label: "Akademische Partner", href: "/wissen/partner", description: "Universitäten und Spezial-Labore." },
+      { label: "Insights", href: "/wissen/insights", description: "Editorial-Artikel aus Labor und Markt." },
+    ],
+  },
+  {
+    label: "Unternehmen",
+    href: "/unternehmen",
+    intro: "Hinter jeder Rezeptur stehen Menschen.",
+    items: [
+      { label: "Story", href: "/unternehmen/story", description: "Wie wir gestartet sind." },
+      { label: "Team", href: "/unternehmen/team", description: "Wissenschaft, Produktion, Strategie." },
+      { label: "Karriere", href: "/unternehmen/karriere", description: "Offene Positionen und Initiativbewerbungen." },
+    ],
+  },
+];
+
 export const leistungen = [
   {
     slug: "private-label",
