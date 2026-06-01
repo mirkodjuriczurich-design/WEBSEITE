@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "leistungen": "Leistungen",
+    "expertise": "Expertise",
+    "produkte": "Produkte",
+    "wissen": "Wissen",
+    "unternehmen": "Unternehmen",
+    "kontakt": "Kontakt"
+  },
+  "cta": {
+    "enquiry": "Anfrage starten",
+    "partnership": "Partnerschaft anfragen",
+    "consultation": "Ich wünsche eine Beratung",
+    "submit": "Anfrage senden",
+    "moreInfo": "Mehr erfahren",
+    "viewAll": "Alle ansehen",
+    "back": "Zurück",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schliessen",
+    "skipToContent": "Zum Hauptinhalt springen"
+  },
+  "footer": {
+    "copyright": "© {year} {name}. Alle Rechte vorbehalten.",
+    "tagline": "Schweizer Full-Solution-Partner für Longevity-Produkte.",
+    "datenschutz": "Datenschutz",
+    "impressum": "Impressum",
+    "agb": "AGB"
+  },
+  "errors": {
+    "formGeneric": "Wir konnten Ihre Anfrage nicht zustellen.",
+    "formNetwork": "Verbindung zum Server fehlgeschlagen.",
+    "fourOhFour": {
+      "eyebrow": "404 · Seite nicht gefunden",
+      "headline": "Diese Seite existiert nicht.",
+      "subline": "Aber das hier vielleicht.",
+      "body": "Vielleicht ist der Link veraltet, ein Tippfehler hat sich eingeschlichen, oder die Seite wurde verschoben."
+    }
+  }
+}

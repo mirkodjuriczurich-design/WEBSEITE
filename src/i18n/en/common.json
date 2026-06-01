@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "leistungen": "Services",
+    "expertise": "Expertise",
+    "produkte": "Products",
+    "wissen": "Knowledge",
+    "unternehmen": "Company",
+    "kontakt": "Contact"
+  },
+  "cta": {
+    "enquiry": "Start an enquiry",
+    "partnership": "Request partnership",
+    "consultation": "Book a consultation",
+    "submit": "Send enquiry",
+    "moreInfo": "Learn more",
+    "viewAll": "View all",
+    "back": "Back",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "skipToContent": "Skip to content"
+  },
+  "footer": {
+    "copyright": "© {year} {name}. All rights reserved.",
+    "tagline": "Swiss full-solution partner for longevity products.",
+    "datenschutz": "Privacy",
+    "impressum": "Imprint",
+    "agb": "Terms"
+  },
+  "errors": {
+    "formGeneric": "We could not deliver your enquiry.",
+    "formNetwork": "Connection to the server failed.",
+    "fourOhFour": {
+      "eyebrow": "404 · Page not found",
+      "headline": "This page doesn't exist.",
+      "subline": "But maybe this one does.",
+      "body": "The link may be outdated, contain a typo, or the page may have moved."
+    }
+  }
+}
