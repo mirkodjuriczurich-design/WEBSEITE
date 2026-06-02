@@ -22,7 +22,7 @@ export default function ProdukteHubPage() {
               Sechs Produkte. Eine Schweizer Linie.
             </h1>
             <p className="mt-8 text-[19px] leading-[1.55] text-[var(--color-stone-700)]">
-              Die Substanz, die wir für andere fertigen — auch in unserer eigenen Linie.
+              Die Substanz, die wir für andere fertigen – auch in unserer eigenen Linie.
               Wissenschaftlich fundiert, in der Schweiz produziert, frei von unnötigen
               Hilfsstoffen.
             </p>

@@ -10,7 +10,7 @@ interface Row {
 const rows: Row[] = [
   {
     criterion: "Wertschöpfungstiefe",
-    generic: "Eine Stufe — meist nur Lohnproduktion oder nur Branding",
+    generic: "Eine Stufe – meist nur Lohnproduktion oder nur Branding",
     sll: "Alle sechs Stufen unter einem Schweizer Dach",
   },
   {
@@ -20,13 +20,13 @@ const rows: Row[] = [
   },
   {
     criterion: "Regulatorische Tiefe",
-    generic: "Compliance reaktiv — wenn Behörde nachfragt",
-    sll: "Regulatorik proaktiv — Dossier vor Submission validiert",
+    generic: "Compliance reaktiv – wenn Behörde nachfragt",
+    sll: "Regulatorik proaktiv – Dossier vor Submission validiert",
   },
   {
     criterion: "Produktions-Standort",
     generic: "Verteilt auf Niedriglohnländer, Lieferketten fragmentiert",
-    sll: "100% Schweiz — Forschung, Produktion, QA an einem Ort",
+    sll: "100% Schweiz – Forschung, Produktion, QA an einem Ort",
   },
   {
     criterion: "Skalierungs-Brüche",
@@ -35,7 +35,7 @@ const rows: Row[] = [
   },
   {
     criterion: "Eigenmarken-Beleg",
-    generic: "Nur CDMO — keine eigenen Produkte am Markt",
+    generic: "Nur CDMO – keine eigenen Produkte am Markt",
     sll: "Sechs eigene Longevity-Produkte als Beweis der Substanz",
   },
 ];

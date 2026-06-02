@@ -52,20 +52,20 @@ export const leistungsContent: Record<string, LeistungsContent> = {
     title: "Private Label",
     eyebrow: "Eure Marke, unsere Rezeptur",
     lead:
-      "Sie kommen mit einer Rezeptur, einem Konzept oder einer klaren Vorstellung. Wir bringen sie GMP-konform zur Marktreife — vom ersten Pilot-Batch bis zur globalen Skalierung, alles unter Schweizer Dach.",
+      "Sie kommen mit einer Rezeptur, einem Konzept oder einer klaren Vorstellung. Wir bringen sie GMP-konform zur Marktreife – vom ersten Pilot-Batch bis zur globalen Skalierung, alles unter Schweizer Dach.",
     whatWeOffer: [
       {
         heading: "Was Private Label bei Swiss Longevity Labs bedeutet",
         paragraphs: [
-          "Private Label heisst bei uns: Sie behalten die volle Hoheit über Marke, Positionierung und Markt — wir übernehmen die wissenschaftliche und produktionstechnische Verantwortung dafür, dass Ihr Produkt exakt nach Ihren Vorgaben und gleichzeitig nach unseren Schweizer Standards entsteht.",
+          "Private Label heisst bei uns: Sie behalten die volle Hoheit über Marke, Positionierung und Markt – wir übernehmen die wissenschaftliche und produktionstechnische Verantwortung dafür, dass Ihr Produkt exakt nach Ihren Vorgaben und gleichzeitig nach unseren Schweizer Standards entsteht.",
           "Wir arbeiten dabei in jeder Tiefe, die Sie brauchen. Vom reinen Lohnauftrag auf Basis einer fertigen Rezeptur über die Anpassung bestehender Formeln an Ihre regulatorischen oder sensorischen Anforderungen bis zur vollständigen Neuentwicklung einer Custom-Formel, die ausschliesslich Ihnen gehört.",
         ],
       },
       {
         heading: "Skalierung von der ersten Charge bis zum globalen Roll-out",
         paragraphs: [
-          "Unsere Produktionslinien sind so ausgelegt, dass Sie mit kleinen Mengen testen können — und mit derselben Rezeptur, denselben Prozessen und derselben Qualitätssicherung in den fünf- oder sechsstelligen Bereich skalieren. Keine Brüche, keine Re-Qualifizierungen, keine bösen Überraschungen beim Wachstum.",
-          "Jede Charge wird vollständig dokumentiert, rückverfolgbar und auditierbar. Das ist nicht nur Compliance — es ist die Grundlage dafür, dass Sie gegenüber Endkund:innen, Distributoren und Behörden jederzeit sprechfähig sind.",
+          "Unsere Produktionslinien sind so ausgelegt, dass Sie mit kleinen Mengen testen können – und mit derselben Rezeptur, denselben Prozessen und derselben Qualitätssicherung in den fünf- oder sechsstelligen Bereich skalieren. Keine Brüche, keine Re-Qualifizierungen, keine bösen Überraschungen beim Wachstum.",
+          "Jede Charge wird vollständig dokumentiert, rückverfolgbar und auditierbar. Das ist nicht nur Compliance – es ist die Grundlage dafür, dass Sie gegenüber Endkund:innen, Distributoren und Behörden jederzeit sprechfähig sind.",
         ],
         bullets: [
           "Mindestbestellmengen ab 1’000 Einheiten für Pilotchargen",
@@ -86,7 +86,7 @@ export const leistungsContent: Record<string, LeistungsContent> = {
         step: "02",
         title: "Rezeptur-Anpassung",
         body:
-          "Wir adaptieren bestehende Formeln oder entwickeln neu — mit Fokus auf Wirksamkeit, Stabilität und Compliance.",
+          "Wir adaptieren bestehende Formeln oder entwickeln neu – mit Fokus auf Wirksamkeit, Stabilität und Compliance.",
       },
       {
         step: "03",
@@ -114,7 +114,7 @@ export const leistungsContent: Record<string, LeistungsContent> = {
       },
       {
         label: "Sie haben eine Rezeptur-Idee",
-        body: "die ein erfahrener Partner zur stabilen, marktreifen Form bringen soll — ohne IP-Transfer-Risiko.",
+        body: "die ein erfahrener Partner zur stabilen, marktreifen Form bringen soll – ohne IP-Transfer-Risiko.",
       },
       {
         label: "Sie suchen einen Hersteller",
@@ -172,7 +172,7 @@ export const leistungsContent: Record<string, LeistungsContent> = {
       },
       {
         q: "Wie lange dauert ein typisches Private-Label-Projekt?",
-        a: "Von Briefing bis Serienproduktion liegen wir bei einer bestehenden Rezeptur bei 4–6 Monaten, bei voller Custom-Entwicklung bei 9–12 Monaten — abhängig von Komplexität und Regulatorik.",
+        a: "Von Briefing bis Serienproduktion liegen wir bei einer bestehenden Rezeptur bei 4–6 Monaten, bei voller Custom-Entwicklung bei 9–12 Monaten – abhängig von Komplexität und Regulatorik.",
       },
       {
         q: "Arbeiten Sie unter NDA?",
@@ -187,20 +187,20 @@ export const leistungsContent: Record<string, LeistungsContent> = {
     title: "White Label",
     eyebrow: "Unsere Rezeptur, eure Marke",
     lead:
-      "Erprobte SLL-Rezepturen, sofort verfügbar. Sie vermarkten unter Ihrer Brand, wir liefern die fertige Linie — kürzeste Time-to-Market bei vollem Qualitätsanspruch.",
+      "Erprobte SLL-Rezepturen, sofort verfügbar. Sie vermarkten unter Ihrer Brand, wir liefern die fertige Linie – kürzeste Time-to-Market bei vollem Qualitätsanspruch.",
     whatWeOffer: [
       {
         heading: "Time-to-Market in Wochen statt Quartalen",
         paragraphs: [
-          "Unsere White-Label-Linie besteht aus einer kuratierten Auswahl belegter Longevity-Formeln, die wir intern entwickelt, klinisch begleitet und in Serie produziert haben. Sie wählen aus diesem Katalog — und können innerhalb weniger Wochen mit Ihrer eigenen Marke in den Markt.",
+          "Unsere White-Label-Linie besteht aus einer kuratierten Auswahl belegter Longevity-Formeln, die wir intern entwickelt, klinisch begleitet und in Serie produziert haben. Sie wählen aus diesem Katalog – und können innerhalb weniger Wochen mit Ihrer eigenen Marke in den Markt.",
           "Das macht White Label zur idealen Wahl für D2C-Brands, die schnell launchen wollen, für Retailer mit eigener Premium-Linie und für etablierte Health-Marken, die das Longevity-Segment ohne langwierige R&D-Phase erschliessen.",
         ],
       },
       {
         heading: "Branding-Flexibilität auf der Verpackung, nicht in der Rezeptur",
         paragraphs: [
-          "Bei White Label bleibt die Rezeptur unverändert — das ist der Grund für Geschwindigkeit und Preis. Sie haben aber volle gestalterische Freiheit bei Verpackung, Etikett, Produktname, Sprachversionen und der gesamten Marketing-Ebene.",
-          "Wir liefern ab Werk fertig konfektioniert — auf Wunsch auch direkt in Ihr Fulfillment-Zentrum. Sie sparen sich Lager, Konfektionierung und Logistik in der frühen Phase Ihres Markenaufbaus.",
+          "Bei White Label bleibt die Rezeptur unverändert – das ist der Grund für Geschwindigkeit und Preis. Sie haben aber volle gestalterische Freiheit bei Verpackung, Etikett, Produktname, Sprachversionen und der gesamten Marketing-Ebene.",
+          "Wir liefern ab Werk fertig konfektioniert – auf Wunsch auch direkt in Ihr Fulfillment-Zentrum. Sie sparen sich Lager, Konfektionierung und Logistik in der frühen Phase Ihres Markenaufbaus.",
         ],
         bullets: [
           "Aktuell sechs validierte Kern-Rezepturen verfügbar",
@@ -215,14 +215,14 @@ export const leistungsContent: Record<string, LeistungsContent> = {
       { step: "02", title: "Branding-Briefing", body: "Sie liefern Markenidentität, Verpackungs-Design und Texte; wir prüfen Konformität." },
       { step: "03", title: "Muster", body: "Wir produzieren ein Verpackungs-Muster zur finalen Freigabe vor Serienstart." },
       { step: "04", title: "Produktion", body: "Serienproduktion mit Ihrer Verpackung. Vollständige Dokumentation pro Charge." },
-      { step: "05", title: "Auslieferung", body: "Versand an Ihr Lager oder direkt an Ihr Fulfillment — auf Wunsch in mehreren Tranchen." },
+      { step: "05", title: "Auslieferung", body: "Versand an Ihr Lager oder direkt an Ihr Fulfillment – auf Wunsch in mehreren Tranchen." },
     ],
     useCases: [
       { label: "Sie launchen eine neue D2C-Marke", body: "und brauchen schnellen Marktzugang ohne eigene Rezeptur-Entwicklung." },
       { label: "Sie sind Retailer mit Premium-Anspruch", body: "und wollen eine eigene Longevity-Linie ohne Aufbau eines R&D-Teams." },
       { label: "Sie sind etablierte Health-Brand", body: "und möchten Longevity strategisch ergänzen, ohne 12 Monate zu warten." },
-      { label: "Sie wollen testen", body: "bevor Sie in eine Custom-Entwicklung investieren — White Label als MVP-Phase." },
-      { label: "Sie brauchen Schweizer Glaubwürdigkeit", body: "auf Ihrem Etikett — wir liefern das mit Swiss-Made-Zertifikat." },
+      { label: "Sie wollen testen", body: "bevor Sie in eine Custom-Entwicklung investieren – White Label als MVP-Phase." },
+      { label: "Sie brauchen Schweizer Glaubwürdigkeit", body: "auf Ihrem Etikett – wir liefern das mit Swiss-Made-Zertifikat." },
     ],
     deliverables: [
       { output: "Katalog & Specs", timing: "Sofort", format: "PDF + CoA pro Rezeptur", qualityGate: "Vorab geprüft" },
@@ -252,7 +252,7 @@ export const leistungsContent: Record<string, LeistungsContent> = {
       },
       {
         q: "Bin ich exklusiv für meinen Markt?",
-        a: "Auf Wunsch — ja. Wir vergeben Exklusivität pro Land und Vertriebskanal. Das ist Teil der Konditionen-Verhandlung.",
+        a: "Auf Wunsch – ja. Wir vergeben Exklusivität pro Land und Vertriebskanal. Das ist Teil der Konditionen-Verhandlung.",
       },
       {
         q: "Können wir die Rezeptur nachträglich anpassen?",
@@ -271,13 +271,13 @@ export const leistungsContent: Record<string, LeistungsContent> = {
     title: "Full Service & R&D",
     eyebrow: "End-to-End unter einem Dach",
     lead:
-      "Von der ersten Idee bis zum globalen Launch. Strategische Begleitung mit eigenem R&D-Team, GMP-Produktion, regulatorischer Expertise und Distribution — orchestriert als eine integrierte Wertschöpfungskette.",
+      "Von der ersten Idee bis zum globalen Launch. Strategische Begleitung mit eigenem R&D-Team, GMP-Produktion, regulatorischer Expertise und Distribution – orchestriert als eine integrierte Wertschöpfungskette.",
     whatWeOffer: [
       {
         heading: "Eine Verantwortung, ein Ansprechpartner",
         paragraphs: [
           "Full Service & R&D ist unser Premium-Modell: Sie übergeben uns das gesamte Produkt-Vorhaben, wir liefern es marktreif zurück. Statt fünf Lieferanten und drei Koordinatoren haben Sie einen Projektpartner und ein klares Lieferversprechen.",
-          "Das ist nicht nur bequemer — es ist substantiell schneller und sicherer. Weil unser R&D-Team von Anfang an mit den Produktions- und Regulatorik-Verantwortlichen am selben Tisch sitzt, fallen Schnittstellen-Reibungen weg. Eine Entscheidung im Labor wird sofort gegen Produzierbarkeit und Compliance gespiegelt.",
+          "Das ist nicht nur bequemer – es ist substantiell schneller und sicherer. Weil unser R&D-Team von Anfang an mit den Produktions- und Regulatorik-Verantwortlichen am selben Tisch sitzt, fallen Schnittstellen-Reibungen weg. Eine Entscheidung im Labor wird sofort gegen Produzierbarkeit und Compliance gespiegelt.",
         ],
       },
       {
@@ -297,12 +297,12 @@ export const leistungsContent: Record<string, LeistungsContent> = {
     process: [
       { step: "01", title: "Strategie", body: "Zielmarkt, Positionierung, Wettbewerb. Wir definieren gemeinsam, was Erfolg konkret heisst." },
       { step: "02", title: "Wissenschaft", body: "Wirkstoff-Auswahl, Studienlage, mechanistische Begründung. Output: Whitepaper." },
-      { step: "03", title: "Entwicklung", body: "Rezeptur, Galenik, Stabilität — bis zur produktionsreifen Spezifikation." },
+      { step: "03", title: "Entwicklung", body: "Rezeptur, Galenik, Stabilität – bis zur produktionsreifen Spezifikation." },
       { step: "04", title: "Regulatorik", body: "Health-Claims, Notifizierungen, Dossiers für alle Zielmärkte." },
       { step: "05", title: "Produktion & Launch", body: "Skalierte Serie, Distribution, optional Launch-Begleitung." },
     ],
     useCases: [
-      { label: "Sie wollen eine ganz neue Marke", body: "im Longevity-Segment etablieren — von der Idee bis zur ersten Charge." },
+      { label: "Sie wollen eine ganz neue Marke", body: "im Longevity-Segment etablieren – von der Idee bis zur ersten Charge." },
       { label: "Sie sind ein Investor", body: "und brauchen einen Operating-Partner für ein Portfolio-Unternehmen im Health-Bereich." },
       { label: "Sie sind etablierter Player", body: "in einem benachbarten Markt und wollen Longevity strategisch ohne eigenes Team angehen." },
       { label: "Sie haben einen Erfolgs-Wirkstoff", body: "aus eigener Forschung und brauchen den industriellen Pfad in den Markt." },
@@ -337,7 +337,7 @@ export const leistungsContent: Record<string, LeistungsContent> = {
       },
       {
         q: "Wem gehört am Ende die Marke und das IP?",
-        a: "Ihnen. Wir sind Entwicklungs- und Produktionspartner — alle Marken- und IP-Rechte werden vertraglich an Sie übertragen.",
+        a: "Ihnen. Wir sind Entwicklungs- und Produktionspartner – alle Marken- und IP-Rechte werden vertraglich an Sie übertragen.",
       },
       {
         q: "Wie lang dauert ein Full-Service-Projekt typischerweise?",
@@ -345,7 +345,7 @@ export const leistungsContent: Record<string, LeistungsContent> = {
       },
       {
         q: "Können wir auch nur eine Stufe buchen?",
-        a: "Ja — jede unserer sechs Leistungen ist auch einzeln buchbar. Full Service ist die orchestrierte Kombination.",
+        a: "Ja – jede unserer sechs Leistungen ist auch einzeln buchbar. Full Service ist die orchestrierte Kombination.",
       },
     ],
   },
@@ -356,20 +356,20 @@ export const leistungsContent: Record<string, LeistungsContent> = {
     title: "Produktentwicklung",
     eyebrow: "Rezeptur, Galenik, Stabilität",
     lead:
-      "Wissenschaftliches Engineering vom Wirkstoff zur stabilen, marktreifen Darreichungsform — auch als eigenständige Leistung, ohne dass wir produzieren müssen.",
+      "Wissenschaftliches Engineering vom Wirkstoff zur stabilen, marktreifen Darreichungsform – auch als eigenständige Leistung, ohne dass wir produzieren müssen.",
     whatWeOffer: [
       {
         heading: "Das Handwerk, aus dem Longevity-Produkte werden",
         paragraphs: [
           "Eine Studie zu lesen ist eine Sache. Daraus ein stabiles, schmackhaftes, bioverfügbares und regulatorisch zulässiges Produkt zu machen ist eine ganz andere. Genau in dieser Übersetzung liegt unsere Kernkompetenz.",
-          "Wir entwickeln Rezepturen für Sie auch dann, wenn Sie woanders produzieren lassen — als reine R&D-Leistung. Sie erhalten eine vollständig dokumentierte Spezifikation, übertragbar auf jeden GMP-zertifizierten Hersteller.",
+          "Wir entwickeln Rezepturen für Sie auch dann, wenn Sie woanders produzieren lassen – als reine R&D-Leistung. Sie erhalten eine vollständig dokumentierte Spezifikation, übertragbar auf jeden GMP-zertifizierten Hersteller.",
         ],
       },
       {
         heading: "Drei Säulen der Entwicklung",
         paragraphs: [
           "Rezeptur: Wirkstoff-Auswahl, Dosierung, Co-Faktoren, Synergie-Optimierung. Wir kombinieren Studienlage mit eigenen Erfahrungswerten aus tausenden produzierten Chargen.",
-          "Galenik: Darreichungsform, Verkapselung, Verträglichkeit, Bioverfügbarkeit. Magensaftresistente Kapseln, liposomale Komplexe, sublinguale Formate — was Ihre Wirkstoffe wirklich brauchen.",
+          "Galenik: Darreichungsform, Verkapselung, Verträglichkeit, Bioverfügbarkeit. Magensaftresistente Kapseln, liposomale Komplexe, sublinguale Formate – was Ihre Wirkstoffe wirklich brauchen.",
           "Stabilität: Belastungstests, Real-Time-Stabilität, Verpackungs-Wechselwirkungen. Wir garantieren, dass Ihr Produkt am Tag X+24 noch das tut, was es am Tag 0 versprochen hat.",
         ],
         bullets: [
@@ -391,8 +391,8 @@ export const leistungsContent: Record<string, LeistungsContent> = {
       { label: "Sie haben einen Wirkstoff", body: "und wissen nicht, in welcher Galenik er funktionieren würde." },
       { label: "Sie haben eine bestehende Rezeptur", body: "die instabil ist, schlecht schmeckt oder nicht bioverfügbar genug ist." },
       { label: "Sie produzieren extern", body: "und brauchen eine R&D-Partnerschaft, die Tech-Transfer-Pakete liefert." },
-      { label: "Sie sind Startup", body: "ohne eigenes Labor — und brauchen Wissenschafts-Kompetenz für Ihre erste Linie." },
-      { label: "Sie wollen Bioverfügbarkeit verbessern", body: "in einem bestehenden Produkt — wir analysieren und optimieren gezielt." },
+      { label: "Sie sind Startup", body: "ohne eigenes Labor – und brauchen Wissenschafts-Kompetenz für Ihre erste Linie." },
+      { label: "Sie wollen Bioverfügbarkeit verbessern", body: "in einem bestehenden Produkt – wir analysieren und optimieren gezielt." },
     ],
     deliverables: [
       { output: "Konzept-Skizze", timing: "Woche 1–2", format: "Wissenschaftlicher Vorschlag", qualityGate: "Workshop-Abschluss" },
@@ -442,20 +442,20 @@ export const leistungsContent: Record<string, LeistungsContent> = {
     title: "Regulatorik & Compliance",
     eyebrow: "Swissmedic, EFSA, FDA, EU",
     lead:
-      "Marktzulassungen weltweit. Wir navigieren Health Claims, Notifizierungen und Compliance-Anforderungen vom ersten Dossier bis zur finalen Zulassung — auch ohne dass wir produzieren müssen.",
+      "Marktzulassungen weltweit. Wir navigieren Health Claims, Notifizierungen und Compliance-Anforderungen vom ersten Dossier bis zur finalen Zulassung – auch ohne dass wir produzieren müssen.",
     whatWeOffer: [
       {
         heading: "Was zwischen Idee und Markt steht",
         paragraphs: [
-          "Ein gutes Produkt ohne Marktzulassung ist ein teures Hobby. Regulatorik ist das unsichtbare Rückgrat jedes Longevity-Geschäfts — und gleichzeitig dort, wo die meisten Vorhaben verlangsamt oder ganz gestoppt werden.",
-          "Wir kennen die Behördenpfade in den relevanten Märkten und arbeiten dort seit Jahren mit Verifikationen, Notifizierungen und Health-Claim-Dossiers. Das verkürzt Zeit und reduziert Risiko — sowohl bei eigenen Produkten als auch bei denen unserer Kunden.",
+          "Ein gutes Produkt ohne Marktzulassung ist ein teures Hobby. Regulatorik ist das unsichtbare Rückgrat jedes Longevity-Geschäfts – und gleichzeitig dort, wo die meisten Vorhaben verlangsamt oder ganz gestoppt werden.",
+          "Wir kennen die Behördenpfade in den relevanten Märkten und arbeiten dort seit Jahren mit Verifikationen, Notifizierungen und Health-Claim-Dossiers. Das verkürzt Zeit und reduziert Risiko – sowohl bei eigenen Produkten als auch bei denen unserer Kunden.",
         ],
       },
       {
         heading: "Märkte, die wir abdecken",
         paragraphs: [
           "Schweiz: Swissmedic-Konformität, Lebensmittelrecht, Health-Claim-Verzeichnis. EU: EFSA Health-Claims, Notifizierung in den Mitgliedstaaten, Article 13 und 14. UK: MHRA-Konformität nach Brexit-Anpassung. USA: FDA, Structure/Function Claims, NDI-Notifikationen.",
-          "Asien teilweise abgedeckt — Japan, Singapur, ausgewählte ASEAN-Märkte. Für China, Korea und Naher Osten kooperieren wir mit spezialisierten Partnern, die wir steuern.",
+          "Asien teilweise abgedeckt – Japan, Singapur, ausgewählte ASEAN-Märkte. Für China, Korea und Naher Osten kooperieren wir mit spezialisierten Partnern, die wir steuern.",
         ],
         bullets: [
           "Vollständige Dossier-Erstellung für jedes Markt-Set",
@@ -469,7 +469,7 @@ export const leistungsContent: Record<string, LeistungsContent> = {
       { step: "01", title: "Markt-Mapping", body: "Welche Märkte, welche Behörden, welche Claims. Output: Regulatorik-Strategie." },
       { step: "02", title: "Dossier-Aufbau", body: "Wissenschaftliche Begründung, Wirkstoff-Profile, Sicherheitsdaten." },
       { step: "03", title: "Submission", body: "Einreichung bei den Behörden, formal korrekt und vollständig." },
-      { step: "04", title: "Behörden-Dialog", body: "Rückfragen, Nachforderungen, Klarstellungen — wir übernehmen die Kommunikation." },
+      { step: "04", title: "Behörden-Dialog", body: "Rückfragen, Nachforderungen, Klarstellungen – wir übernehmen die Kommunikation." },
       { step: "05", title: "Zulassung & Monitoring", body: "Listing-Bestätigung, laufende Compliance-Überwachung." },
     ],
     useCases: [
@@ -508,7 +508,7 @@ export const leistungsContent: Record<string, LeistungsContent> = {
       },
       {
         q: "Können Sie auch reine Health-Claim-Beratung leisten?",
-        a: "Ja. Ohne dass wir produzieren oder entwickeln müssen — Health-Claim-Strategie ist eine eigenständige Leistung.",
+        a: "Ja. Ohne dass wir produzieren oder entwickeln müssen – Health-Claim-Strategie ist eine eigenständige Leistung.",
       },
       {
         q: "Wie lang dauert eine typische EU-Notifizierung?",
@@ -527,20 +527,20 @@ export const leistungsContent: Record<string, LeistungsContent> = {
     title: "Distribution",
     eyebrow: "Logistik weltweit, effizient & sicher",
     lead:
-      "Pharma-konforme Lagerung, Fulfillment und ein etabliertes Partner-Netzwerk für die globale Distribution Ihrer Longevity-Produkte — auch wenn wir nicht produziert haben.",
+      "Pharma-konforme Lagerung, Fulfillment und ein etabliertes Partner-Netzwerk für die globale Distribution Ihrer Longevity-Produkte – auch wenn wir nicht produziert haben.",
     whatWeOffer: [
       {
         heading: "Warum Distribution bei Longevity speziell ist",
         paragraphs: [
-          "Longevity-Produkte sind sensible Ware. Temperatur-Toleranz, Feuchtigkeits-Schutz, Light-Protection — was im Labor klappt, muss auch nach 14 Tagen im Container und drei Tagen im Distributionslager noch funktionieren.",
-          "Wir haben Lager- und Logistik-Infrastruktur aufgebaut, die das gewährleistet — und über die Jahre ein Netzwerk an Distributions-Partnern in Europa, Nordamerika und ausgewählten Asien-Märkten kuratiert.",
+          "Longevity-Produkte sind sensible Ware. Temperatur-Toleranz, Feuchtigkeits-Schutz, Light-Protection – was im Labor klappt, muss auch nach 14 Tagen im Container und drei Tagen im Distributionslager noch funktionieren.",
+          "Wir haben Lager- und Logistik-Infrastruktur aufgebaut, die das gewährleistet – und über die Jahre ein Netzwerk an Distributions-Partnern in Europa, Nordamerika und ausgewählten Asien-Märkten kuratiert.",
         ],
       },
       {
         heading: "Was wir konkret übernehmen",
         paragraphs: [
           "Klimatisiertes Lager in der Schweiz mit pharmazeutischer Validierung. Pick-and-Pack-Fulfillment in den Konfigurationen Stück, Pack und Karton. Anbindung an Ihre E-Commerce-Plattform oder ERP-System. Internationale Versand-Steuerung inklusive Zoll-Dokumentation.",
-          "Bei B2B-Distribution arbeiten wir mit 14 bewährten Distributoren in der EU, drei in UK, vier in den USA und mit kuratierten Partnern in Japan, Singapur und Hongkong. Wir steuern sie zentral — Sie haben einen Reporting-Punkt.",
+          "Bei B2B-Distribution arbeiten wir mit 14 bewährten Distributoren in der EU, drei in UK, vier in den USA und mit kuratierten Partnern in Japan, Singapur und Hongkong. Wir steuern sie zentral – Sie haben einen Reporting-Punkt.",
         ],
         bullets: [
           "GxP-validiertes Lager in der Zentralschweiz",
@@ -560,9 +560,9 @@ export const leistungsContent: Record<string, LeistungsContent> = {
     useCases: [
       { label: "Sie launchen eine D2C-Marke", body: "und brauchen pharma-tauglichen 3PL-Service ab Stunde eins." },
       { label: "Sie wachsen über mehrere Märkte", body: "und brauchen einen Logistik-Knoten statt fünf parallele Logistiker." },
-      { label: "Sie produzieren extern", body: "und wollen die Distribution professionalisieren — auch wenn wir nicht produzieren." },
+      { label: "Sie produzieren extern", body: "und wollen die Distribution professionalisieren – auch wenn wir nicht produzieren." },
       { label: "Sie expandieren in die USA", body: "und brauchen Zoll-Erfahrung und US-Distributoren-Anbindung." },
-      { label: "Sie haben B2B-Pflegekunden", body: "die termingenaue Anlieferungen brauchen — wir orchestrieren das." },
+      { label: "Sie haben B2B-Pflegekunden", body: "die termingenaue Anlieferungen brauchen – wir orchestrieren das." },
     ],
     deliverables: [
       { output: "Logistik-Konzept", timing: "Woche 1–2", format: "Konzept-Dokument", qualityGate: "Kunde + Operations" },
@@ -589,7 +589,7 @@ export const leistungsContent: Record<string, LeistungsContent> = {
     faqs: [
       {
         q: "Übernehmen Sie auch die Distribution, wenn wir woanders produzieren?",
-        a: "Ja. Distribution ist eine eigenständige Leistung — wir können auch fertige Ware aus externer Produktion einlagern und versenden.",
+        a: "Ja. Distribution ist eine eigenständige Leistung – wir können auch fertige Ware aus externer Produktion einlagern und versenden.",
       },
       {
         q: "Welche Märkte können Sie abdecken?",

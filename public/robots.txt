@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-# AI / LLM crawlers — explicitly allowed
+# AI / LLM crawlers – explicitly allowed
 User-agent: GPTBot
 Allow: /
 
@@ -44,7 +44,7 @@ Allow: /
 User-agent: Amazonbot
 Allow: /
 
-# Aggressive / problematic scrapers — blocked
+# Aggressive / problematic scrapers – blocked
 User-agent: Bytespider
 Disallow: /
 

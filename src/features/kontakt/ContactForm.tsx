@@ -70,7 +70,7 @@ export function ContactForm({ initialType, initialService, initialProduct }: Pro
           Anfrage gesendet
         </span>
         <h2 className="mt-6 text-[clamp(1.875rem,3vw,2.5rem)] leading-[1.15]">
-          Vielen Dank — wir melden uns innerhalb von zwei Werktagen.
+          Vielen Dank – wir melden uns innerhalb von zwei Werktagen.
         </h2>
         <p className="mt-6 text-[17px] leading-[1.65] text-[var(--color-stone-700)]">
           Sie erhalten parallel eine Bestätigung per E-Mail. Falls Ihre Anfrage zeitkritisch ist,

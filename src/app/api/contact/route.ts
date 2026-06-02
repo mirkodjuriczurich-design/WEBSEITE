@@ -44,7 +44,7 @@ export async function POST(request: Request) {
   //   await resend.emails.send({
   //     from: "form@swisslongevitylab.com",
   //     to: ["hello@swisslongevitylab.com"],
-  //     subject: `[Web] ${body.intent} — ${body.lastName}`,
+  //     subject: `[Web] ${body.intent} – ${body.lastName}`,
   //     replyTo: body.email,
   //     text: serialise(body),
   //   });

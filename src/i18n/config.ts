@@ -1,7 +1,7 @@
 /**
  * i18n configuration.
  *
- * Phase D foundation. EN is declared but not yet active — only DE
+ * Phase D foundation. EN is declared but not yet active – only DE
  * resolves to a real locale prefix. Activation happens by:
  *   1. Translating the JSON files under src/i18n/en/.
  *   2. Flipping `active: true` on the EN entry below.

@@ -14,7 +14,7 @@ export function ProdukteShowcase() {
               Sechs Longevity-Produkte unter Schweizer Eigenmarke.
             </h2>
             <p className="mt-6 text-[18px] leading-[1.6] text-[var(--color-stone-700)]">
-              Die Substanz, die wir für andere fertigen — auch in unserer eigenen Linie. Wissenschaftlich
+              Die Substanz, die wir für andere fertigen – auch in unserer eigenen Linie. Wissenschaftlich
               fundiert, Schweizer produziert, kompromisslos rein.
             </p>
           </div>

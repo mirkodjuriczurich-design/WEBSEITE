@@ -20,7 +20,7 @@ export function getPlausibleScriptProps(): { src: string; "data-domain": string 
 
 /**
  * Fire a custom Plausible event from the client. No-op if analytics not
- * enabled. Safe to call without checking — never throws.
+ * enabled. Safe to call without checking – never throws.
  */
 export function trackEvent(name: string, props?: Record<string, string | number>) {
   if (typeof window === "undefined") return;

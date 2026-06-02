@@ -7,11 +7,11 @@ import { Button } from "@/ui/Button";
 const faqs = [
   {
     q: "Was unterscheidet Swiss Longevity Labs von einem klassischen CDMO?",
-    a: "Wir kombinieren wissenschaftliche Entwicklung, GMP-Produktion, Regulatorik und Distribution unter einem Schweizer Dach. Klassische CDMOs sind Lohnhersteller, klassische Marken sind reine Vermarkter — wir verbinden beides und bringen zusätzlich eine eigene Forschungs-Tiefe mit, die ein typischer Hersteller nicht bietet.",
+    a: "Wir kombinieren wissenschaftliche Entwicklung, GMP-Produktion, Regulatorik und Distribution unter einem Schweizer Dach. Klassische CDMOs sind Lohnhersteller, klassische Marken sind reine Vermarkter – wir verbinden beides und bringen zusätzlich eine eigene Forschungs-Tiefe mit, die ein typischer Hersteller nicht bietet.",
   },
   {
     q: "Können wir bei euch nur eine einzelne Leistung buchen?",
-    a: "Ja. Jede unserer sechs Leistungen — Private Label, White Label, Full Service & R&D, Produktentwicklung, Regulatorik und Distribution — ist einzeln buchbar. Viele Kunden starten mit einer Stufe und erweitern später. Volle Flexibilität, kein Komplett-Lock-in.",
+    a: "Ja. Jede unserer sechs Leistungen – Private Label, White Label, Full Service & R&D, Produktentwicklung, Regulatorik und Distribution – ist einzeln buchbar. Viele Kunden starten mit einer Stufe und erweitern später. Volle Flexibilität, kein Komplett-Lock-in.",
   },
   {
     q: "Wie lange dauert ein typisches Projekt?",
@@ -19,7 +19,7 @@ const faqs = [
   },
   {
     q: "Wem gehört die Rezeptur am Ende?",
-    a: "Bei Private-Label-Custom-Entwicklungen und reinen R&D-Aufträgen liegt das Eigentum vollständig beim Auftraggeber, vertraglich abgesichert. Bei White Label nutzen Sie unsere bestehenden Rezepturen. Wir können auch hybride Modelle abbilden — sprechen Sie uns an.",
+    a: "Bei Private-Label-Custom-Entwicklungen und reinen R&D-Aufträgen liegt das Eigentum vollständig beim Auftraggeber, vertraglich abgesichert. Bei White Label nutzen Sie unsere bestehenden Rezepturen. Wir können auch hybride Modelle abbilden – sprechen Sie uns an.",
   },
   {
     q: "Wie hoch ist die minimale Bestellmenge?",
@@ -66,7 +66,7 @@ export function HomeFAQ() {
               Acht Antworten, ohne Schnörkel.
             </h2>
             <p className="mt-6 text-[16.5px] leading-[1.65] text-[var(--color-stone-700)]">
-              Die Fragen, die unsere Kunden uns am häufigsten stellen — gleich am Anfang
+              Die Fragen, die unsere Kunden uns am häufigsten stellen – gleich am Anfang
               beantwortet, damit Sie sich nicht durch Marketing-Text kämpfen müssen.
             </p>
             <div className="mt-8">

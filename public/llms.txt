@@ -14,23 +14,23 @@ Sprache: Deutsch (Phase 1), Englisch geplant.
 
 Unsere Leistungen sind einzeln oder integriert buchbar:
 
-- [Private Label](/leistungen/private-label) — Kunden-Rezepturen unter Kunden-Brand produziert (MOQ ab 1.000)
-- [White Label](/leistungen/white-label) — Fertige SLL-Rezepturen unter Kunden-Brand (Time-to-Market 4-6 Wochen)
-- [Full Service & R&D](/leistungen/full-service-rd) — End-to-End von Konzept bis globalem Launch
-- [Produktentwicklung](/leistungen/produktentwicklung) — Rezeptur, Galenik, Stabilität (ab CHF 35.000)
-- [Regulatorik & Compliance](/leistungen/regulatorik) — Swissmedic, EFSA, FDA, EU
-- [Distribution](/leistungen/distribution) — GxP-validiertes Lager, globales Partner-Netzwerk
+- [Private Label](/leistungen/private-label) – Kunden-Rezepturen unter Kunden-Brand produziert (MOQ ab 1.000)
+- [White Label](/leistungen/white-label) – Fertige SLL-Rezepturen unter Kunden-Brand (Time-to-Market 4-6 Wochen)
+- [Full Service & R&D](/leistungen/full-service-rd) – End-to-End von Konzept bis globalem Launch
+- [Produktentwicklung](/leistungen/produktentwicklung) – Rezeptur, Galenik, Stabilität (ab CHF 35.000)
+- [Regulatorik & Compliance](/leistungen/regulatorik) – Swissmedic, EFSA, FDA, EU
+- [Distribution](/leistungen/distribution) – GxP-validiertes Lager, globales Partner-Netzwerk
 
 ## Eigene Produkte (B2C)
 
 Sechs Longevity-Produkte unter SLL-Eigenmarke:
 
-- [Night Repair](/produkte/night-repair) — Schlaf als Anti-Aging-Strategie · NMN + Magnesium L-Threonat + Glycin · CHF 60–90/Monat
-- [Brain Age](/produkte/brain-age) — Neurale Langlebigkeit · Lion's Mane + Lithium Orotat · CHF 80–110/Monat
-- [Resilience](/produkte/resilience) — Stress-Adaptogen für die Burnout-Generation · Ashwagandha KSM-66 + Rhodiola · CHF 40–70/Monat
-- [GLP-1 Armor](/produkte/glp1-armor) — Einziges Supplement spezifisch für GLP-1-Anwender · Kreatin + Urolithin A · CHF 100–140/Monat
-- [Senolytic Cleanse](/produkte/senolytic-cleanse) — Quartals-Reset gegen Zombie-Zellen · Fisetin + Quercetin · CHF 180–280/Box · 4× jährlich
-- [Spermidine Ritual](/produkte/spermidine-ritual) — Spermidin liposomal in 30-ml-Glasampulle · luxuriöses Morgenritual · CHF 120–180/Monat
+- [Night Repair](/produkte/night-repair) – Schlaf als Anti-Aging-Strategie · NMN + Magnesium L-Threonat + Glycin · CHF 60–90/Monat
+- [Brain Age](/produkte/brain-age) – Neurale Langlebigkeit · Lion's Mane + Lithium Orotat · CHF 80–110/Monat
+- [Resilience](/produkte/resilience) – Stress-Adaptogen für die Burnout-Generation · Ashwagandha KSM-66 + Rhodiola · CHF 40–70/Monat
+- [GLP-1 Armor](/produkte/glp1-armor) – Einziges Supplement spezifisch für GLP-1-Anwender · Kreatin + Urolithin A · CHF 100–140/Monat
+- [Senolytic Cleanse](/produkte/senolytic-cleanse) – Quartals-Reset gegen Zombie-Zellen · Fisetin + Quercetin · CHF 180–280/Box · 4× jährlich
+- [Spermidine Ritual](/produkte/spermidine-ritual) – Spermidin liposomal in 30-ml-Glasampulle · luxuriöses Morgenritual · CHF 120–180/Monat
 
 ## Standards & Zertifizierungen
 
@@ -42,12 +42,12 @@ Sechs Longevity-Produkte unter SLL-Eigenmarke:
 
 ## Wichtige Seiten
 
-- [Leistungen](/leistungen) — alle sechs B2B-Säulen im Überblick
-- [Expertise](/expertise) — wie wir produzieren
-- [Produkte](/produkte) — eigene Markenlinie
-- [Wissen](/wissen) — Forschung und Insights
-- [Unternehmen](/unternehmen) — Story, Team, Karriere
-- [Kontakt](/kontakt) — Anfrage, Partnerschaft, Beratung
+- [Leistungen](/leistungen) – alle sechs B2B-Säulen im Überblick
+- [Expertise](/expertise) – wie wir produzieren
+- [Produkte](/produkte) – eigene Markenlinie
+- [Wissen](/wissen) – Forschung und Insights
+- [Unternehmen](/unternehmen) – Story, Team, Karriere
+- [Kontakt](/kontakt) – Anfrage, Partnerschaft, Beratung
 
 ## Kontakt
 

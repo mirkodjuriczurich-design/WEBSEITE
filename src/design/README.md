@@ -4,7 +4,7 @@ Single source of truth for brand identity in code form.
 
 ## Files
 
-- `tokens.ts` — colors, fonts, typography scale, spacing, motion, breakpoints
+- `tokens.ts` – colors, fonts, typography scale, spacing, motion, breakpoints
   as typed TypeScript constants. Mirrors the CSS custom properties in
   `src/app/globals.css @theme`.
 

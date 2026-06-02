@@ -11,7 +11,7 @@ export function ProductionVideo() {
               Ein Blick in unsere Schweizer Produktion.
             </h2>
             <p className="mt-6 text-[17px] leading-[1.6] text-[var(--color-stone-700)]">
-              Vom Wirkstoff-Eingang über die Reinraum-Produktion bis zum versandfertigen Karton —
+              Vom Wirkstoff-Eingang über die Reinraum-Produktion bis zum versandfertigen Karton –
               drei Minuten, die mehr erzählen als hundert Zeilen Text.
             </p>
             <ul className="mt-8 space-y-3 border-t border-[var(--color-stone-200)] pt-6">

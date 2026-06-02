@@ -12,7 +12,7 @@ const partners = [
   {
     title: "Schweizer Universitäten",
     body:
-      "Wir arbeiten mit Forschungsgruppen an Schweizer Universitäten zusammen — sowohl an grundlagenwissenschaftlichen Fragen als auch an anwendungsnaher Validierung unserer Rezepturen.",
+      "Wir arbeiten mit Forschungsgruppen an Schweizer Universitäten zusammen – sowohl an grundlagenwissenschaftlichen Fragen als auch an anwendungsnaher Validierung unserer Rezepturen.",
   },
   {
     title: "Klinische Studienzentren",
@@ -22,7 +22,7 @@ const partners = [
   {
     title: "Analytische Spezial-Labore",
     body:
-      "Bestimmte hoch-spezialisierte Analytik führen wir bei externen Partner-Laboren durch — zur Validierung unserer eigenen Methoden und zur Erweiterung des analytischen Spektrums.",
+      "Bestimmte hoch-spezialisierte Analytik führen wir bei externen Partner-Laboren durch – zur Validierung unserer eigenen Methoden und zur Erweiterung des analytischen Spektrums.",
   },
   {
     title: "Regulatorische Berater:innen",
@@ -73,8 +73,8 @@ export default function PartnerPage() {
               Akademische Kooperation aufbauen?
             </h2>
             <p className="text-[16.5px] leading-[1.65] text-[var(--color-stone-700)]">
-              Wenn Sie an einer wissenschaftlichen Zusammenarbeit interessiert sind — als
-              Forschungsgruppe, klinisches Studienzentrum oder spezialisiertes Labor — kontaktieren
+              Wenn Sie an einer wissenschaftlichen Zusammenarbeit interessiert sind – als
+              Forschungsgruppe, klinisches Studienzentrum oder spezialisiertes Labor – kontaktieren
               Sie uns direkt.
             </p>
             <div>

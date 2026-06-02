@@ -5,7 +5,7 @@ export const site = {
   domain: "swisslongevitylab.com",
   url: "https://swisslongevitylab.com",
   description:
-    "Schweizer Full-Solution-Partner für Longevity — Private Label, White Label, Full Service & R&D, Produktentwicklung, Regulatorik und Distribution unter einem Schweizer Dach.",
+    "Schweizer Full-Solution-Partner für Longevity – Private Label, White Label, Full Service & R&D, Produktentwicklung, Regulatorik und Distribution unter einem Schweizer Dach.",
   positioning:
     "Schweizer Präzision für die Wissenschaft des längeren Lebens.",
   locale: "de-CH",
@@ -36,7 +36,7 @@ export const navGroups: NavGroup[] = [
   {
     label: "Leistungen",
     href: "/leistungen",
-    intro: "Sechs Säulen — einzeln oder integriert buchbar.",
+    intro: "Sechs Säulen – einzeln oder integriert buchbar.",
     items: [
       { label: "Private Label", href: "/leistungen/private-label", description: "Eure Marke, unsere Rezeptur." },
       { label: "White Label", href: "/leistungen/white-label", description: "Unsere Rezeptur, eure Marke." },
@@ -99,7 +99,7 @@ export const leistungen = [
     title: "Private Label",
     tagline: "Eure Marke, unsere Rezeptur.",
     short:
-      "Wir produzieren Ihre Rezepturen GMP-konform unter Ihrer Marke — von der ersten Pilot-Charge bis zur globalen Skalierung.",
+      "Wir produzieren Ihre Rezepturen GMP-konform unter Ihrer Marke – von der ersten Pilot-Charge bis zur globalen Skalierung.",
   },
   {
     slug: "white-label",
@@ -179,13 +179,13 @@ export const produkte: Produkt[] = [
     name: "Night Repair",
     category: "Schlaf · Anti-Aging",
     tagline:
-      "Das erste Supplement weltweit, das Schlaf als Anti-Aging-Waffe positioniert — nicht als Sedativum.",
+      "Das erste Supplement weltweit, das Schlaf als Anti-Aging-Waffe positioniert – nicht als Sedativum.",
     pitch:
       "Schlaf ist der biologisch mächtigste Erneuerungsprozess, den der menschliche Körper besitzt.",
     short:
-      "NMN, Magnesium L-Threonat und Glycin für Tiefschlaf-getriebene DNA-Reparatur — die nächtliche Anti-Aging-Strategie.",
+      "NMN, Magnesium L-Threonat und Glycin für Tiefschlaf-getriebene DNA-Reparatur – die nächtliche Anti-Aging-Strategie.",
     marketGap:
-      "Der globale Markt für Schlafsupplemente ist über 8 Milliarden Dollar wert. Dennoch kommuniziert kein Produkt Schlaf als zentrale Strategie für gesundes Altern — die gesamte Kategorie wartet auf den Ersten, der diesen Schritt wagt.",
+      "Der globale Markt für Schlafsupplemente ist über 8 Milliarden Dollar wert. Dennoch kommuniziert kein Produkt Schlaf als zentrale Strategie für gesundes Altern – die gesamte Kategorie wartet auf den Ersten, der diesen Schritt wagt.",
     description:
       "In der Tiefschlafphase wird DNA repariert, Proteine werden korrekt gefaltet und metabolischer Abfall wird über das glymphatische System aus dem Gehirn gespült. Kein Produkt auf dem Markt adressiert Schlafqualität und zelluläre Regeneration als integrierte Strategie. Alle bestehenden Lösungen sind Sedativa zum Einschlafen.",
     ingredients: [
@@ -200,7 +200,7 @@ export const produkte: Produkt[] = [
     positioning: "„Schlaf ist dein mächtigstes Anti-Aging-Werkzeug.“ Premium, nicht Wellness.",
     strategicNotes: [
       "Elegante Nachtkapsel oder rituelles warmes Getränk (Vanille / Kakao).",
-      "B2B-Bedeutung: Miniaturformat für Luxushotels — Premium-Amenity auf dem Kissen.",
+      "B2B-Bedeutung: Miniaturformat für Luxushotels – Premium-Amenity auf dem Kissen.",
       "Abonnementmodell mit hoher Retentionsrate dank täglicher Verwendung.",
     ],
     targetGroup: "35–65 · Premium-Segment",
@@ -216,7 +216,7 @@ export const produkte: Produkt[] = [
     name: "Brain Age",
     category: "Neurale Langlebigkeit",
     tagline:
-      "Strukturelle Gehirngesundheit in den kommenden zwanzig Jahren — kein kurzfristiger Fokus.",
+      "Strukturelle Gehirngesundheit in den kommenden zwanzig Jahren – kein kurzfristiger Fokus.",
     pitch:
       "Dein Gehirn altert schneller als dein Körper. Wir verlangsamen das.",
     short:
@@ -224,7 +224,7 @@ export const produkte: Produkt[] = [
     marketGap:
       "Mehr als 55 Millionen Menschen weltweit leben mit einer Form von Demenz. Die Angst vor kognitivem Verfall ist als grösste Gesundheitsangst von Menschen über 45 dokumentiert. Kein bestehendes Produkt adressiert diese Angst mit wissenschaftlicher Autorität.",
     description:
-      "Der Markt für Gehirn-Supplemente ist enorm und gleichzeitig eine Innovationswüste. Bestehende Lösungen sind Koffein, B-Vitamine und symbolische Dosen bekannter Pflanzenextrakte. Was wirklich fehlt, ist ein ernsthaftes Protokoll zur Prävention neurodegenerativer Veränderungen — eine Antwort auf die tiefe Angst der Konsumenten vor Alzheimer und kognitivem Verfall.",
+      "Der Markt für Gehirn-Supplemente ist enorm und gleichzeitig eine Innovationswüste. Bestehende Lösungen sind Koffein, B-Vitamine und symbolische Dosen bekannter Pflanzenextrakte. Was wirklich fehlt, ist ein ernsthaftes Protokoll zur Prävention neurodegenerativer Veränderungen – eine Antwort auf die tiefe Angst der Konsumenten vor Alzheimer und kognitivem Verfall.",
     ingredients: [
       { name: "Lion's Mane", dose: "1500 mg", function: "NGF-Produktion, Neurogenese" },
       { name: "Magnesium L-Threonat", dose: "1500 mg", function: "Die einzige Magnesiumform, die ins Gehirn gelangt" },
@@ -237,7 +237,7 @@ export const produkte: Produkt[] = [
     ],
     positioning: "„Dein Gehirn altert schneller als dein Körper. Wir verlangsamen das.“",
     strategicNotes: [
-      "Lithium Orotat in einem Konsumentenprodukt — kein Konkurrent wagt das.",
+      "Lithium Orotat in einem Konsumentenprodukt – kein Konkurrent wagt das.",
       "B2B-Kanal: Neurologen, Anti-Aging-Kliniken, Gedächtniskliniken.",
       "Ärztliche Empfehlung eliminiert die Preisempfindlichkeit.",
     ],
@@ -253,14 +253,14 @@ export const produkte: Produkt[] = [
     name: "Resilience",
     category: "Stress · Adaptogen",
     tagline:
-      "Für eine Burnout-Generation — die wissenschaftliche Verknüpfung von chronischem Stress und beschleunigtem biologischem Altern.",
+      "Für eine Burnout-Generation – die wissenschaftliche Verknüpfung von chronischem Stress und beschleunigtem biologischem Altern.",
     pitch: "Du stehst unter Druck. Werde stärker dadurch.",
     short:
-      "Ashwagandha KSM-66, Rhodiola und NMN gegen Cortisol-Schäden — das erste Produkt, das Stress explizit mit Alterung verknüpft.",
+      "Ashwagandha KSM-66, Rhodiola und NMN gegen Cortisol-Schäden – das erste Produkt, das Stress explizit mit Alterung verknüpft.",
     marketGap:
       "Die Ausgaben für Corporate Wellness in Europa übersteigen jährlich CHF 1,8 Milliarden. Das meiste fliesst in Fitnessstudio-Mitgliedschaften und Meditations-Apps. Ein direktes nutrazeutisches Produkt für den Corporate-Markt existiert noch nicht.",
     description:
-      "Vierzig Prozent der Generation Z stehen chronisch unter Stress. Chronischer Stress ist einer der stärksten Beschleuniger des biologischen Alterns: Er verbraucht NAD⁺, zerstört Mitochondrien, erhöht Cortisol und beschleunigt messbar die epigenetische Alterung. Kein Produkt verbindet Stress und Langlebigkeit in seiner Positionierung. Der Corporate-Wellness-Sektor — milliardenschwer — funktioniert ohne ein wirklich wirksames Produkt.",
+      "Vierzig Prozent der Generation Z stehen chronisch unter Stress. Chronischer Stress ist einer der stärksten Beschleuniger des biologischen Alterns: Er verbraucht NAD⁺, zerstört Mitochondrien, erhöht Cortisol und beschleunigt messbar die epigenetische Alterung. Kein Produkt verbindet Stress und Langlebigkeit in seiner Positionierung. Der Corporate-Wellness-Sektor – milliardenschwer – funktioniert ohne ein wirklich wirksames Produkt.",
     ingredients: [
       { name: "Ashwagandha KSM-66", dose: "600 mg", function: "Cortisolreduktion um 28%" },
       { name: "Rhodiola Rosea", dose: "400 mg", function: "Mentale Ausdauer, Adaptogen" },
@@ -272,8 +272,8 @@ export const produkte: Produkt[] = [
     ],
     positioning: "„Du stehst unter Druck. Werde stärker dadurch.“ Ohne Wellness-Klischees.",
     strategicNotes: [
-      "B2B-Goldkanal: Corporate-Einkauf — Sachets mit Firmenlogo.",
-      "HR-Abteilungen zahlen CHF 30–50 pro Mitarbeiter — ohne Preisempfindlichkeit.",
+      "B2B-Goldkanal: Corporate-Einkauf – Sachets mit Firmenlogo.",
+      "HR-Abteilungen zahlen CHF 30–50 pro Mitarbeiter – ohne Preisempfindlichkeit.",
       "Das erste Produkt, das chronischen Stress explizit mit beschleunigtem Altern verknüpft.",
     ],
     targetGroup: "25–45 · Corporate · Gen Z / Millennials",
@@ -293,7 +293,7 @@ export const produkte: Produkt[] = [
     short:
       "Kreatin, EAA, Urolithin A und Mikronährstoffe gegen Muskelverlust und Nährstoffdefizite unter GLP-1-Medikation.",
     marketGap:
-      "Der globale Markt für GLP-1-Medikamente wird bis 2030 über 150 Milliarden Dollar übersteigen. Begleitende nutrazeutische Produkte sind ein praktisch nicht existierender Markt. Das ist keine Nische — das ist eine Struktur, die auf den ersten ernsthaften Akteur wartet.",
+      "Der globale Markt für GLP-1-Medikamente wird bis 2030 über 150 Milliarden Dollar übersteigen. Begleitende nutrazeutische Produkte sind ein praktisch nicht existierender Markt. Das ist keine Nische – das ist eine Struktur, die auf den ersten ernsthaften Akteur wartet.",
     description:
       "Zig Millionen Menschen weltweit nehmen GLP-1-Medikamente (Ozempic, Wegovy, Mounjaro) zur Gewichtsreduktion ein. Was Pharmaunternehmen nicht adressieren: Anwender verlieren bis zu 30% ihrer Muskelmasse, leiden unter schweren Nährstoffdefiziten durch drastisch reduzierte Nahrungsaufnahme und erleben chronische Müdigkeit, Haarausfall und einen Rückgang der Knochendichte. Kein bestehendes Produkt ist klinisch spezifisch an GLP-1-Anwendern getestet.",
     ingredients: [
@@ -309,7 +309,7 @@ export const produkte: Produkt[] = [
     strategicNotes: [
       "B2B-Distribution: Endokrinologen, Allgemeinmediziner, Kliniken zur Gewichtsreduktion.",
       "Ärztliche Empfehlung eliminiert den Preiswiderstand.",
-      "Weltweit der Erste — struktureller Vorteil durch Kategoriebesetzung.",
+      "Weltweit der Erste – struktureller Vorteil durch Kategoriebesetzung.",
     ],
     targetGroup: "GLP-1-Anwender · Ärztliche Empfehlung",
     channel: "Ärzte + Kliniken zur Gewichtsreduktion + Apotheken",
@@ -323,14 +323,14 @@ export const produkte: Produkt[] = [
     name: "Senolytic Cleanse",
     category: "Senolytika · Quartals-Reset",
     tagline:
-      "Vierteljährlicher Reset der Zombie-Zellen — Langlebigkeit im Quartalsrhythmus, nicht in der täglichen Routine.",
+      "Vierteljährlicher Reset der Zombie-Zellen – Langlebigkeit im Quartalsrhythmus, nicht in der täglichen Routine.",
     pitch: "Dein Körper braucht vier Resets pro Jahr. Nicht mehr.",
     short:
-      "Fisetin und Quercetin in pulsierender Hochdosis — das einzige Senolytikum nach klinischem Studienprotokoll, nicht nach Abo-Logik.",
+      "Fisetin und Quercetin in pulsierender Hochdosis – das einzige Senolytikum nach klinischem Studienprotokoll, nicht nach Abo-Logik.",
     marketGap:
       "Die Marktlogik der gesamten Supplement-Industrie ist der tägliche Konsum. Niemand bietet Senolytika im klinischen Modell pulsierender Dosierung an. Diese kontraintuitive Position wird unsere stärkste Marketing-Geschichte sein.",
     description:
-      "Seneszente Zellen — sogenannte „Zombie-Zellen“ — sind Zellen, die aufgehört haben, sich zu teilen, aber sich weigern zu sterben. Sie sondern unaufhörlich entzündliche Signale ab (SASP-Cocktail), die das Altern jeder umliegenden Zelle beschleunigen. Senolytika werden nicht täglich eingenommen — sie werden in kurzen, hochdosierten Impulsen verabreicht, wie klinische Studien zeigen. Kein Unternehmen tut das, denn tägliche Einnahme bedeutet mehr Umsatz. Wir bauen für die Biologie, nicht für die Psychologie des Abonnements.",
+      "Seneszente Zellen – sogenannte „Zombie-Zellen“ – sind Zellen, die aufgehört haben, sich zu teilen, aber sich weigern zu sterben. Sie sondern unaufhörlich entzündliche Signale ab (SASP-Cocktail), die das Altern jeder umliegenden Zelle beschleunigen. Senolytika werden nicht täglich eingenommen – sie werden in kurzen, hochdosierten Impulsen verabreicht, wie klinische Studien zeigen. Kein Unternehmen tut das, denn tägliche Einnahme bedeutet mehr Umsatz. Wir bauen für die Biologie, nicht für die Psychologie des Abonnements.",
     ingredients: [
       { name: "Fisetin", dose: "1000 mg", function: "Stärkstes natürliches Senolytikum" },
       { name: "Quercetin", dose: "1000 mg", function: "Synergie mit Fisetin, verstärkt die Wirkung" },
@@ -341,7 +341,7 @@ export const produkte: Produkt[] = [
     ],
     positioning: "„Dein Körper braucht vier Resets pro Jahr. Nicht mehr.“",
     strategicNotes: [
-      "Luxuriöse saisonale Box, quartalsweise geliefert — biologisches Ritual.",
+      "Luxuriöse saisonale Box, quartalsweise geliefert – biologisches Ritual.",
       "Höchste Zahlungsbereitschaft aufgrund von Seltenheit und rituellem Charakter.",
       "Premium-Verpackung: Holzbox, Protokoll-Tagebuch, Fasten-Leitfaden.",
     ],
@@ -358,14 +358,14 @@ export const produkte: Produkt[] = [
     name: "Spermidine Ritual",
     category: "Autophagie · Ritual",
     tagline:
-      "Das heisseste Longevity-Molekül der Wissenschaft — endlich in stabiler Getränkeform.",
+      "Das heisseste Longevity-Molekül der Wissenschaft – endlich in stabiler Getränkeform.",
     pitch: "Spermidin in flüssiger Form, klinisch dosiert. Technisch bisher ungelöst.",
     short:
-      "Spermidin liposomal in einer 30-ml-Glasampulle als luxuriöses Morgenritual — kombiniert mit NMN, Urolithin A und Resveratrol.",
+      "Spermidin liposomal in einer 30-ml-Glasampulle als luxuriöses Morgenritual – kombiniert mit NMN, Urolithin A und Resveratrol.",
     marketGap:
-      "Spermidin in Pulver- und Kapselform existiert, jedoch in Dosierungen, die weit unter den klinisch relevanten liegen. Eine stabile flüssige Formulierung mit einer wahrnehmbaren Dosis ist ein technisch ungelöstes Problem — das für uns die Eintrittsbarriere darstellt.",
+      "Spermidin in Pulver- und Kapselform existiert, jedoch in Dosierungen, die weit unter den klinisch relevanten liegen. Eine stabile flüssige Formulierung mit einer wahrnehmbaren Dosis ist ein technisch ungelöstes Problem – das für uns die Eintrittsbarriere darstellt.",
     description:
-      "Spermidin ist eines der meisterforschten Longevity-Moleküle der modernen Wissenschaft. Es aktiviert die Autophagie — den zellulären Selbstreinigungsprozess, der beschädigte Proteine und Organellen entfernt. Epidemiologische Daten aus Japan zeigen, dass Bevölkerungen mit hoher Spermidin-Zufuhr messbar länger leben. Das Problem ist technischer Natur: Eine stabile Supplementierung in klinisch relevanten Mengen in flüssiger Form ist äusserst schwierig. Oxidation, pH-Empfindlichkeit und Komplexität der Formulierung haben alle gestoppt. Unser Produktentwickler löst dies.",
+      "Spermidin ist eines der meisterforschten Longevity-Moleküle der modernen Wissenschaft. Es aktiviert die Autophagie – den zellulären Selbstreinigungsprozess, der beschädigte Proteine und Organellen entfernt. Epidemiologische Daten aus Japan zeigen, dass Bevölkerungen mit hoher Spermidin-Zufuhr messbar länger leben. Das Problem ist technischer Natur: Eine stabile Supplementierung in klinisch relevanten Mengen in flüssiger Form ist äusserst schwierig. Oxidation, pH-Empfindlichkeit und Komplexität der Formulierung haben alle gestoppt. Unser Produktentwickler löst dies.",
     ingredients: [
       { name: "Spermidin", dose: "5–10 mg", function: "Aus Weizenkeim-Extrakt" },
       { name: "NMN liposomal", dose: "200 mg", function: "Stabil in flüssiger Matrix" },
@@ -374,7 +374,7 @@ export const produkte: Produkt[] = [
       { name: "Resveratrol liposomal", dose: "50 mg", function: "Sirtuin-Aktivator" },
       { name: "Elektrolyte", dose: "Komplettes Profil", function: "Mineralhaushalt" },
     ],
-    positioning: "Elegante 30-ml-Glasampulle — luxuriöses Morgenritual.",
+    positioning: "Elegante 30-ml-Glasampulle – luxuriöses Morgenritual.",
     strategicNotes: [
       "B2B: Longevity-Spas und 5-Sterne-Hotels als Signature Morning Ritual.",
       "Premium-Verpackung signalisiert Qualität, bevor das Produkt konsumiert wird.",

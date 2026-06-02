@@ -4,7 +4,7 @@ import { ContactForm } from "@/features/kontakt/ContactForm";
 export const metadata: Metadata = {
   title: "Kontakt",
   description:
-    "Sprechen Sie mit unserem Team über Ihr Vorhaben. Anfrage, Partnerschaft, Beratung oder Produkt-Interesse — wir melden uns innerhalb von zwei Werktagen.",
+    "Sprechen Sie mit unserem Team über Ihr Vorhaben. Anfrage, Partnerschaft, Beratung oder Produkt-Interesse – wir melden uns innerhalb von zwei Werktagen.",
   alternates: { canonical: "/kontakt" },
 };
 

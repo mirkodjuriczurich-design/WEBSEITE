@@ -19,11 +19,11 @@ export default function LeistungenHubPage() {
           <div className="max-w-[60ch]">
             <span className="eyebrow">Leistungen</span>
             <h1 className="mt-8 text-[clamp(2.5rem,5.5vw,4rem)] leading-[1.05] tracking-[-0.015em]">
-              Die ganze Wertschöpfungskette — oder genau die Stufe, die Sie brauchen.
+              Die ganze Wertschöpfungskette – oder genau die Stufe, die Sie brauchen.
             </h1>
             <p className="mt-8 text-[18px] leading-[1.6] text-[var(--color-stone-700)]">
               Sechs Leistungen, einzeln buchbar, integriert orchestriert. Was wir für unsere
-              Eigenmarke tun, tun wir auch für Sie — wenn Sie das möchten, vom ersten Konzept bis
+              Eigenmarke tun, tun wir auch für Sie – wenn Sie das möchten, vom ersten Konzept bis
               zur globalen Markteinführung.
             </p>
             <div className="mt-10 flex flex-wrap gap-3">

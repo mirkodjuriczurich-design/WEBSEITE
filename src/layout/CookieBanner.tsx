@@ -43,7 +43,7 @@ export function CookieBanner() {
           </p>
           <p className="mt-2 text-[14px] leading-[1.55] text-[var(--color-stone-700)]">
             Diese Website setzt keine Tracking- oder Werbe-Cookies. Reichweiten-Messung erfolgt mit{" "}
-            <strong className="font-medium text-[var(--color-ink)]">Plausible Analytics</strong> —
+            <strong className="font-medium text-[var(--color-ink)]">Plausible Analytics</strong> –
             cookieless, ohne IP-Speicherung, DSGVO-konform. Mehr in unserer{" "}
             <Link
               href="/datenschutz"

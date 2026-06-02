@@ -11,7 +11,7 @@ const principles = [
   {
     title: "Substanz vor Tempo",
     body:
-      "Wir arbeiten an Themen, die Substanz brauchen — und nehmen uns die Zeit, die sie verdienen. Wer hier glücklich ist, mag gute Arbeit lieber als schnelle.",
+      "Wir arbeiten an Themen, die Substanz brauchen – und nehmen uns die Zeit, die sie verdienen. Wer hier glücklich ist, mag gute Arbeit lieber als schnelle.",
   },
   {
     title: "Verantwortung pro Rolle",
@@ -42,7 +42,7 @@ export default function KarrierePage() {
             </h1>
             <p className="mt-8 text-[19px] leading-[1.55] text-[var(--color-stone-700)]">
               Aktuelle offene Stellen veröffentlichen wir laufend. Wenn Sie sich initiativ
-              bewerben möchten, lesen Sie zuerst, wie wir hier arbeiten — und entscheiden Sie dann,
+              bewerben möchten, lesen Sie zuerst, wie wir hier arbeiten – und entscheiden Sie dann,
               ob das zu Ihnen passt.
             </p>
           </div>
@@ -78,7 +78,7 @@ export default function KarrierePage() {
             <div className="lg:col-span-7">
               <span className="eyebrow">Offene Positionen</span>
               <h2 className="mt-6 text-[clamp(1.875rem,3vw,2.5rem)] leading-[1.15] tracking-[-0.01em]">
-                Aktuell keine ausgeschriebenen Stellen — initiative Bewerbungen sind willkommen.
+                Aktuell keine ausgeschriebenen Stellen – initiative Bewerbungen sind willkommen.
               </h2>
               <p className="mt-6 text-[16.5px] leading-[1.65] text-[var(--color-stone-700)]">
                 Schreiben Sie uns kurz, wer Sie sind, was Sie können und warum Sie ausgerechnet zu
@@ -91,7 +91,7 @@ export default function KarrierePage() {
                 Initiativ bewerben
               </Button>
               <p className="text-[13px] text-[var(--color-stone-400)]">
-                Wir antworten auf jede Bewerbung — typisch innerhalb von zwei Wochen.
+                Wir antworten auf jede Bewerbung – typisch innerhalb von zwei Wochen.
               </p>
             </div>
           </div>

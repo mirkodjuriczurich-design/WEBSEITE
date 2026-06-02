@@ -13,7 +13,7 @@ export function Hero() {
             </h1>
 
             <p className="mt-8 max-w-[52ch] text-[19px] leading-[1.55] text-[var(--color-stone-700)]">
-              Die ganze Wertschöpfungskette unter einem Dach — oder genau die Stufe, die Sie brauchen.
+              Die ganze Wertschöpfungskette unter einem Dach – oder genau die Stufe, die Sie brauchen.
               Von der ersten Idee bis zur globalen Markteinführung.
             </p>
 
@@ -67,7 +67,7 @@ function HeroVisual() {
               Hero-Bild · Platzhalter
             </span>
             <p className="mt-4 font-[var(--font-display)] text-[20px] leading-[1.2] text-[var(--color-stone-700)]">
-              Editorial-Photography aus dem Schweizer Labor —<br />
+              Editorial-Photography aus dem Schweizer Labor –<br />
               Phase 3 generiert
             </p>
           </div>

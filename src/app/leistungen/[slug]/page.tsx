@@ -149,7 +149,7 @@ export default async function LeistungDetailPage({
         </div>
       </section>
 
-      {/* 3. WIE WIR ES TUN — Process */}
+      {/* 3. WIE WIR ES TUN – Process */}
       <section className="section-py border-b border-[var(--color-stone-200)] bg-[var(--color-off-white)]">
         <div className="container-editorial">
           <div className="max-w-[60ch]">
@@ -200,7 +200,7 @@ export default async function LeistungDetailPage({
         </div>
       </section>
 
-      {/* 5. WAS SIE BEKOMMEN — Deliverables */}
+      {/* 5. WAS SIE BEKOMMEN – Deliverables */}
       <section
         className="section-py border-b border-[var(--color-stone-200)]"
         style={{ background: "var(--color-stone-100)" }}

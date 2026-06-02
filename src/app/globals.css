@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /*
-  Swiss Longevity Labs AG — Design Tokens
+  Swiss Longevity Labs AG – Design Tokens
   Source of truth: docs/mood-board.md
 */
 
@@ -90,7 +90,7 @@
     color: var(--color-paper);
   }
 
-  /* Focus rings — visible only on keyboard navigation */
+  /* Focus rings – visible only on keyboard navigation */
   :focus-visible {
     outline: 2px solid var(--color-swiss-red);
     outline-offset: 3px;
@@ -159,7 +159,7 @@
     padding-block: clamp(5rem, 8vw, 10rem);
   }
 
-  /* Editorial prose — for MDX article bodies */
+  /* Editorial prose – for MDX article bodies */
   .prose-editorial {
     font-size: 18px;
     line-height: 1.7;

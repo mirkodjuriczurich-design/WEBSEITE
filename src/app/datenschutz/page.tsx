@@ -40,7 +40,7 @@ export default function DatenschutzPage() {
           heading: "Cookies und Tracking",
           body: [
             "Diese Website verwendet ausschliesslich technisch notwendige Cookies. Wir setzen keine Tracking-Cookies und keine Werbe-Cookies ein.",
-            "Für Reichweitenmessung nutzen wir privacy-first Analytics (Plausible Analytics) — ohne IP-Speicherung, ohne Cookies, vollständig DSGVO-konform.",
+            "Für Reichweitenmessung nutzen wir privacy-first Analytics (Plausible Analytics) – ohne IP-Speicherung, ohne Cookies, vollständig DSGVO-konform.",
           ],
         },
         {
@@ -59,7 +59,7 @@ export default function DatenschutzPage() {
         {
           heading: "Beschwerderecht",
           body: [
-            "Sie haben das Recht, sich bei der zuständigen Aufsichtsbehörde zu beschweren — in der Schweiz beim Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB), in der EU bei der jeweils zuständigen Landesbehörde.",
+            "Sie haben das Recht, sich bei der zuständigen Aufsichtsbehörde zu beschweren – in der Schweiz beim Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB), in der EU bei der jeweils zuständigen Landesbehörde.",
           ],
         },
         {

@@ -21,7 +21,7 @@ const suggestions = [
   {
     label: "Kontakt",
     href: "/kontakt",
-    description: "Sprechen Sie mit unserem Team — wir antworten in 2 Werktagen.",
+    description: "Sprechen Sie mit unserem Team – wir antworten in 2 Werktagen.",
   },
 ];
 

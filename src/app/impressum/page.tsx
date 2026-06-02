@@ -53,7 +53,7 @@ export default function ImpressumPage() {
           heading: "Haftungsausschluss",
           body: [
             "Der Inhalt dieser Website wurde mit grösstmöglicher Sorgfalt erstellt. Wir übernehmen jedoch keine Gewähr für die Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten Inhalte.",
-            "Für direkte oder indirekte Schäden, die sich aus der Nutzung dieser Website ergeben, übernehmen wir keine Haftung — soweit gesetzlich zulässig.",
+            "Für direkte oder indirekte Schäden, die sich aus der Nutzung dieser Website ergeben, übernehmen wir keine Haftung – soweit gesetzlich zulässig.",
           ],
         },
         {

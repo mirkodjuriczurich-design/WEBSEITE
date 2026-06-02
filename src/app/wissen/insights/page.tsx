@@ -24,7 +24,7 @@ export default function InsightsListPage() {
             </h1>
             <p className="mt-8 text-[19px] leading-[1.55] text-[var(--color-stone-700)]">
               Wir veröffentlichen regelmässig Artikel zu wissenschaftlichen, regulatorischen und
-              branchenspezifischen Themen aus der Longevity-Welt — mit dem Anspruch, Substanz vor
+              branchenspezifischen Themen aus der Longevity-Welt – mit dem Anspruch, Substanz vor
               Schnelligkeit zu stellen.
             </p>
           </div>

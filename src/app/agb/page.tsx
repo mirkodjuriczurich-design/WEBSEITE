@@ -44,7 +44,7 @@ export default function AGBPage() {
         {
           heading: "Vertraulichkeit",
           body: [
-            "Beide Parteien verpflichten sich, alle im Rahmen der Zusammenarbeit erhaltenen vertraulichen Informationen — insbesondere Rezepturen, Geschäftspläne und technische Daten — vertraulich zu behandeln.",
+            "Beide Parteien verpflichten sich, alle im Rahmen der Zusammenarbeit erhaltenen vertraulichen Informationen – insbesondere Rezepturen, Geschäftspläne und technische Daten – vertraulich zu behandeln.",
             "Auf Wunsch schliessen wir eine separate Vertraulichkeitsvereinbarung (NDA) ab; dies ist im B2B-Bereich auch unsere Standardpraxis.",
           ],
         },
@@ -58,14 +58,14 @@ export default function AGBPage() {
         {
           heading: "Haftung",
           body: [
-            "Die Haftung von SLL ist — ausser bei Vorsatz und grober Fahrlässigkeit — auf den vertragstypisch vorhersehbaren Schaden beschränkt.",
+            "Die Haftung von SLL ist – ausser bei Vorsatz und grober Fahrlässigkeit – auf den vertragstypisch vorhersehbaren Schaden beschränkt.",
             "Eine Haftung für entgangenen Gewinn, mittelbare Schäden oder Folgeschäden wird im gesetzlich zulässigen Rahmen ausgeschlossen.",
           ],
         },
         {
           heading: "Anwendbares Recht und Gerichtsstand",
           body: [
-            "Auf alle Rechtsbeziehungen findet ausschliesslich Schweizer Recht Anwendung — unter Ausschluss des UN-Kaufrechts.",
+            "Auf alle Rechtsbeziehungen findet ausschliesslich Schweizer Recht Anwendung – unter Ausschluss des UN-Kaufrechts.",
             "Gerichtsstand ist der Sitz der SLL. SLL behält sich vor, Kund:innen auch an deren Sitz oder Wohnsitz zu belangen.",
           ],
         },

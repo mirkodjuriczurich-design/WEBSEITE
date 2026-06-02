@@ -21,7 +21,7 @@ const sections = [
     number: "02",
     title: "Team",
     description:
-      "Die Personen hinter dem Unternehmen — Wissenschaft, Produktion, Regulatorik, Strategie.",
+      "Die Personen hinter dem Unternehmen – Wissenschaft, Produktion, Regulatorik, Strategie.",
   },
   {
     slug: "karriere",

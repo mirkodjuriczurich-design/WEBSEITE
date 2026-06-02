@@ -7,7 +7,7 @@ import { Button } from "@/ui/Button";
 export const metadata: Metadata = {
   title: "Expertise",
   description:
-    "Capabilities, Prozess, Qualität und Standort — die Substanz hinter unseren Leistungen. Schweizer Pharma-Standard, dokumentiert und auditierbar.",
+    "Capabilities, Prozess, Qualität und Standort – die Substanz hinter unseren Leistungen. Schweizer Pharma-Standard, dokumentiert und auditierbar.",
   alternates: { canonical: "/expertise" },
 };
 

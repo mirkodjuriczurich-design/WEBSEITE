@@ -10,10 +10,10 @@ export function LeistungenBento() {
         <div className="max-w-[64ch]">
           <span className="eyebrow">Sechs Wege zusammenzuarbeiten</span>
           <h2 className="mt-6 text-[clamp(2rem,3.5vw,2.75rem)] leading-[1.15] tracking-[-0.01em]">
-            Die ganze Wertschöpfungskette — oder genau die Stufe, die Sie brauchen.
+            Die ganze Wertschöpfungskette – oder genau die Stufe, die Sie brauchen.
           </h2>
           <p className="mt-6 text-[18px] leading-[1.6] text-[var(--color-stone-700)]">
-            Jede unserer sechs Leistungen ist einzeln buchbar — und entfaltet ihre volle Stärke,
+            Jede unserer sechs Leistungen ist einzeln buchbar – und entfaltet ihre volle Stärke,
             wenn wir sie integriert für Sie orchestrieren.
           </p>
         </div>

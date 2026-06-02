@@ -32,7 +32,7 @@ const pillars = [
     number: "03",
     title: "Insights",
     description:
-      "Editorial-Artikel zu Regulatorik, Wissenschaft und Branchenentwicklung — von unserem Team kuratiert.",
+      "Editorial-Artikel zu Regulatorik, Wissenschaft und Branchenentwicklung – von unserem Team kuratiert.",
   },
 ];
 

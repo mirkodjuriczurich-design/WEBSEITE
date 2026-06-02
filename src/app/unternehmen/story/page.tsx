@@ -13,7 +13,7 @@ const milestones = [
     year: "Gründung",
     title: "Eine Schweizer Idee",
     body:
-      "Swiss Longevity Labs entsteht aus der Beobachtung, dass im wachsenden Longevity-Markt Schweizer Qualitätsstandards systematisch unterrepräsentiert sind — und dass dies ein strategisches Vakuum darstellt.",
+      "Swiss Longevity Labs entsteht aus der Beobachtung, dass im wachsenden Longevity-Markt Schweizer Qualitätsstandards systematisch unterrepräsentiert sind – und dass dies ein strategisches Vakuum darstellt.",
   },
   {
     year: "Aufbau",
@@ -31,7 +31,7 @@ const milestones = [
     year: "Heute",
     title: "Full-Solution-Partner",
     body:
-      "Swiss Longevity Labs deckt heute die gesamte Wertschöpfungskette ab — von der wissenschaftlichen Konzeption über die GMP-Produktion bis zur globalen Distribution. Mit sechs eigenen Markenprodukten und einer wachsenden Zahl B2B-Partnerschaften.",
+      "Swiss Longevity Labs deckt heute die gesamte Wertschöpfungskette ab – von der wissenschaftlichen Konzeption über die GMP-Produktion bis zur globalen Distribution. Mit sechs eigenen Markenprodukten und einer wachsenden Zahl B2B-Partnerschaften.",
   },
 ];
 
@@ -46,7 +46,7 @@ export default function StoryPage() {
               Schweizer Substanz für eine globale Frage.
             </h1>
             <p className="mt-8 text-[19px] leading-[1.55] text-[var(--color-stone-700)]">
-              Longevity ist global. Schweizer Qualitätsmassstäbe sind es nicht — sie sind eine
+              Longevity ist global. Schweizer Qualitätsmassstäbe sind es nicht – sie sind eine
               kulturelle und industrielle Eigenheit, die in dieser Welt eine eigene Rolle spielen
               kann. Genau hier setzen wir an.
             </p>
@@ -76,7 +76,7 @@ export default function StoryPage() {
               </p>
               <p>
                 Das macht uns langsamer und teurer als viele Mitbewerber. Es ist aber das, was
-                Kund:innen und Partner zu uns bringt — und was uns selbst nachts ruhig schlafen
+                Kund:innen und Partner zu uns bringt – und was uns selbst nachts ruhig schlafen
                 lässt.
               </p>
             </div>

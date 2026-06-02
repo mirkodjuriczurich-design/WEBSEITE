@@ -1,5 +1,5 @@
 /**
- * Swiss Longevity Labs AG — Design Tokens
+ * Swiss Longevity Labs AG – Design Tokens
  *
  * Single source of truth for colors, typography, spacing.
  * Mirrors the CSS custom properties in src/app/globals.css so that:

@@ -7,7 +7,7 @@ const press = [
   {
     tag: "Handelszeitung",
     headline: "Diskreter Wachstumsmarkt aus Zentralschweiz.",
-    sub: "Vom Pilot-Batch zur globalen Skalierung — ohne Auslagerung.",
+    sub: "Vom Pilot-Batch zur globalen Skalierung – ohne Auslagerung.",
   },
   {
     tag: "Pharma Manufacturing",
@@ -23,7 +23,7 @@ const testimonials = [
     name: "Anna Berger",
     role: "EU Mid-Cap · Premium-Linie",
     quote:
-      "Wir hatten zwei Hersteller. Mit SLL haben wir einen — und sind schneller im Markt als je zuvor.",
+      "Wir hatten zwei Hersteller. Mit SLL haben wir einen – und sind schneller im Markt als je zuvor.",
   },
   {
     name: "Jonas Keller",
@@ -72,7 +72,7 @@ export function SocialProof() {
           </p>
         </div>
 
-        {/* Press cards — editorial dark style à la Function Health */}
+        {/* Press cards – editorial dark style à la Function Health */}
         <div className="mt-16 grid gap-px overflow-hidden border border-[var(--color-stone-200)] sm:grid-cols-3">
           {press.map((p) => (
             <article

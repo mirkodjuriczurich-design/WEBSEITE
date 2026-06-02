@@ -3,13 +3,13 @@ const steps = [
     number: "01",
     title: "Konzept",
     description:
-      "Gemeinsam mit Ihnen entwickeln wir die wissenschaftliche und strategische Basis Ihres Produkts — von der Wirkstoff-Auswahl bis zur Marktpositionierung.",
+      "Gemeinsam mit Ihnen entwickeln wir die wissenschaftliche und strategische Basis Ihres Produkts – von der Wirkstoff-Auswahl bis zur Marktpositionierung.",
   },
   {
     number: "02",
     title: "Formulierung",
     description:
-      "In unseren Schweizer Labors entsteht die Rezeptur — abgestimmt auf Wirksamkeit, Galenik, Stabilität und Verträglichkeit.",
+      "In unseren Schweizer Labors entsteht die Rezeptur – abgestimmt auf Wirksamkeit, Galenik, Stabilität und Verträglichkeit.",
   },
   {
     number: "03",
@@ -21,13 +21,13 @@ const steps = [
     number: "04",
     title: "Produktion",
     description:
-      "GMP-zertifizierte Lohnproduktion in der Schweiz — vom Pilot-Batch bis zur globalen Skalierung, ohne Auslagerung.",
+      "GMP-zertifizierte Lohnproduktion in der Schweiz – vom Pilot-Batch bis zur globalen Skalierung, ohne Auslagerung.",
   },
   {
     number: "05",
     title: "Launch",
     description:
-      "Regulatorik, Compliance und die globale Markteinführung in Ihren Zielmärkten — Swissmedic, EFSA, FDA und mehr.",
+      "Regulatorik, Compliance und die globale Markteinführung in Ihren Zielmärkten – Swissmedic, EFSA, FDA und mehr.",
   },
 ];
 
@@ -41,7 +41,7 @@ export function ProcessStory() {
             Wie wir Ihre Idee zur Marktreife bringen.
           </h2>
           <p className="mt-6 text-[18px] leading-[1.6] text-[var(--color-stone-700)]">
-            Jeder Schritt unter einem Dach — abgestimmt, rückverfolgbar, kompromisslos
+            Jeder Schritt unter einem Dach – abgestimmt, rückverfolgbar, kompromisslos
             schweizerisch.
           </p>
         </div>

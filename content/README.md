@@ -5,7 +5,7 @@ Editorial content lives here in **MDX** form (Phase B of the migration plan).
 ## Migration status
 
 Currently still in TypeScript files under `src/lib/*-content.ts`. This folder
-is the destination — keep populated `README.md` here so it survives in git
+is the destination – keep populated `README.md` here so it survives in git
 until the migration runs.
 
 ## Folder map (target)

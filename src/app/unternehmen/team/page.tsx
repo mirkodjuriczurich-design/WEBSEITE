@@ -3,7 +3,7 @@ import { Button } from "@/ui/Button";
 
 export const metadata: Metadata = {
   title: "Team",
-  description: "Die Personen hinter Swiss Longevity Labs AG — Wissenschaft, Produktion, Strategie.",
+  description: "Die Personen hinter Swiss Longevity Labs AG – Wissenschaft, Produktion, Strategie.",
   alternates: { canonical: "/unternehmen/team" },
 };
 
@@ -42,7 +42,7 @@ export default function TeamPage() {
             </h1>
             <p className="mt-8 text-[19px] leading-[1.55] text-[var(--color-stone-700)]">
               Swiss Longevity Labs ist die Summe der Menschen, die hier arbeiten. Wissenschaft,
-              Produktion, Qualität, Regulatorik und Strategie — vier funktionale Bereiche, ein
+              Produktion, Qualität, Regulatorik und Strategie – vier funktionale Bereiche, ein
               integriertes Team.
             </p>
             <p className="mt-6 inline-flex items-center gap-3 border-l-2 border-[var(--color-swiss-red)] pl-4 text-[14px] text-[var(--color-stone-400)]">
@@ -84,7 +84,7 @@ export default function TeamPage() {
             </h2>
             <p className="text-[16.5px] leading-[1.65] text-[var(--color-stone-700)]">
               Wir suchen kontinuierlich nach Menschen mit pharmazeutischer, biochemischer oder
-              regulatorischer Expertise — und nach Personen, die strategisch und kommerziell denken.
+              regulatorischer Expertise – und nach Personen, die strategisch und kommerziell denken.
             </p>
             <div>
               <Button href="/unternehmen/karriere" variant="primary" arrow>
