@@ -63,12 +63,6 @@ scripts/                        # Maintenance scripts
 - **Sections vs Pages**: sections live in `src/components/sections/`, pages in `src/app/`. Pages import sections.
 - **Content data**: hard data (lists, slugs) in `src/lib/site.ts`. Long-form editorial in `*-content.ts` files (will migrate to MDX).
 
-## Sandbox constraints (Claude Code on the Web)
-
-- **No external image generation** — Pollinations, Midjourney, Nano Banana, Unsplash, Picsum all blocked by network allowlist.
-- **GitHub push** sometimes 403s through the proxy — local commits are safe, push may need to be done from outside.
-- **Dev server** is on `localhost:3000` only — preview requires HTML snapshot tool at `/tmp/preview/build-snapshot.mjs`.
-
 ## SEO / GEO baseline (already implemented — preserve)
 
 - `robots.txt` with explicit allowlist for GPTBot, ClaudeBot, PerplexityBot, Google-Extended.
@@ -86,10 +80,6 @@ scripts/                        # Maintenance scripts
 - `npm run build` — must succeed.
 - `npm run dev` runs Turbopack on port 3000.
 - Future: Vitest in `tests/`, Playwright `e2e/`, GH Actions CI.
-
-## Commit style
-
-Lowercase imperative subject ("Add", "Fix", "Refactor"), body explains *why* and references the brief if relevant. Trailer: `https://claude.ai/code/session_...`. Never include the Claude model identifier in commit messages.
 
 ## What's still placeholder, must be filled before launch
 
@@ -112,4 +102,4 @@ Lowercase imperative subject ("Add", "Fix", "Refactor"), body explains *why* and
 
 ---
 
-*Last updated: 2026-06-01 · Refactor session*
+*Last updated: 2026-06-12 · Setup-Optimierung: Commit-Stil + Sandbox-Hinweise → globale CLAUDE.md verschoben*

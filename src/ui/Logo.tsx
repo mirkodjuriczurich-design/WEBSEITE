@@ -1,30 +1,18 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export function Logo({ inverse = false }: { inverse?: boolean }) {
   return (
-    <Link href="/" className="inline-flex items-center gap-3 group" aria-label="Swiss Longevity Labs AG – zur Startseite">
-      <span
-        className="inline-flex h-10 w-10 items-center justify-center text-[var(--color-paper)] text-[22px] leading-none font-medium"
-        style={{
-          background: "var(--color-swiss-red)",
-          fontFamily: "Georgia, 'Times New Roman', serif",
-          letterSpacing: "-0.04em",
-        }}
-        aria-hidden
-      >
-        LL
-      </span>
-      <span
-        className="hidden sm:inline-flex flex-col leading-[1.1]"
-        style={{ color: inverse ? "var(--color-paper)" : "var(--color-ink)" }}
-      >
-        <span className="text-[11px] font-semibold tracking-[0.18em] uppercase" style={{ color: "var(--color-swiss-red)" }}>
-          Swiss
-        </span>
-        <span className="text-[11px] font-semibold tracking-[0.18em] uppercase">
-          Longevity Labs <span style={{ color: "var(--color-swiss-red)" }}>AG</span>
-        </span>
-      </span>
+    <Link href="/" className="inline-flex items-center group" aria-label="Swiss Longevity Labs AG – zur Startseite">
+      <Image
+        src="/logo.png"
+        alt="Swiss Longevity Labs AG"
+        width={160}
+        height={48}
+        className="h-10 w-auto object-contain"
+        style={inverse ? { filter: "brightness(0) invert(1)" } : undefined}
+        priority
+      />
     </Link>
   );
 }

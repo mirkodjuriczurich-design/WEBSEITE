@@ -11,8 +11,8 @@
  */
 
 export const colors = {
-  swissRed: "#E30613",
-  swissRedHover: "#C90510",
+  swissRed: "#B70102",
+  swissRedHover: "#9E0101",
 
   ink: "#0B0B0B",
   offWhite: "#FAFAF7",
