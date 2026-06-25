@@ -1,4 +1,4 @@
-export const site = {
+﻿export const site = {
   name: "Swiss Longevity Labs AG",
   shortName: "Swiss Longevity Labs",
   acronym: "SLL",
@@ -174,9 +174,9 @@ export interface Produkt {
 
 export const produkte: Produkt[] = [
   {
-    slug: "night-repair",
+    slug: "deep-sleep",
     number: "01",
-    name: "Night Repair",
+    name: "Deep Sleep",
     category: "Schlaf · Anti-Aging",
     tagline:
       "Das erste Supplement weltweit, das Schlaf als Anti-Aging-Waffe positioniert – nicht als Sedativum.",
@@ -211,46 +211,9 @@ export const produkte: Produkt[] = [
     format: "Kapsel oder Getränk",
   },
   {
-    slug: "brain-age",
-    number: "02",
-    name: "Brain Age",
-    category: "Neurale Langlebigkeit",
-    tagline:
-      "Strukturelle Gehirngesundheit in den kommenden zwanzig Jahren – kein kurzfristiger Fokus.",
-    pitch:
-      "Dein Gehirn altert schneller als dein Körper. Wir verlangsamen das.",
-    short:
-      "Lion's Mane, Magnesium L-Threonat und Lithium Orotat für Neurogenese, synaptische Dichte und Demenz-Prävention.",
-    marketGap:
-      "Mehr als 55 Millionen Menschen weltweit leben mit einer Form von Demenz. Die Angst vor kognitivem Verfall ist als grösste Gesundheitsangst von Menschen über 45 dokumentiert. Kein bestehendes Produkt adressiert diese Angst mit wissenschaftlicher Autorität.",
-    description:
-      "Der Markt für Gehirn-Supplemente ist enorm und gleichzeitig eine Innovationswüste. Bestehende Lösungen sind Koffein, B-Vitamine und symbolische Dosen bekannter Pflanzenextrakte. Was wirklich fehlt, ist ein ernsthaftes Protokoll zur Prävention neurodegenerativer Veränderungen – eine Antwort auf die tiefe Angst der Konsumenten vor Alzheimer und kognitivem Verfall.",
-    ingredients: [
-      { name: "Lion's Mane", dose: "1500 mg", function: "NGF-Produktion, Neurogenese" },
-      { name: "Magnesium L-Threonat", dose: "1500 mg", function: "Die einzige Magnesiumform, die ins Gehirn gelangt" },
-      { name: "Phosphatidylserin", dose: "300 mg", function: "Klinisch bestätigt für das Gedächtnis, FDA-anerkannt" },
-      { name: "Bacopa Monnieri", dose: "300 mg", function: "Langzeitgedächtnis, neuroprotektiv" },
-      { name: "PQQ", dose: "20 mg", function: "Mitochondriale Biogenese im Gehirngewebe" },
-      { name: "Lithium Orotat", dose: "5 mg", function: "Neuroprotektiv, BDNF-Verstärker (niedrige Dosis)" },
-      { name: "DHA aus Algenöl", dose: "1000 mg", function: "Strukturfett des Gehirns" },
-      { name: "Uridin-Monophosphat", dose: "250 mg", function: "Wachstum und Dichte der Synapsen" },
-    ],
-    positioning: "„Dein Gehirn altert schneller als dein Körper. Wir verlangsamen das.“",
-    strategicNotes: [
-      "Lithium Orotat in einem Konsumentenprodukt – kein Konkurrent wagt das.",
-      "B2B-Kanal: Neurologen, Anti-Aging-Kliniken, Gedächtniskliniken.",
-      "Ärztliche Empfehlung eliminiert die Preisempfindlichkeit.",
-    ],
-    targetGroup: "45–70 + hochfunktionale 30-Jährige",
-    channel: "Ärzte + DTC + Neurologie",
-    pricePerMonth: "CHF 80–110",
-    developmentTime: "Sofort verfügbar",
-    stufe: "Stufe 1 · sofort",
-  },
-  {
-    slug: "resilience",
+    slug: "resiliencerx21",
     number: "03",
-    name: "Resilience",
+    name: "ResilienceRX21",
     category: "Stress · Adaptogen",
     tagline:
       "Für eine Burnout-Generation – die wissenschaftliche Verknüpfung von chronischem Stress und beschleunigtem biologischem Altern.",
@@ -283,79 +246,9 @@ export const produkte: Produkt[] = [
     stufe: "Stufe 1 · sofort",
   },
   {
-    slug: "glp1-armor",
-    number: "04",
-    name: "GLP-1 Armor",
-    category: "Medikamenten-Begleitung",
-    tagline:
-      "Das einzige Supplement weltweit, das spezifisch für Anwender von GLP-1-Medikamenten entwickelt wurde.",
-    pitch: "Du nimmst GLP-1. Dein Körper braucht das.",
-    short:
-      "Kreatin, EAA, Urolithin A und Mikronährstoffe gegen Muskelverlust und Nährstoffdefizite unter GLP-1-Medikation.",
-    marketGap:
-      "Der globale Markt für GLP-1-Medikamente wird bis 2030 über 150 Milliarden Dollar übersteigen. Begleitende nutrazeutische Produkte sind ein praktisch nicht existierender Markt. Das ist keine Nische – das ist eine Struktur, die auf den ersten ernsthaften Akteur wartet.",
-    description:
-      "Zig Millionen Menschen weltweit nehmen GLP-1-Medikamente (Ozempic, Wegovy, Mounjaro) zur Gewichtsreduktion ein. Was Pharmaunternehmen nicht adressieren: Anwender verlieren bis zu 30% ihrer Muskelmasse, leiden unter schweren Nährstoffdefiziten durch drastisch reduzierte Nahrungsaufnahme und erleben chronische Müdigkeit, Haarausfall und einen Rückgang der Knochendichte. Kein bestehendes Produkt ist klinisch spezifisch an GLP-1-Anwendern getestet.",
-    ingredients: [
-      { name: "Kreatin-Monohydrat", dose: "5000 mg", function: "Erhalt der Muskelmasse" },
-      { name: "EAA + Leucin", dose: "6000 mg", function: "Verhinderung von Katabolismus" },
-      { name: "Urolithin A", dose: "500 mg", function: "Mitochondriale Funktion + Muskelausdauer" },
-      { name: "Kollagenpeptide", dose: "10 g", function: "Integrität von Bindegewebe, Haut und Knochen" },
-      { name: "B12, Folat, Fe, Zn", dose: "Komplex", function: "Nährstoffdefizite bei GLP-1-Anwendern" },
-      { name: "Vitamin D3 + K2", dose: "Hochdosiert", function: "Knochengesundheit" },
-      { name: "Magnesium-Glycinat", dose: "400 mg", function: "Muskelkrämpfe sind unter GLP-1 häufig" },
-    ],
-    positioning: "Kristallklare Positionierung: „Du nimmst GLP-1. Dein Körper braucht das.“",
-    strategicNotes: [
-      "B2B-Distribution: Endokrinologen, Allgemeinmediziner, Kliniken zur Gewichtsreduktion.",
-      "Ärztliche Empfehlung eliminiert den Preiswiderstand.",
-      "Weltweit der Erste – struktureller Vorteil durch Kategoriebesetzung.",
-    ],
-    targetGroup: "GLP-1-Anwender · Ärztliche Empfehlung",
-    channel: "Ärzte + Kliniken zur Gewichtsreduktion + Apotheken",
-    pricePerMonth: "CHF 100–140",
-    developmentTime: "3–4 Monate",
-    stufe: "Stufe 2 · 3–4 Monate",
-  },
-  {
-    slug: "senolytic-cleanse",
-    number: "05",
-    name: "Senolytic Cleanse",
-    category: "Senolytika · Quartals-Reset",
-    tagline:
-      "Vierteljährlicher Reset der Zombie-Zellen – Langlebigkeit im Quartalsrhythmus, nicht in der täglichen Routine.",
-    pitch: "Dein Körper braucht vier Resets pro Jahr. Nicht mehr.",
-    short:
-      "Fisetin und Quercetin in pulsierender Hochdosis – das einzige Senolytikum nach klinischem Studienprotokoll, nicht nach Abo-Logik.",
-    marketGap:
-      "Die Marktlogik der gesamten Supplement-Industrie ist der tägliche Konsum. Niemand bietet Senolytika im klinischen Modell pulsierender Dosierung an. Diese kontraintuitive Position wird unsere stärkste Marketing-Geschichte sein.",
-    description:
-      "Seneszente Zellen – sogenannte „Zombie-Zellen“ – sind Zellen, die aufgehört haben, sich zu teilen, aber sich weigern zu sterben. Sie sondern unaufhörlich entzündliche Signale ab (SASP-Cocktail), die das Altern jeder umliegenden Zelle beschleunigen. Senolytika werden nicht täglich eingenommen – sie werden in kurzen, hochdosierten Impulsen verabreicht, wie klinische Studien zeigen. Kein Unternehmen tut das, denn tägliche Einnahme bedeutet mehr Umsatz. Wir bauen für die Biologie, nicht für die Psychologie des Abonnements.",
-    ingredients: [
-      { name: "Fisetin", dose: "1000 mg", function: "Stärkstes natürliches Senolytikum" },
-      { name: "Quercetin", dose: "1000 mg", function: "Synergie mit Fisetin, verstärkt die Wirkung" },
-      { name: "Piperin", dose: "10 mg", function: "Bioverfügbarkeit × 20" },
-      { name: "Bromelain", dose: "500 mg", function: "Entzündungshemmender Absorptions-Cofaktor" },
-      { name: "EGCG", dose: "400 mg", function: "Modulation des Seneszenz-Pfades" },
-      { name: "FMD-Protokoll", dose: "Inkl.", function: "Leitfaden für die Fasting-Mimicking-Diät" },
-    ],
-    positioning: "„Dein Körper braucht vier Resets pro Jahr. Nicht mehr.“",
-    strategicNotes: [
-      "Luxuriöse saisonale Box, quartalsweise geliefert – biologisches Ritual.",
-      "Höchste Zahlungsbereitschaft aufgrund von Seltenheit und rituellem Charakter.",
-      "Premium-Verpackung: Holzbox, Protokoll-Tagebuch, Fasten-Leitfaden.",
-    ],
-    targetGroup: "35–65 · Biohacker · Longevity-Enthusiasten",
-    channel: "DTC + Longevity-Kliniken",
-    pricePerMonth: "CHF 180–280 / Box",
-    developmentTime: "3–4 Monate",
-    stufe: "Stufe 2 · 3–4 Monate",
-    format: "Quartals-Box · 3-Tages-Puls · 4× jährlich",
-  },
-  {
-    slug: "spermidine-ritual",
+    slug: "renew-xa",
     number: "06",
-    name: "Spermidine Ritual",
+    name: "Renew XA",
     category: "Autophagie · Ritual",
     tagline:
       "Das heisseste Longevity-Molekül der Wissenschaft – endlich in stabiler Getränkeform.",

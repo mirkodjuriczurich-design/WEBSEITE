@@ -67,13 +67,13 @@ export function Comparison() {
             style={{ background: colors.stone200 }}
           >
             <div
-              className="px-8 py-6 font-[var(--font-mono)] text-[11px] uppercase tracking-[0.15em] text-[var(--color-stone-400)]"
+              className="px-8 py-6 font-[var(--font-mono)] text-[14px] uppercase tracking-[0.15em] text-[var(--color-stone-400)]"
               style={{ background: colors.offWhite }}
             >
               Kriterium
             </div>
             <div
-              className="px-8 py-6 font-[var(--font-mono)] text-[11px] uppercase tracking-[0.15em]"
+              className="px-8 py-6 font-[var(--font-mono)] text-[14px] uppercase tracking-[0.15em]"
               style={{ background: colors.stone100, color: colors.stone400 }}
             >
               Typischer CDMO
@@ -88,7 +88,7 @@ export function Comparison() {
                 style={{ background: colors.swissRed }}
               />
               <span
-                className="font-[var(--font-mono)] text-[11px] uppercase tracking-[0.15em]"
+                className="font-[var(--font-mono)] text-[14px] uppercase tracking-[0.15em]"
                 style={{ color: colors.navySoft }}
               >
                 Swiss Longevity Labs

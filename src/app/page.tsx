@@ -5,7 +5,6 @@ import { ProductionVideo } from "@/features/home/ProductionVideo";
 import { TrustNumbers } from "@/features/home/TrustNumbers";
 import { Comparison } from "@/features/home/Comparison";
 import { ProdukteShowcase } from "@/features/home/ProdukteShowcase";
-import { SocialProof } from "@/features/home/SocialProof";
 import { WissenTeaser } from "@/features/home/WissenTeaser";
 import { InsightsPreview } from "@/features/home/InsightsPreview";
 import { HomeFAQ } from "@/features/home/HomeFAQ";
@@ -21,7 +20,6 @@ export default function HomePage() {
       <TrustNumbers />
       <Comparison />
       <ProdukteShowcase />
-      <SocialProof />
       <WissenTeaser />
       <InsightsPreview />
       <HomeFAQ />

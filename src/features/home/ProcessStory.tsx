@@ -66,7 +66,7 @@ export function ProcessStory() {
                       className="absolute -left-1 top-[10px] block h-1.5 w-1.5"
                       style={{ background: "var(--color-swiss-red)" }}
                     />
-                    <span className="ml-4 font-[var(--font-mono)] text-[12px] tracking-[0.15em] text-[var(--color-stone-400)]">
+                    <span className="ml-4 font-[var(--font-mono)] text-[14px] tracking-[0.15em] text-[var(--color-stone-400)]">
                       Schritt {step.number}
                     </span>
                   </div>

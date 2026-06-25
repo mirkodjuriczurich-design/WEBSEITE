@@ -1,5 +1,3 @@
-import { Play } from "lucide-react";
-
 export function ProductionVideo() {
   return (
     <section className="section-py border-b border-[var(--color-stone-200)] bg-[var(--color-paper)]">
@@ -43,39 +41,14 @@ export function ProductionVideo() {
           </div>
 
           <div className="lg:col-span-7">
-            <div
-              aria-hidden
-              className="relative aspect-video w-full overflow-hidden border border-[var(--color-stone-200)]"
-              style={{ background: "var(--color-stone-900)" }}
-            >
-              <div
-                className="absolute top-6 left-6 h-10 w-10"
-                style={{ background: "var(--color-swiss-red)" }}
+            <div className="w-full overflow-hidden border border-[var(--color-stone-200)]">
+              <video
+                src="/videos/section-labor.mp4"
+                controls
+                playsInline
+                preload="metadata"
+                className="w-full h-auto block"
               />
-              <div className="absolute inset-0 grid place-items-center">
-                <div className="flex flex-col items-center gap-6 text-center px-6">
-                  <span
-                    className="inline-flex h-20 w-20 items-center justify-center rounded-full border-2"
-                    style={{ borderColor: "#B8C2D6" }}
-                  >
-                    <Play size={28} strokeWidth={1.5} className="ml-1 text-[var(--color-paper)]" />
-                  </span>
-                  <div>
-                    <p
-                      className="font-[var(--font-display)] text-[18px] leading-[1.3]"
-                      style={{ color: "var(--color-paper)" }}
-                    >
-                      Werks-Tour Schweiz · 3:24 Min
-                    </p>
-                    <p
-                      className="mt-2 font-[var(--font-mono)] text-[10px] uppercase tracking-[0.2em]"
-                      style={{ color: "#B8C2D6" }}
-                    >
-                      Video · Phase 3
-                    </p>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

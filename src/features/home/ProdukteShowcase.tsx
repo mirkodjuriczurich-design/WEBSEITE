@@ -11,7 +11,7 @@ export function ProdukteShowcase() {
           <div className="max-w-[64ch]">
             <span className="eyebrow">Unsere eigenen Produkte</span>
             <h2 className="mt-6 text-[clamp(2rem,3.5vw,2.75rem)] leading-[1.15] tracking-[-0.01em]">
-              Sechs Longevity-Produkte unter Schweizer Eigenmarke.
+              Drei Longevity-Produkte unter Schweizer Eigenmarke.
             </h2>
             <p className="mt-6 text-[18px] leading-[1.6] text-[var(--color-stone-700)]">
               Die Substanz, die wir für andere fertigen – auch in unserer eigenen Linie. Wissenschaftlich
@@ -64,9 +64,7 @@ export function ProdukteShowcase() {
                   </p>
                 </div>
 
-                <p className="text-[14px] leading-[1.6] text-[var(--color-stone-700)]">{p.short}</p>
-
-                <div className="mt-auto flex items-center gap-2 text-[13px] font-medium text-[var(--color-ink)] group-hover:text-[var(--color-swiss-red)] transition-colors duration-300">
+<div className="mt-auto flex items-center gap-2 text-[13px] font-medium text-[var(--color-ink)] group-hover:text-[var(--color-swiss-red)] transition-colors duration-300">
                   Mehr erfahren
                   <ArrowRight
                     size={14}

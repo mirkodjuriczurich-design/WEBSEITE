@@ -3,6 +3,19 @@ import { ArrowRight } from "lucide-react";
 import { leistungen } from "@/lib/site";
 import { Button } from "@/ui/Button";
 
+function renderTitle(title: string) {
+  const parts = title.split("&");
+  if (parts.length === 1) return title;
+  return parts.map((part, i) => (
+    <span key={i}>
+      {part}
+      {i < parts.length - 1 && (
+        <span style={{ fontFamily: "var(--font-mono), monospace", fontStyle: "normal" }}>&</span>
+      )}
+    </span>
+  ));
+}
+
 export function LeistungenBento() {
   return (
     <section className="section-py border-b border-[var(--color-stone-200)] bg-[var(--color-paper)]">
@@ -29,13 +42,13 @@ export function LeistungenBento() {
                 <span className="font-[var(--font-mono)] text-[12px] tracking-[0.1em] text-[var(--color-swiss-red)]">
                   {l.number}
                 </span>
-                <span className="text-[10px] font-semibold uppercase tracking-[0.15em] text-[var(--color-stone-400)]">
+                <span className="text-[12px] font-semibold uppercase tracking-[0.15em] text-[var(--color-stone-400)]">
                   Leistung
                 </span>
               </div>
 
               <div>
-                <h3 className="text-[24px] leading-[1.2] tracking-[-0.005em]">{l.title}</h3>
+                <h3 className="text-[24px] leading-[1.2] tracking-[-0.005em]">{renderTitle(l.title)}</h3>
                 <p className="mt-2 font-[var(--font-display)] italic text-[17px] leading-[1.4] text-[var(--color-stone-700)]">
                   {l.tagline}
                 </p>
