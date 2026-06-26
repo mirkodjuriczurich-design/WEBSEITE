@@ -2,7 +2,6 @@ import { Hero } from "@/features/home/Hero";
 import { LeistungenBento } from "@/features/home/LeistungenBento";
 import { ProcessStory } from "@/features/home/ProcessStory";
 import { ProductionVideo } from "@/features/home/ProductionVideo";
-import { TrustNumbers } from "@/features/home/TrustNumbers";
 import { Comparison } from "@/features/home/Comparison";
 import { ProdukteShowcase } from "@/features/home/ProdukteShowcase";
 import { WissenTeaser } from "@/features/home/WissenTeaser";
@@ -17,7 +16,6 @@ export default function HomePage() {
       <LeistungenBento />
       <ProcessStory />
       <ProductionVideo />
-      <TrustNumbers />
       <Comparison />
       <ProdukteShowcase />
       <WissenTeaser />
