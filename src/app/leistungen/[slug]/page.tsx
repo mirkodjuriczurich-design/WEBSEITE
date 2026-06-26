@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { leistungen } from "@/lib/site";
@@ -67,16 +68,18 @@ export default async function LeistungDetailPage({
           </Link>
 
           <div className="mt-12 grid gap-16 lg:grid-cols-12 lg:gap-12">
-            <div className="lg:col-span-8">
+            <div className={`lg:col-span-${12 - (content.imageSpan ?? 4)}`}>
               <span className="eyebrow">
                 Leistung {content.number} · {content.eyebrow}
               </span>
               <h1 className="mt-8 text-[clamp(2.5rem,5.5vw,4rem)] leading-[1.05] tracking-[-0.015em]">
                 {content.title}
               </h1>
-              <p className="mt-8 max-w-[58ch] text-[19px] leading-[1.55] text-[var(--color-stone-700)]">
-                {content.lead}
-              </p>
+              <div className="mt-8 max-w-[58ch] space-y-5 text-[19px] leading-[1.55] text-[var(--color-stone-700)]">
+                {content.lead.split("\n\n").map((p, i) => (
+                  <p key={i}>{p}</p>
+                ))}
+              </div>
               <div className="mt-10 flex flex-wrap gap-3">
                 <Button href={`/kontakt?type=enquiry&service=${content.slug}`} variant="primary" arrow>
                   Anfrage starten
@@ -87,24 +90,39 @@ export default async function LeistungDetailPage({
               </div>
             </div>
 
-            <aside className="lg:col-span-4">
-              <div
-                className="aspect-[4/5] w-full overflow-hidden border border-[var(--color-stone-200)]"
-                style={{ background: "var(--color-stone-100)" }}
-              >
-                <div className="relative h-full w-full">
-                  <div
-                    aria-hidden
-                    className="absolute top-6 left-6 h-10 w-10"
-                    style={{ background: "var(--color-swiss-red)" }}
+            <aside className={`lg:col-span-${content.imageSpan ?? 4} lg:self-end lg:mb-[7.5rem]`}>
+              {content.image ? (
+                <div
+                  className="relative w-full overflow-hidden border border-[var(--color-stone-200)]"
+                  style={{ aspectRatio: `${content.imageWidth ?? 896} / ${content.imageHeight ?? 1200}` }}
+                >
+                  <Image
+                    src={content.image}
+                    alt={content.title}
+                    fill
+                    className="object-cover"
+                    priority
                   />
-                  <div className="absolute inset-0 grid place-items-center">
-                    <span className="font-[var(--font-mono)] text-[10px] uppercase tracking-[0.2em] text-[var(--color-stone-400)]">
-                      Editorial-Bild · Phase 3
-                    </span>
+                </div>
+              ) : (
+                <div
+                  className="aspect-[4/5] w-full overflow-hidden border border-[var(--color-stone-200)]"
+                  style={{ background: "var(--color-stone-100)" }}
+                >
+                  <div className="relative h-full w-full">
+                    <div
+                      aria-hidden
+                      className="absolute top-6 left-6 h-10 w-10"
+                      style={{ background: "var(--color-swiss-red)" }}
+                    />
+                    <div className="absolute inset-0 grid place-items-center">
+                      <span className="font-[var(--font-mono)] text-[10px] uppercase tracking-[0.2em] text-[var(--color-stone-400)]">
+                        Editorial-Bild · Phase 3
+                      </span>
+                    </div>
                   </div>
                 </div>
-              </div>
+              )}
             </aside>
           </div>
         </div>

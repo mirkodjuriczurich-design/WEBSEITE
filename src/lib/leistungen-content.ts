@@ -36,6 +36,10 @@ export interface LeistungsContent {
   title: string;
   eyebrow: string;
   lead: string;
+  image?: string;
+  imageWidth?: number;
+  imageHeight?: number;
+  imageSpan?: number;
   whatWeOffer: { heading: string; paragraphs: string[]; bullets?: string[] }[];
   process: ProcessStep[];
   useCases: UseCase[];
@@ -52,7 +56,10 @@ export const leistungsContent: Record<string, LeistungsContent> = {
     title: "Private Label",
     eyebrow: "Eure Marke, unsere Rezeptur",
     lead:
-      "Sie kommen mit einer Rezeptur, einem Konzept oder einer klaren Vorstellung. Wir bringen sie GMP-konform zur Marktreife – vom ersten Pilot-Batch bis zur globalen Skalierung, alles unter Schweizer Dach.",
+      "Sie kommen mit einer Rezeptur, einer Produktidee oder einem klaren Konzept. Wir entwickeln, formulieren und produzieren hochwertige Private-Label-Longevity-Produkte, Nahrungsergänzungsmittel und Supplements nach GMP-Standards – präzise, wissenschaftlich fundiert und unter Schweizer Qualitätsstandards.\n\nVon der ersten Formulierung über Pilot-Batches und regulatorische Anforderungen bis zur internationalen Serienproduktion begleiten wir Sie als erfahrener Private Label Hersteller aus der Schweiz. So entsteht aus Ihrer Idee ein marktreifes Produkt mit höchster Qualität, voller Compliance und globalem Skalierungspotenzial.",
+    image: "/images/leistung-private-label.png",
+    imageWidth: 896,
+    imageHeight: 1200,
     whatWeOffer: [
       {
         heading: "Was Private Label bei Swiss Longevity Labs bedeutet",
@@ -186,8 +193,12 @@ export const leistungsContent: Record<string, LeistungsContent> = {
     number: "02",
     title: "White Label",
     eyebrow: "Unsere Rezeptur, eure Marke",
+    image: "/images/leistung-white-label.png",
+    imageWidth: 1535,
+    imageHeight: 1024,
+    imageSpan: 5,
     lead:
-      "Erprobte SLL-Rezepturen, sofort verfügbar. Sie vermarkten unter Ihrer Brand, wir liefern die fertige Linie – kürzeste Time-to-Market bei vollem Qualitätsanspruch.",
+      "Nutzen Sie unsere bewährten White-Label-Rezepturen für hochwertige Longevity-Produkte, Nahrungsergänzungsmittel und Supplements. Sie vermarkten die Produkte unter Ihrer eigenen Marke – wir liefern die fertige, GMP-konforme Produktlinie in Schweizer Premiumqualität.\n\nMit unseren sofort verfügbaren Formulierungen verkürzen Sie Ihre Time-to-Market erheblich und reduzieren Entwicklungsaufwand, Kosten und Risiken. Als erfahrener White Label Hersteller aus der Schweiz begleiten wir Start-ups, Scale-ups und etablierte Marken bis zur erfolgreichen Markteinführung – schnell, sicher und vollständig skalierbar.",
     whatWeOffer: [
       {
         heading: "Time-to-Market in Wochen statt Quartalen",
