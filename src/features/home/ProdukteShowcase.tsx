@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { produkte } from "@/lib/site";
 import { Button } from "@/ui/Button";
+import { amp } from "@/lib/render";
 
 export function ProdukteShowcase() {
   return (
@@ -9,13 +10,13 @@ export function ProdukteShowcase() {
       <div className="container-editorial">
         <div className="flex flex-col gap-12 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-[64ch]">
-            <span className="eyebrow">Unsere eigenen Produkte</span>
+            <span className="eyebrow">Unsere Longevity Produkte</span>
             <h2 className="mt-6 text-[clamp(2rem,3.5vw,2.75rem)] leading-[1.15] tracking-[-0.01em]">
-              Drei Longevity-Produkte unter Schweizer Eigenmarke.
+              Ihre Longevity-Marke.<br />
+              <span className="text-[clamp(1.5rem,2.5vw,2rem)]">{amp("Als White & Private Label aus der Schweiz.")}</span>
             </h2>
             <p className="mt-6 text-[18px] leading-[1.6] text-[var(--color-stone-700)]">
-              Die Substanz, die wir für andere fertigen – auch in unserer eigenen Linie. Wissenschaftlich
-              fundiert, Schweizer produziert, kompromisslos rein.
+              Als Schweizer White Label- und Private Label-Hersteller entwickeln und produzieren wir wissenschaftlich fundierte Longevity-Produkte nach höchsten GMP-Qualitätsstandards. Von individuellen Rezepturen über Kapseln und Nahrungsergänzungsmittel bis hin zur kompletten Produktlinie erhalten Sie eine schlüsselfertige Lösung aus einer Hand – entwickelt, produziert und begleitet in der Schweiz.
             </p>
           </div>
 

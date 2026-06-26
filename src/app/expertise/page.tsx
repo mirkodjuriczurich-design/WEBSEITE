@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { expertisePages } from "@/lib/expertise-content";
@@ -22,7 +22,7 @@ export default function ExpertiseHubPage() {
               Was uns zu einem Schweizer Hersteller macht.
             </h1>
             <p className="mt-8 text-[19px] leading-[1.55] text-[var(--color-stone-700)]">
-              Vier Dimensionen, die uns als verlässlichen Full-Solution-Partner ausweisen:
+              Vier Dimensionen, die uns als verlässlichen Full-Service-Partner ausweisen:
               technische Capabilities, ein klar definierter Prozess, dokumentierte
               Qualitätsstandards und ein konzentrierter Schweizer Standort.
             </p>

@@ -1,4 +1,4 @@
-const press = [
+﻿const press = [
   {
     tag: "Forbes Pharma",
     headline: "Swiss Made trifft Longevity-Tech.",
@@ -12,7 +12,7 @@ const press = [
   {
     tag: "Pharma Manufacturing",
     headline: "Editorial-Pharma als Markenstrategie.",
-    sub: "Warum sich Brands für einen Schweizer Full-Solution-Partner entscheiden.",
+    sub: "Warum sich Brands für einen Schweizer Full-Service-Partner entscheiden.",
   },
 ];
 

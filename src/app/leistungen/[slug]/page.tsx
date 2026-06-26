@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import { amp } from "@/lib/render";
 import { notFound } from "next/navigation";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { leistungen } from "@/lib/site";
@@ -73,7 +74,7 @@ export default async function LeistungDetailPage({
                 Leistung {content.number} · {content.eyebrow}
               </span>
               <h1 className="mt-8 text-[clamp(2.5rem,5.5vw,4rem)] leading-[1.05] tracking-[-0.015em]">
-                {content.title}
+                {amp(content.title)}
               </h1>
               <div className="mt-8 max-w-[58ch] space-y-5 text-[19px] leading-[1.55] text-[var(--color-stone-700)]">
                 {content.lead.split("\n\n").map((p, i) => (

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Button } from "@/ui/Button";
+import { amp } from "@/lib/render";
 
 export const metadata: Metadata = {
   title: "Team",
@@ -45,12 +46,6 @@ export default function TeamPage() {
               Produktion, Qualität, Regulatorik und Strategie – vier funktionale Bereiche, ein
               integriertes Team.
             </p>
-            <p className="mt-6 inline-flex items-center gap-3 border-l-2 border-[var(--color-swiss-red)] pl-4 text-[14px] text-[var(--color-stone-400)]">
-              <span className="font-[var(--font-mono)] text-[11px] uppercase tracking-[0.15em]">
-                Personen-Portraits in Phase 3
-              </span>
-              <span>· echte Portraits und Bios folgen mit der Foto-Phase</span>
-            </p>
           </div>
         </div>
       </section>
@@ -58,6 +53,33 @@ export default function TeamPage() {
       <section className="section-py border-b border-[var(--color-stone-200)] bg-[var(--color-paper)]">
         <div className="container-editorial">
           <div className="grid gap-px border border-[var(--color-stone-200)] md:grid-cols-2">
+
+            {/* 00 Advisory Board — volle Breite */}
+            <article className="md:col-span-2 flex flex-col gap-6 bg-[var(--color-paper)] p-8 lg:p-10">
+              <span className="font-[var(--font-mono)] text-[12px] tracking-[0.1em] text-[var(--color-swiss-red)]">00</span>
+              <h2 className="text-[22px] leading-[1.25]">{amp("Scientific & Medical Advisory Board")}</h2>
+              <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 gap-4 pt-2">
+                {Array.from({ length: 7 }).map((_, i) => (
+                  <div key={i} className="flex flex-col gap-2">
+                    <div
+                      className="aspect-[3/4] w-full border border-[var(--color-stone-200)]"
+                      style={{ background: "var(--color-stone-100)" }}
+                    >
+                      <div className="h-full w-full grid place-items-center">
+                        <span className="font-[var(--font-mono)] text-[8px] uppercase tracking-[0.1em] text-[var(--color-stone-400)]">Foto</span>
+                      </div>
+                    </div>
+                    <div className="flex flex-col gap-0.5">
+                      <span className="font-[var(--font-mono)] text-[9px] uppercase tracking-[0.08em] text-[var(--color-stone-400)]">Titel</span>
+                      <span className="text-[12px] font-medium leading-[1.3] text-[var(--color-stone-400)]">Vorname Name</span>
+                      <span className="text-[11px] leading-[1.4] text-[var(--color-stone-400)]">Position</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </article>
+
+            {/* 01–04 */}
             {teamGroups.map((g, i) => (
               <article
                 key={g.title}
@@ -66,7 +88,7 @@ export default function TeamPage() {
                 <span className="font-[var(--font-mono)] text-[12px] tracking-[0.1em] text-[var(--color-swiss-red)]">
                   {String(i + 1).padStart(2, "0")}
                 </span>
-                <h2 className="text-[22px] leading-[1.25]">{g.title}</h2>
+                <h2 className="text-[22px] leading-[1.25]">{amp(g.title)}</h2>
                 <p className="text-[15px] leading-[1.65] text-[var(--color-stone-700)]">
                   {g.description}
                 </p>

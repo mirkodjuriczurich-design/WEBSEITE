@@ -2,19 +2,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { leistungen } from "@/lib/site";
 import { Button } from "@/ui/Button";
-
-function renderTitle(title: string) {
-  const parts = title.split("&");
-  if (parts.length === 1) return title;
-  return parts.map((part, i) => (
-    <span key={i}>
-      {part}
-      {i < parts.length - 1 && (
-        <span style={{ fontFamily: "var(--font-mono), monospace", fontStyle: "normal" }}>&</span>
-      )}
-    </span>
-  ));
-}
+import { amp } from "@/lib/render";
 
 export function LeistungenBento() {
   return (
@@ -48,7 +36,7 @@ export function LeistungenBento() {
               </div>
 
               <div>
-                <h3 className="text-[24px] leading-[1.2] tracking-[-0.005em]">{renderTitle(l.title)}</h3>
+                <h3 className="text-[24px] leading-[1.2] tracking-[-0.005em]">{amp(l.title)}</h3>
                 <p className="mt-2 font-[var(--font-display)] italic text-[17px] leading-[1.4] text-[var(--color-stone-700)]">
                   {l.tagline}
                 </p>

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Button } from "@/ui/Button";
 
 export const metadata: Metadata = {
@@ -22,14 +22,14 @@ const milestones = [
       "Aufbau der analytischen Infrastruktur, Inbetriebnahme der ersten GMP-Produktionslinien, Einstellung der wissenschaftlichen Kernmannschaft. Erste Pilot-Projekte mit Schweizer Brands.",
   },
   {
-    year: "Validierung",
+    year: "Marktvalidierung",
     title: "Erste Marktzulassungen",
     body:
-      "Erfolgreiche Notifizierungen in Deutschland, Österreich und den Niederlanden. Aufnahme der Eigenmarke-Linie mit den ersten drei Produkten. Skalierung auf vier Produktionslinien.",
+      "Erfolgreiche Notifizierungen. Erste Kundenanforderungen erfolgreich umgesetzt. Lancierung der ersten drei Produkte. Weitere innovative Produkte befinden sich in der Entwicklungs- und Markteinführungspipeline.",
   },
   {
     year: "Heute",
-    title: "Full-Solution-Partner",
+    title: "Full-Service-Partner",
     body:
       "Swiss Longevity Labs deckt heute die gesamte Wertschöpfungskette ab – von der wissenschaftlichen Konzeption über die GMP-Produktion bis zur globalen Distribution. Mit sechs eigenen Markenprodukten und einer wachsenden Zahl B2B-Partnerschaften.",
   },

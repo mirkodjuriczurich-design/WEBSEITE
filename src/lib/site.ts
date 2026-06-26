@@ -5,7 +5,7 @@
   domain: "swisslongevitylab.com",
   url: "https://swisslongevitylab.com",
   description:
-    "Schweizer Full-Solution-Partner für Longevity – Private Label, White Label, Full Service & R&D, Produktentwicklung, Regulatorik und Distribution unter einem Schweizer Dach.",
+    "Schweizer Full-Service-Partner für Longevity – Private Label, White Label, Full Service & R&D, Produktentwicklung, Regulatorik und Distribution unter einem Schweizer Dach.",
   positioning:
     "Schweizer Präzision für die Wissenschaft des längeren Lebens.",
   locale: "de-CH",

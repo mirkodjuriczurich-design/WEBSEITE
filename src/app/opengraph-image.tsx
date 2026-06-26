@@ -1,4 +1,4 @@
-import { ImageResponse } from "next/og";
+﻿import { ImageResponse } from "next/og";
 import { site } from "@/lib/site";
 
 export const runtime = "edge";
@@ -93,7 +93,7 @@ export default async function OGImage() {
               }}
             >
               <span style={{ width: 12, height: 12, background: "#E30613" }} />
-              Schweizer Full-Solution-Partner für Longevity
+              Schweizer Full-Service-Partner für Longevity
             </span>
             <span
               style={{

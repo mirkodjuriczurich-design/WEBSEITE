@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Logo } from "@/ui/Logo";
 import { leistungen, site } from "@/lib/site";
 
@@ -49,7 +49,7 @@ export function Footer() {
           <div className="col-span-2 md:col-span-3 lg:col-span-1">
             <Logo />
             <p className="mt-6 max-w-[28ch] text-[14px] leading-[1.6] text-[var(--color-stone-700)]">
-              Schweizer Full-Solution-Partner für Longevity-Produkte.
+              Schweizer Full-Service-Partner für Longevity-Produkte.
             </p>
           </div>
 
