@@ -13,13 +13,13 @@ export default function DatenschutzPage() {
     <LegalPage
       eyebrow="Datenschutz"
       title="Wie wir mit Ihren Daten umgehen."
-      lastUpdated="28. Mai 2026"
+      lastUpdated="27. Juni 2026"
       sections={[
         {
           heading: "Verantwortliche Stelle",
           body: [
             "Verantwortlich für die Datenverarbeitung auf dieser Website ist die Swiss Longevity Labs AG mit Sitz in der Schweiz. Konkrete Kontaktdaten finden Sie im Impressum.",
-            "Bei Fragen zum Datenschutz erreichen Sie uns unter datenschutz@swisslongevitylab.com.",
+            "Bei Fragen zum Datenschutz erreichen Sie uns unter datenschutz@swisslongevitylabs.com.",
           ],
         },
         {
@@ -53,7 +53,7 @@ export default function DatenschutzPage() {
           heading: "Ihre Rechte",
           body: [
             "Sie haben jederzeit das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch gegen die Verarbeitung Ihrer Daten.",
-            "Für eine entsprechende Anfrage genügt eine formlose E-Mail an datenschutz@swisslongevitylab.com.",
+            "Für eine entsprechende Anfrage genügt eine formlose E-Mail an datenschutz@swisslongevitylabs.com.",
           ],
         },
         {

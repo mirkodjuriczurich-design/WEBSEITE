@@ -4,7 +4,7 @@ const highlights = [
   {
     title: "NAD⁺ Bioverfügbarkeit",
     excerpt:
-      "Wie sich verschiedene NAD⁺-Vorstufen im klinischen Vergleich unterscheiden – und warum Galenik den Unterschied macht.",
+      "Wie sich verschiedene NAD⁺-Vorstufen im klinischen Vergleich unterscheiden - und warum Galenik den Unterschied macht.",
     meta: "Forschungsdossier · 2025",
   },
   {
@@ -16,7 +16,7 @@ const highlights = [
   {
     title: "Schweizer Produktionsstandard",
     excerpt:
-      "Was GMP nach Swissmedic in der Praxis bedeutet – und warum es für Longevity-Produkte unverzichtbar ist.",
+      "Was GMP nach Swissmedic in der Praxis bedeutet - und warum es für Longevity-Produkte unverzichtbar ist.",
     meta: "Methoden-Paper · 2024",
   },
 ];
@@ -29,7 +29,7 @@ export function WissenTeaser() {
           <div className="lg:col-span-5">
             <span className="eyebrow">Wissenschaft trifft Anwendung</span>
             <h2 className="mt-6 text-[clamp(2rem,3.5vw,2.75rem)] leading-[1.15] tracking-[-0.01em]">
-              Was wir wissen – und was uns weiter antreibt.
+              Was wir wissen - und was uns weiter antreibt.
             </h2>
             <p className="mt-6 text-[17px] leading-[1.6] text-[var(--color-stone-700)]">
               Unser Forschungsteam veröffentlicht regelmässig Reviews, Methoden-Papers und

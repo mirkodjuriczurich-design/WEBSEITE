@@ -3,7 +3,7 @@
 > **Master-Dokument** für Konzeption, Design und Build der neuen Webpräsenz.
 > Status: **Draft v2** · Stand: 2026-05-28 · Sprache zum Launch: **DE** (EN folgt Phase 2)
 >
-> **Änderung v1 → v2**: Geschäftsmodell präzisiert — SLL ist **reiner Hersteller** (CDMO/OEM + Eigenmarke). Keine Klinik, kein physischer B2C-Standort. Domain korrigiert auf `swisslongevitylab.com`.
+> **Änderung v1 → v2**: Geschäftsmodell präzisiert — SLL ist **reiner Hersteller** (CDMO/OEM + Eigenmarke). Keine Klinik, kein physischer B2C-Standort. Domain korrigiert auf `swisslongevitylabs.com`.
 >
 > **Approval-Punkt**: Dieser Brief muss vor Phase 2 (UI/Komponenten-Design) freigegeben werden.
 
@@ -48,7 +48,7 @@ Die neue Website hat **zwei Hauptaufgaben**:
 | **Name** | Swiss Longevity Labs AG |
 | **Kurz** | SLL |
 | **Rechtsform** | Schweizer Aktiengesellschaft |
-| **Domain** | `swisslongevitylab.com` *(Lab Singular — bewusst gewählt)* |
+| **Domain** | `swisslongevitylabs.com` *(Labs Plural — korrigiert auf swisslongevitylabs.com)* |
 | **Branche** | Longevity · Pharma · Nutrazeutika (CDMO + Eigenmarke) |
 | **Region (Markt)** | Europa primär · global skalierbar |
 | **Sprachen Launch** | **Deutsch** (Phase 1) · Englisch (Phase 2) |
@@ -81,7 +81,7 @@ Die neue Website hat **zwei Hauptaufgaben**:
 │  B2C — Eigene Marke "Swiss Longevity Labs"                    │
 ├───────────────────────────────────────────────────────────────┤
 │  • 6 Premium-Longevity-Produkte unter Eigenmarke               │
-│  • Direktvertrieb über swisslongevitylab.com                   │
+│  • Direktvertrieb über swisslongevitylabs.com                   │
 │  • Phase 1: Produkt-Showcase + Vor-Anmeldung                   │
 │  • Phase 2: Shopify-E-Commerce-Integration                     │
 └───────────────────────────────────────────────────────────────┘
@@ -541,7 +541,7 @@ Je nach Intent werden konditional unterschiedliche Felder gezeigt (z.B. bei Part
 | **CMS (Phase 2)** | **Sanity** *oder* **Payload** | Editorial-Workflow, multi-locale, Produkt-Verwaltung |
 | **E-Commerce (Phase 2)** | **Shopify Hydrogen / Storefront API** | Kunde-Wahl · in Next.js eingebunden |
 | **Hosting** | **Vercel** | Edge-Network, Preview-Deploys |
-| **Domain** | `swisslongevitylab.com` | + ggf. `swisslongevitylab.ch` als Redirect |
+| **Domain** | `swisslongevitylabs.com` | + ggf. `swisslongevitylabs.ch` als Redirect |
 | **Email** | Resend + DKIM | Form-Backend, transactional |
 | **Booking** | Cal.com / Calendly | Beratungstermin-Buchung |
 | **Analytics** | Plausible *(privacy-first)* + Vercel Analytics | DSGVO-konform |
@@ -693,7 +693,7 @@ Allow: /
 User-agent: Bytespider
 Disallow: /
 
-Sitemap: https://swisslongevitylab.com/sitemap.xml
+Sitemap: https://swisslongevitylabs.com/sitemap.xml
 ```
 
 #### B) `llms.txt` + `llms-full.txt` (neuer Standard)
@@ -821,7 +821,7 @@ LLMs lernen aus dem **gesamten Web**, nicht nur eurer Site. Daher:
 │  Vercel Production (main branch)                             │
 │         │                                                    │
 │         ▼                                                    │
-│  swisslongevitylab.com (Custom Domain + SSL)                 │
+│  swisslongevitylabs.com (Custom Domain + SSL)                 │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -845,7 +845,7 @@ LLMs lernen aus dem **gesamten Web**, nicht nur eurer Site. Daher:
 | **5 — Build** | Next.js Implementation **inkl. SEO + GEO Foundation** *(Schema.org, llms.txt, OG-Images, robots.txt)* | ⏳ | Claude |
 | **6 — Deploy** | Vercel Preview + Domain | ⏳ | Claude |
 | **7 — Polish & QA** | A11y, Performance, **Lighthouse SEO ≥ 95**, Cross-Browser, Schema-Validation, LLM-Self-Test | ⏳ | Claude |
-| **8 — Launch** | DNS-Cutover auf swisslongevitylab.com + Submit zu Google Search Console + Bing Webmaster + Brand-Footprint anlegen | ⏳ | Kunde + Claude |
+| **8 — Launch** | DNS-Cutover auf swisslongevitylabs.com + Submit zu Google Search Console + Bing Webmaster + Brand-Footprint anlegen | ⏳ | Kunde + Claude |
 
 **Erwartete Zeitspanne Phase 1** (bei kontinuierlicher Iteration): **5–10 Arbeitstage** bis zur Live-Version.
 

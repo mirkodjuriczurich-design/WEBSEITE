@@ -21,7 +21,7 @@ export function LegalPage({ eyebrow, title, lastUpdated, sections }: Props) {
               {title}
             </h1>
             <p className="mt-8 font-[var(--font-mono)] text-[11px] uppercase tracking-[0.12em] text-[var(--color-stone-400)]">
-              Stand · {lastUpdated}
+              Zuletzt aktualisiert · {lastUpdated}
             </p>
             <nav className="mt-12 hidden lg:block" aria-label="Inhalt">
               <ol className="space-y-3 text-[13px]">

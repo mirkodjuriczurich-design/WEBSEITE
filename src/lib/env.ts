@@ -13,12 +13,12 @@ import { z } from "zod";
 const serverSchema = z.object({
   NODE_ENV: z.enum(["development", "production", "test"]).default("development"),
   RESEND_API_KEY: z.string().optional(),
-  CONTACT_TO_EMAIL: z.string().email().default("hello@swisslongevitylab.com"),
-  CONTACT_FROM_EMAIL: z.string().email().default("form@swisslongevitylab.com"),
+  CONTACT_TO_EMAIL: z.string().email().default("hello@swisslongevitylabs.com"),
+  CONTACT_FROM_EMAIL: z.string().email().default("form@swisslongevitylabs.com"),
 });
 
 const publicSchema = z.object({
-  NEXT_PUBLIC_SITE_URL: z.string().url().default("https://swisslongevitylab.com"),
+  NEXT_PUBLIC_SITE_URL: z.string().url().default("https://swisslongevitylabs.com"),
   NEXT_PUBLIC_PLAUSIBLE_DOMAIN: z.string().optional(),
   NEXT_PUBLIC_GOOGLE_VERIFICATION: z.string().optional(),
   NEXT_PUBLIC_BING_VERIFICATION: z.string().optional(),

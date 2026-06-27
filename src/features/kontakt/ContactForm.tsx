@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { Button } from "@/ui/Button";
@@ -76,10 +76,10 @@ export function ContactForm({ initialType, initialService, initialProduct }: Pro
           Sie erhalten parallel eine Bestätigung per E-Mail. Falls Ihre Anfrage zeitkritisch ist,
           schreiben Sie uns gerne direkt an{" "}
           <a
-            href="mailto:hello@swisslongevitylab.com"
+            href="mailto:hello@swisslongevitylabs.com"
             className="text-[var(--color-swiss-red)] underline decoration-1 underline-offset-4"
           >
-            hello@swisslongevitylab.com
+            hello@swisslongevitylabs.com
           </a>
           .
         </p>
@@ -203,7 +203,7 @@ export function ContactForm({ initialType, initialService, initialProduct }: Pro
                   htmlFor="service"
                   className="font-[var(--font-mono)] text-[11px] uppercase tracking-[0.12em] text-[var(--color-stone-400)]"
                 >
-                  Leistung von Interesse
+                  Service von Interesse
                 </label>
                 <select
                   id="service"
@@ -262,8 +262,8 @@ export function ContactForm({ initialType, initialService, initialProduct }: Pro
               className="text-[13.5px] text-[var(--color-error)]"
             >
               {errorMessage} Sie können uns alternativ direkt an{" "}
-              <a href="mailto:hello@swisslongevitylab.com" className="underline underline-offset-4">
-                hello@swisslongevitylab.com
+              <a href="mailto:hello@swisslongevitylabs.com" className="underline underline-offset-4">
+                hello@swisslongevitylabs.com
               </a>{" "}
               schreiben.
             </p>

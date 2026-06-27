@@ -42,8 +42,8 @@ export async function POST(request: Request) {
   //   const { Resend } = await import("resend");
   //   const resend = new Resend(resendKey);
   //   await resend.emails.send({
-  //     from: "form@swisslongevitylab.com",
-  //     to: ["hello@swisslongevitylab.com"],
+  //     from: "form@swisslongevitylabs.com",
+  //     to: ["hello@swisslongevitylabs.com"],
   //     subject: `[Web] ${body.intent} – ${body.lastName}`,
   //     replyTo: body.email,
   //     text: serialise(body),

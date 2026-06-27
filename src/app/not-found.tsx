@@ -1,22 +1,17 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/ui/Button";
 
 const suggestions = [
   {
-    label: "Leistungen",
-    href: "/leistungen",
-    description: "Die sechs Säulen unseres Full-Solution-Angebots.",
+    label: "Services",
+    href: "/services",
+    description: "Die sechs Säulen unseres Full-Service-Angebots.",
   },
   {
     label: "Produkte",
     href: "/produkte",
     description: "Unsere sechs Eigenmarken-Produkte im Überblick.",
-  },
-  {
-    label: "Wissen",
-    href: "/wissen",
-    description: "Forschung, Partner und Editorial-Insights.",
   },
   {
     label: "Kontakt",

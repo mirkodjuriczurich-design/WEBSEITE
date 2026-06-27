@@ -1,5 +1,6 @@
 import { colors } from "@/design/tokens";
 import { Check, X } from "lucide-react";
+import { FadeUp } from "@/components/ui/FadeUp";
 
 interface Row {
   criterion: string;
@@ -10,7 +11,7 @@ interface Row {
 const rows: Row[] = [
   {
     criterion: "Wertschöpfungstiefe",
-    generic: "Eine Stufe – meist nur Lohnproduktion oder nur Branding",
+    generic: "Eine Stufe, meist nur Lohnproduktion oder nur Branding",
     sll: "Alle sechs Stufen unter einem Schweizer Dach",
   },
   {
@@ -20,23 +21,23 @@ const rows: Row[] = [
   },
   {
     criterion: "Regulatorische Tiefe",
-    generic: "Compliance reaktiv – wenn Behörde nachfragt",
-    sll: "Regulatorik proaktiv – Dossier vor Submission validiert",
+    generic: "Compliance reaktiv, wenn Behörde nachfragt",
+    sll: "Regulatorik proaktiv, Dossier vor Submission validiert",
   },
   {
     criterion: "Produktions-Standort",
     generic: "Verteilt auf Niedriglohnländer, Lieferketten fragmentiert",
-    sll: "100% Schweiz – Forschung, Produktion, QA an einem Ort",
+    sll: "100% Schweiz: Forschung, Produktion, QA an einem Ort",
   },
   {
     criterion: "Skalierungs-Brüche",
     generic: "Re-Qualifizierung beim Wechsel Pilot → Serie",
-    sll: "1'000 bis 1'000'000 Einheiten ohne Standort- oder Spec-Wechsel",
+    sll: "Von der Pilot-Charge bis zur globalen Skalierung, ohne Standort- oder Spec-Wechsel",
   },
   {
     criterion: "Eigenmarken-Beleg",
-    generic: "Nur CDMO – keine eigenen Produkte am Markt",
-    sll: "Sechs eigene Longevity-Produkte als Beweis der Substanz",
+    generic: "Nur CDMO, keine eigenen Produkte am Markt",
+    sll: "Drei eigene Longevity-Produkte als Beweis der Substanz",
   },
 ];
 
@@ -47,17 +48,16 @@ export function Comparison() {
       style={{ background: colors.offWhite }}
     >
       <div className="container-editorial">
-        <div className="max-w-[64ch]">
-          <span className="eyebrow">Was uns auszeichnet</span>
-          <h2 className="mt-6 text-[clamp(2rem,3.5vw,2.75rem)] leading-[1.15] tracking-[-0.01em]">
-            Wo der Unterschied wirklich liegt.
+        <FadeUp className="max-w-[64ch]">
+          <h2 className="text-[clamp(2rem,3.5vw,2.75rem)] leading-[1.15] tracking-[-0.01em]">
+            Was Sie riskieren, wenn der Partner nicht liefert.
           </h2>
           <p className="mt-6 text-[18px] leading-[1.6] text-[var(--color-stone-700)]">
             Viele Hersteller versprechen Schweizer Qualität. Substanziell unterscheiden wir uns
-            jedoch in sechs Dimensionen, die in der Praxis darüber entscheiden, ob ein
-            Longevity-Produkt zehn Jahre Markt überlebt.
+            in sechs Dimensionen, die in der Praxis darüber entscheiden, ob ein
+            Longevity-Produkt zehn Jahre Markt überlebt - oder nicht.
           </p>
-        </div>
+        </FadeUp>
 
         {/* Desktop: 3-column comparison */}
         <div className="mt-16 hidden overflow-hidden border border-[var(--color-stone-200)] lg:block">

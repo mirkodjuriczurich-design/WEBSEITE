@@ -6,7 +6,7 @@ const articles = [
   {
     slug: "swissmedic-zulassung-longevity",
     tag: "Regulatorik",
-    title: "Swissmedic-Zulassung für Longevity-Produkte – was sich 2026 verändert.",
+    title: "Swissmedic-Zulassung für Longevity-Produkte - was sich 2026 verändert.",
     excerpt:
       "Neue regulatorische Leitplanken in der Schweiz und der EU. Was Hersteller und Brands jetzt vorbereiten sollten.",
     date: "12. Mai 2026",
@@ -15,7 +15,7 @@ const articles = [
   {
     slug: "nmn-vs-nr-klinik",
     tag: "Wissenschaft",
-    title: "NMN, NR oder NAD⁺ direkt – was die klinische Datenlage wirklich sagt.",
+    title: "NMN, NR oder NAD⁺ direkt - was die klinische Datenlage wirklich sagt.",
     excerpt:
       "Ein evidenzbasierter Vergleich der drei populärsten NAD⁺-Vorstufen. Bioverfügbarkeit, Studienqualität und Empfehlungen.",
     date: "28. April 2026",
@@ -24,9 +24,9 @@ const articles = [
   {
     slug: "white-label-time-to-market",
     tag: "Branche",
-    title: "White Label in Longevity – Time-to-Market unter neun Monaten.",
+    title: "White Label in Longevity - Time-to-Market unter neun Monaten.",
     excerpt:
-      "Wie sich der typische Launch-Prozess komprimieren lässt – ohne bei Qualität, Compliance oder Branding Kompromisse einzugehen.",
+      "Wie sich der typische Launch-Prozess komprimieren lässt - ohne bei Qualität, Compliance oder Branding Kompromisse einzugehen.",
     date: "8. April 2026",
     readTime: "6 Min Lesezeit",
   },

@@ -42,7 +42,7 @@ export default async function KontaktPage({
                     E-Mail
                   </dt>
                   <dd className="mt-2 font-[var(--font-mono)] text-[var(--color-ink)]">
-                    hello@swisslongevitylab.com
+                    hello@swisslongevitylabs.com
                   </dd>
                 </div>
                 <div>

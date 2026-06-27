@@ -1,29 +1,28 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { leistungen } from "@/lib/site";
 import { Button } from "@/ui/Button";
 import { amp } from "@/lib/render";
+import { FadeUp } from "@/components/ui/FadeUp";
 
 export function LeistungenBento() {
   return (
     <section className="section-py border-b border-[var(--color-stone-200)] bg-[var(--color-paper)]">
       <div className="container-editorial">
-        <div className="max-w-[64ch]">
-          <span className="eyebrow">Sechs Wege zusammenzuarbeiten</span>
-          <h2 className="mt-6 text-[clamp(2rem,3.5vw,2.75rem)] leading-[1.15] tracking-[-0.01em]">
-            Die ganze Wertschöpfungskette – oder genau die Stufe, die Sie brauchen.
+        <FadeUp className="max-w-[64ch]">
+          <h2 className="text-[clamp(2rem,3.5vw,2.75rem)] leading-[1.15] tracking-[-0.01em]">
+            Die ganze Wertschöpfungskette - oder genau die Stufe, die Sie brauchen.
           </h2>
           <p className="mt-6 text-[18px] leading-[1.6] text-[var(--color-stone-700)]">
-            Jede unserer sechs Leistungen ist einzeln buchbar – und entfaltet ihre volle Stärke,
-            wenn wir sie integriert für Sie orchestrieren.
+            Von der ersten Rezeptur bis zum globalen Rollout - unsere Kunden sind Pharma-Startups die schnell launchen wollen, Kliniken die eine Eigenmarke aufbauen, und Brands die von Lohnproduktion auf Schweizer Qualität upgraden. Jeder Service ist einzeln buchbar.
           </p>
-        </div>
+        </FadeUp>
 
         <div className="mt-16 grid gap-px overflow-hidden border border-[var(--color-stone-200)] sm:grid-cols-2 lg:grid-cols-3">
           {leistungen.map((l) => (
             <Link
               key={l.slug}
-              href={`/leistungen/${l.slug}`}
+              href={`/services/${l.slug}`}
               className="group relative flex flex-col gap-6 bg-[var(--color-paper)] p-8 lg:p-10 transition-colors duration-300 hover:bg-[var(--color-off-white)]"
             >
               <div className="flex items-baseline gap-4">
@@ -31,7 +30,7 @@ export function LeistungenBento() {
                   {l.number}
                 </span>
                 <span className="text-[12px] font-semibold uppercase tracking-[0.15em] text-[var(--color-stone-400)]">
-                  Leistung
+                  Service
                 </span>
               </div>
 
@@ -60,8 +59,8 @@ export function LeistungenBento() {
         </div>
 
         <div className="mt-12 flex justify-center">
-          <Button href="/leistungen" variant="secondary" arrow>
-            Alle Leistungen ansehen
+          <Button href="/services" variant="secondary" arrow>
+            Alle Services ansehen
           </Button>
         </div>
       </div>

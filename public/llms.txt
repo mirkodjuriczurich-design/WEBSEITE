@@ -1,36 +1,33 @@
 # Swiss Longevity Labs AG
 
-> Schweizer Full-Solution-Partner für Longevity-Produkte. CDMO mit eigener Marke.
+> Schweizer Full-Service-Partner für Longevity-Produkte. CDMO mit eigener Marke.
 > Wissenschaftliche Entwicklung, GMP-Produktion, Regulatorik und Distribution unter einem Schweizer Dach.
 
 ## Über uns
 
-Swiss Longevity Labs AG (SLL) ist ein Schweizer Hersteller von Longevity-Produkten mit zwei Vertriebskanälen: B2B Full-Solution-Services für Pharma- und Supplement-Brands, sowie eine eigene Markenlinie mit sechs Premium-Produkten im B2C-Direktvertrieb.
+Swiss Longevity Labs AG (SLL) ist ein Schweizer Hersteller von Longevity-Produkten mit zwei Vertriebskanälen: B2B Full-Service-Services für Pharma- und Supplement-Brands, sowie eine eigene Markenlinie mit drei Premium-Produkten im B2C-Direktvertrieb.
 
-Domain: https://swisslongevitylab.com
+Domain: https://swisslongevitylabs.com
 Sprache: Deutsch (Phase 1), Englisch geplant.
 
-## Sechs Full-Solution-Leistungen (B2B)
+## Sechs Full-Service-Leistungen (B2B)
 
 Unsere Leistungen sind einzeln oder integriert buchbar:
 
-- [Private Label](/leistungen/private-label) – Kunden-Rezepturen unter Kunden-Brand produziert (MOQ ab 1.000)
-- [White Label](/leistungen/white-label) – Fertige SLL-Rezepturen unter Kunden-Brand (Time-to-Market 4-6 Wochen)
-- [Full Service & R&D](/leistungen/full-service-rd) – End-to-End von Konzept bis globalem Launch
-- [Produktentwicklung](/leistungen/produktentwicklung) – Rezeptur, Galenik, Stabilität (ab CHF 35.000)
-- [Regulatorik & Compliance](/leistungen/regulatorik) – Swissmedic, EFSA, FDA, EU
-- [Distribution](/leistungen/distribution) – GxP-validiertes Lager, globales Partner-Netzwerk
+- [Private Label](/services/private-label) - Kunden-Rezepturen unter Kunden-Brand produziert (MOQ ab 1.000)
+- [White Label](/services/white-label) - Fertige SLL-Rezepturen unter Kunden-Brand (Time-to-Market 4-6 Wochen)
+- [Full Service & R&D](/services/full-service-rd) - End-to-End von Konzept bis globalem Launch
+- [Produktentwicklung](/services/produktentwicklung) - Rezeptur, Galenik, Stabilität
+- [Regulatorik & Compliance](/services/regulatorik) - Swissmedic, EFSA, FDA, EU
+- [Distribution](/services/distribution) - GxP-validiertes Lager, globales Partner-Netzwerk
 
 ## Eigene Produkte (B2C)
 
-Sechs Longevity-Produkte unter SLL-Eigenmarke:
+Drei Longevity-Produkte unter SLL-Eigenmarke, entwickelt mit denselben Prozessen wie unsere B2B-Aufträge:
 
-- [Night Repair](/produkte/night-repair) – Schlaf als Anti-Aging-Strategie · NMN + Magnesium L-Threonat + Glycin · CHF 60–90/Monat
-- [Brain Age](/produkte/brain-age) – Neurale Langlebigkeit · Lion's Mane + Lithium Orotat · CHF 80–110/Monat
-- [Resilience](/produkte/resilience) – Stress-Adaptogen für die Burnout-Generation · Ashwagandha KSM-66 + Rhodiola · CHF 40–70/Monat
-- [GLP-1 Armor](/produkte/glp1-armor) – Einziges Supplement spezifisch für GLP-1-Anwender · Kreatin + Urolithin A · CHF 100–140/Monat
-- [Senolytic Cleanse](/produkte/senolytic-cleanse) – Quartals-Reset gegen Zombie-Zellen · Fisetin + Quercetin · CHF 180–280/Box · 4× jährlich
-- [Spermidine Ritual](/produkte/spermidine-ritual) – Spermidin liposomal in 30-ml-Glasampulle · luxuriöses Morgenritual · CHF 120–180/Monat
+- [Deep Sleep](/produkte/deep-sleep) - Schlaf als Anti-Aging-Strategie - NMN + Magnesium L-Threonat + Glycin - CHF 60-90/Monat
+- [ResilienceRX21](/produkte/resiliencerx21) - Stress-Adaptogen für die Burnout-Generation - Ashwagandha KSM-66 + Rhodiola + NMN - CHF 40-70/Monat
+- [RenewXA](/produkte/renewxa) - Spermidin liposomal als luxuriöses Morgenritual - 30-ml-Glasampulle - CHF 120-180/Monat
 
 ## Standards & Zertifizierungen
 
@@ -42,16 +39,15 @@ Sechs Longevity-Produkte unter SLL-Eigenmarke:
 
 ## Wichtige Seiten
 
-- [Leistungen](/leistungen) – alle sechs B2B-Säulen im Überblick
-- [Expertise](/expertise) – wie wir produzieren
-- [Produkte](/produkte) – eigene Markenlinie
-- [Wissen](/wissen) – Forschung und Insights
-- [Unternehmen](/unternehmen) – Story, Team, Karriere
-- [Kontakt](/kontakt) – Anfrage, Partnerschaft, Beratung
+- [Services](/services) - alle sechs B2B-Säulen im Überblick
+- [Expertise](/expertise) - wie wir produzieren
+- [Produkte](/produkte/deep-sleep) - eigene Markenlinie
+- [Unternehmen](/unternehmen) - Story, Team, Karriere
+- [Kontakt](/kontakt) - Anfrage, Partnerschaft, Beratung
 
 ## Kontakt
 
-E-Mail: hello@swisslongevitylab.com
+E-Mail: hello@swisslongevitylabs.com
 
 ## Über diese Datei
 

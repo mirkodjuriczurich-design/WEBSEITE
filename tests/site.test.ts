@@ -4,7 +4,7 @@ import { leistungen, produkte, nav, site } from "@/lib/site";
 describe("site config", () => {
   it("defines the brand identity", () => {
     expect(site.name).toMatch(/Swiss Longevity Labs/);
-    expect(site.domain).toBe("swisslongevitylab.com");
+    expect(site.domain).toBe("swisslongevitylabs.com");
     expect(site.url).toMatch(/^https:\/\//);
   });
 

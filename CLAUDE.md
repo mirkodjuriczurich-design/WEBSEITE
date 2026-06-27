@@ -6,7 +6,7 @@
 ## Project Identity
 
 - **Repository**: `mirkodjuriczurich-design/WEBSEITE`
-- **Domain**: `swisslongevitylab.com`
+- **Domain**: `swisslongevitylabs.com`
 - **Brand**: Swiss Longevity Labs AG — Schweizer Full-Solution-Hersteller für Longevity-Produkte
 - **Stack**: Next.js 16 (Turbopack, App Router) · React 19 · TypeScript strict · Tailwind v4
 - **Hosting**: Vercel (Frankfurt region) — see `docs/deploy.md`

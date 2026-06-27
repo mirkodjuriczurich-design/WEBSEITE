@@ -1,33 +1,35 @@
+import { FadeUp } from "@/components/ui/FadeUp";
+
 const steps = [
   {
     number: "01",
     title: "Konzept",
     description:
-      "Gemeinsam mit Ihnen entwickeln wir die wissenschaftliche und strategische Basis Ihres Produkts – von der Wirkstoff-Auswahl bis zur Marktpositionierung.",
+      "Gemeinsam entwickeln wir die wissenschaftliche und strategische Basis Ihres Produkts, von der Wirkstoff-Auswahl bis zur Marktpositionierung. Typisch 2-4 Wochen.",
   },
   {
     number: "02",
     title: "Formulierung",
     description:
-      "In unseren Schweizer Labors entsteht die Rezeptur – abgestimmt auf Wirksamkeit, Galenik, Stabilität und Verträglichkeit.",
+      "In unseren Schweizer Labors entsteht die Rezeptur, abgestimmt auf Wirksamkeit, Galenik, Stabilität und Verträglichkeit. Pilot-Batch ab Woche 6.",
   },
   {
     number: "03",
     title: "Validierung",
     description:
-      "Klinische Studien, Stabilitäts- und Belastungstests sichern Qualität, Wirkung und Marktreife jeder einzelnen Charge.",
+      "Stabilitäts- und Belastungstests sichern Qualität, Wirkung und Marktreife jeder Charge - dokumentiert, rückverfolgbar, GMP-konform.",
   },
   {
     number: "04",
     title: "Produktion",
     description:
-      "GMP-zertifizierte Lohnproduktion in der Schweiz – vom Pilot-Batch bis zur globalen Skalierung, ohne Auslagerung.",
+      "GMP-zertifizierte Produktion in der Schweiz - vom Pilot-Batch bis zur globalen Skalierung, ohne Standortwechsel und ohne Spec-Brüche.",
   },
   {
     number: "05",
     title: "Launch",
     description:
-      "Regulatorik, Compliance und die globale Markteinführung in Ihren Zielmärkten – Swissmedic, EFSA, FDA und mehr.",
+      "Regulatorik, Compliance und Markteinführung in Ihren Zielmärkten. White Label ab Woche 4-6. Full Custom ab Monat 14. Alles aus einer Hand.",
   },
 ];
 
@@ -35,16 +37,15 @@ export function ProcessStory() {
   return (
     <section className="section-py border-b border-[var(--color-stone-200)] bg-[var(--color-off-white)]">
       <div className="container-editorial">
-        <div className="max-w-[64ch]">
+        <FadeUp className="max-w-[64ch]">
           <span className="eyebrow">Vom Konzept zum globalen Produkt</span>
           <h2 className="mt-6 text-[clamp(2rem,3.5vw,2.75rem)] leading-[1.15] tracking-[-0.01em]">
-            Wie wir Ihre Idee zur Marktreife bringen.
+            Von heute bis zum Launch - in 5 Schritten, alles unter einem Dach.
           </h2>
           <p className="mt-6 text-[18px] leading-[1.6] text-[var(--color-stone-700)]">
-            Jeder Schritt unter einem Dach – abgestimmt, rückverfolgbar, kompromisslos
-            schweizerisch.
+            Kein Wechsel zwischen Dienstleistern. Kein Qualitätsbruch zwischen Pilot und Serie. Jeder Schritt abgestimmt, rückverfolgbar, kompromisslos schweizerisch.
           </p>
-        </div>
+        </FadeUp>
 
         {/* Desktop: 5-col stepper with top connector line */}
         <div className="mt-20 hidden lg:block">

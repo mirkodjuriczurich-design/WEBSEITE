@@ -35,7 +35,7 @@ Vercel deployt automatisch:
 Sobald Live-URL akzeptiert ist:
 
 1. In Vercel-Projekt-Settings → **Domains**
-2. `swisslongevitylab.com` hinzufügen
+2. `swisslongevitylabs.com` hinzufügen
 3. DNS bei Registrar (Cloudflare, Gandi, etc.) konfigurieren:
    ```
    A     @         76.76.21.21      (Vercel IP)
@@ -53,7 +53,7 @@ Wenn wir Form-Backend / Analytics / CMS einbauen:
 RESEND_API_KEY=re_...
 
 # Plausible Analytics
-NEXT_PUBLIC_PLAUSIBLE_DOMAIN=swisslongevitylab.com
+NEXT_PUBLIC_PLAUSIBLE_DOMAIN=swisslongevitylabs.com
 
 # Sanity CMS (Phase 2)
 NEXT_PUBLIC_SANITY_PROJECT_ID=...
@@ -93,7 +93,7 @@ In Vercel: **Settings → Environment Variables** für `Production`, `Preview` u
 
 ### Vor dem ersten Production-Deploy
 - [ ] `.env.production.local` mit echten API-Keys auf Vercel hinterlegt
-- [ ] `swisslongevitylab.com` als Custom-Domain verbunden + SSL aktiv
+- [ ] `swisslongevitylabs.com` als Custom-Domain verbunden + SSL aktiv
 - [ ] `Hidden-Branch` für Pre-Launch-Review angelegt (Vercel: Password Protection auf Preview)
 - [ ] Echte Texte für Impressum, Datenschutz, AGB (statt der Platzhalter)
 - [ ] Echte Zertifikat-Nummern in Footer + Schema.org

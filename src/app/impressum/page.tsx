@@ -13,7 +13,7 @@ export default function ImpressumPage() {
     <LegalPage
       eyebrow="Impressum"
       title="Angaben gemäss Schweizer Recht."
-      lastUpdated="28. Mai 2026"
+      lastUpdated="27. Juni 2026"
       sections={[
         {
           heading: "Anbieterin",
@@ -28,7 +28,7 @@ export default function ImpressumPage() {
           heading: "Kontakt",
           body: [
             "Telefon: +41 00 000 00 00",
-            "E-Mail: hello@swisslongevitylab.com",
+            "E-Mail: hello@swisslongevitylabs.com",
           ],
         },
         {

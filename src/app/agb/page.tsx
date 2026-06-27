@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { LegalPage } from "@/features/shared/LegalPage";
 
 export const metadata: Metadata = {
@@ -13,7 +13,7 @@ export default function AGBPage() {
     <LegalPage
       eyebrow="AGB"
       title="Allgemeine Geschäftsbedingungen."
-      lastUpdated="28. Mai 2026"
+      lastUpdated="27. Juni 2026"
       sections={[
         {
           heading: "Geltungsbereich",

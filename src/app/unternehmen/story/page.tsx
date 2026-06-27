@@ -31,7 +31,7 @@ const milestones = [
     year: "Heute",
     title: "Full-Service-Partner",
     body:
-      "Swiss Longevity Labs deckt heute die gesamte Wertschöpfungskette ab – von der wissenschaftlichen Konzeption über die GMP-Produktion bis zur globalen Distribution. Mit sechs eigenen Markenprodukten und einer wachsenden Zahl B2B-Partnerschaften.",
+      "Swiss Longevity Labs deckt heute die gesamte Wertschöpfungskette ab – von der wissenschaftlichen Konzeption über die GMP-Produktion bis zur globalen Distribution. Mit drei eigenen Markenprodukten und einer wachsenden Zahl B2B-Partnerschaften.",
   },
 ];
 

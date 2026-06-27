@@ -22,7 +22,7 @@ export function buildOrganizationJsonLd(options: OrganizationOptions = {}): Json
       {
         "@type": "ContactPoint",
         contactType: "sales",
-        email: "hello@swisslongevitylab.com",
+        email: "hello@swisslongevitylabs.com",
         availableLanguage: ["German", "English"],
         areaServed: ["CH", "EU", "UK", "US"],
       },

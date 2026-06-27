@@ -2,8 +2,8 @@
   name: "Swiss Longevity Labs AG",
   shortName: "Swiss Longevity Labs",
   acronym: "SLL",
-  domain: "swisslongevitylab.com",
-  url: "https://swisslongevitylab.com",
+  domain: "swisslongevitylabs.com",
+  url: "https://swisslongevitylabs.com",
   description:
     "Schweizer Full-Service-Partner für Longevity – Private Label, White Label, Full Service & R&D, Produktentwicklung, Regulatorik und Distribution unter einem Schweizer Dach.",
   positioning:
@@ -12,10 +12,9 @@
 } as const;
 
 export const nav = [
-  { label: "Leistungen", href: "/leistungen" },
+  { label: "Services", href: "/services" },
   { label: "Expertise", href: "/expertise" },
-  { label: "Produkte", href: "/produkte" },
-  { label: "Wissen", href: "/wissen" },
+  { label: "Produkte", href: "/#produkte" },
   { label: "Unternehmen", href: "/unternehmen" },
 ] as const;
 
@@ -34,16 +33,16 @@ export interface NavGroup {
 
 export const navGroups: NavGroup[] = [
   {
-    label: "Leistungen",
-    href: "/leistungen",
+    label: "Services",
+    href: "/services",
     intro: "Sechs Säulen – einzeln oder integriert buchbar.",
     items: [
-      { label: "Private Label", href: "/leistungen/private-label", description: "Eure Marke, unsere Rezeptur." },
-      { label: "White Label", href: "/leistungen/white-label", description: "Unsere Rezeptur, eure Marke." },
-      { label: "Full Service & R&D", href: "/leistungen/full-service-rd", description: "End-to-End unter einem Dach." },
-      { label: "Produktentwicklung", href: "/leistungen/produktentwicklung", description: "Rezeptur, Galenik, Stabilität." },
-      { label: "Regulatorik & Compliance", href: "/leistungen/regulatorik", description: "Swissmedic, EFSA, FDA, EU." },
-      { label: "Distribution", href: "/leistungen/distribution", description: "Logistik weltweit, effizient & sicher." },
+      { label: "Private Label", href: "/services/private-label", description: "Eure Marke, unsere Rezeptur." },
+      { label: "White Label", href: "/services/white-label", description: "Unsere Rezeptur, eure Marke." },
+      { label: "Full Service & R&D", href: "/services/full-service-rd", description: "End-to-End unter einem Dach." },
+      { label: "Produktentwicklung", href: "/services/produktentwicklung", description: "Rezeptur, Galenik, Stabilität." },
+      { label: "Regulatorik & Compliance", href: "/services/regulatorik", description: "Swissmedic, EFSA, FDA, EU." },
+      { label: "Distribution", href: "/services/distribution", description: "Logistik weltweit, effizient & sicher." },
     ],
   },
   {
@@ -59,26 +58,9 @@ export const navGroups: NavGroup[] = [
   },
   {
     label: "Produkte",
-    href: "/produkte",
-    intro: "Sechs Produkte unter Schweizer Eigenmarke.",
-    items: [
-      { label: "Night Repair", href: "/produkte/night-repair", description: "Schlaf als Anti-Aging-Strategie." },
-      { label: "Brain Age", href: "/produkte/brain-age", description: "Neurale Langlebigkeit." },
-      { label: "Resilience", href: "/produkte/resilience", description: "Stress trifft Adaptogen." },
-      { label: "GLP-1 Armor", href: "/produkte/glp1-armor", description: "Für Anwender von GLP-1-Medikamenten." },
-      { label: "Senolytic Cleanse", href: "/produkte/senolytic-cleanse", description: "Quartalsweiser Zell-Reset." },
-      { label: "Spermidine Ritual", href: "/produkte/spermidine-ritual", description: "Autophagie in flüssiger Form." },
-    ],
-  },
-  {
-    label: "Wissen",
-    href: "/wissen",
-    intro: "Forschung, Partner und Editorial-Insights.",
-    items: [
-      { label: "Forschung", href: "/wissen/forschung", description: "Eigene Studien und Methoden-Reviews." },
-      { label: "Akademische Partner", href: "/wissen/partner", description: "Universitäten und Spezial-Labore." },
-      { label: "Insights", href: "/wissen/insights", description: "Editorial-Artikel aus Labor und Markt." },
-    ],
+    href: "/#produkte",
+    intro: "Drei Produkte unter Schweizer Eigenmarke.",
+    items: [],
   },
   {
     label: "Unternehmen",
@@ -212,7 +194,7 @@ export const produkte: Produkt[] = [
   },
   {
     slug: "resiliencerx21",
-    number: "03",
+    number: "02",
     name: "ResilienceRX21",
     category: "Stress · Adaptogen",
     tagline:
@@ -246,9 +228,9 @@ export const produkte: Produkt[] = [
     stufe: "Stufe 1 · sofort",
   },
   {
-    slug: "renew-xa",
-    number: "06",
-    name: "Renew XA",
+    slug: "renewxa",
+    number: "03",
+    name: "RenewXA",
     category: "Autophagie · Ritual",
     tagline:
       "Das heisseste Longevity-Molekül der Wissenschaft – endlich in stabiler Getränkeform.",

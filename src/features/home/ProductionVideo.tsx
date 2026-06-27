@@ -4,12 +4,11 @@ export function ProductionVideo() {
       <div className="container-editorial">
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-16 items-center">
           <div className="lg:col-span-5">
-            <span className="eyebrow">Sehen statt lesen</span>
-            <h2 className="mt-6 text-[clamp(2rem,3.5vw,2.75rem)] leading-[1.15] tracking-[-0.01em]">
-              Ein Blick in unsere Produktion.
+            <h2 className="text-[clamp(2rem,3.5vw,2.75rem)] leading-[1.15] tracking-[-0.01em]">
+              Ein Blick hinter die Tür, die für Sie offensteht.
             </h2>
             <p className="mt-6 text-[17px] leading-[1.6] text-[var(--color-stone-700)]">
-              Vom Wirkstoff-Eingang über die Reinraum-Produktion bis zum versandfertigen Karton –
+              Vom Wirkstoff-Eingang über die Reinraum-Produktion bis zum versandfertigen Karton:
               drei Minuten, die mehr erzählen als hundert Zeilen Text.
             </p>
             <ul className="mt-8 space-y-3 border-t border-[var(--color-stone-200)] pt-6">

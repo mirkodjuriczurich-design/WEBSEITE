@@ -1,4 +1,4 @@
-import type { MetadataRoute } from "next";
+﻿import type { MetadataRoute } from "next";
 import { site, leistungen, produkte } from "@/lib/site";
 
 const BASE = site.url;
@@ -8,7 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const staticPages: MetadataRoute.Sitemap = [
     { url: `${BASE}/`, lastModified: now, changeFrequency: "monthly", priority: 1.0 },
-    { url: `${BASE}/leistungen`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE}/services`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE}/expertise`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/produkte`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/wissen`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
@@ -20,7 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const leistungsPages: MetadataRoute.Sitemap = leistungen.map((l) => ({
-    url: `${BASE}/leistungen/${l.slug}`,
+    url: `${BASE}/services/${l.slug}`,
     lastModified: now,
     changeFrequency: "monthly" as const,
     priority: 0.85,

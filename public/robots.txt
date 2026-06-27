@@ -51,4 +51,4 @@ Disallow: /
 User-agent: ImagesiftBot
 Disallow: /
 
-Sitemap: https://swisslongevitylab.com/sitemap.xml
+Sitemap: https://swisslongevitylabs.com/sitemap.xml

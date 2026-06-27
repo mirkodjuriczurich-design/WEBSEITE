@@ -4,8 +4,8 @@ import { leistungen, site } from "@/lib/site";
 
 const columns = [
   {
-    title: "Leistungen",
-    links: leistungen.map((l) => ({ label: l.title, href: `/leistungen/${l.slug}` })),
+    title: "Services",
+    links: leistungen.map((l) => ({ label: l.title, href: `/services/${l.slug}` })),
   },
   {
     title: "Expertise",
@@ -23,14 +23,6 @@ const columns = [
       { label: "Team", href: "/unternehmen/team" },
       { label: "Karriere", href: "/unternehmen/karriere" },
       { label: "Kontakt", href: "/kontakt" },
-    ],
-  },
-  {
-    title: "Wissen",
-    links: [
-      { label: "Forschung", href: "/wissen/forschung" },
-      { label: "Akademische Partner", href: "/wissen/partner" },
-      { label: "Insights", href: "/wissen/insights" },
     ],
   },
 ];

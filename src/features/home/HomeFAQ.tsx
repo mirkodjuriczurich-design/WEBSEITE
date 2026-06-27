@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { Minus, Plus } from "lucide-react";
@@ -7,27 +7,27 @@ import { Button } from "@/ui/Button";
 const faqs = [
   {
     q: "Was unterscheidet Swiss Longevity Labs von einem klassischen CDMO?",
-    a: "Wir kombinieren wissenschaftliche Entwicklung, GMP-Produktion, Regulatorik und Distribution unter einem Schweizer Dach. Klassische CDMOs sind Lohnhersteller, klassische Marken sind reine Vermarkter – wir verbinden beides und bringen zusätzlich eine eigene Forschungs-Tiefe mit, die ein typischer Hersteller nicht bietet.",
+    a: "Wir kombinieren wissenschaftliche Entwicklung, GMP-Produktion, Regulatorik und Distribution unter einem Schweizer Dach. Klassische CDMOs sind Lohnhersteller, klassische Marken sind reine Vermarkter - wir verbinden beides und bringen zusätzlich eine eigene Forschungs-Tiefe mit, die ein typischer Hersteller nicht bietet.",
   },
   {
     q: "Können wir bei euch nur eine einzelne Leistung buchen?",
-    a: "Ja. Jede unserer sechs Leistungen – Private Label, White Label, Full Service & R&D, Produktentwicklung, Regulatorik und Distribution – ist einzeln buchbar. Viele Kunden starten mit einer Stufe und erweitern später. Volle Flexibilität, kein Komplett-Lock-in.",
+    a: "Ja. Jede unserer sechs Services - Private Label, White Label, Full Service & R&D, Produktentwicklung, Regulatorik und Distribution - ist einzeln buchbar. Viele Kunden starten mit einer Stufe und erweitern später. Volle Flexibilität, kein Komplett-Lock-in.",
   },
   {
     q: "Wie lange dauert ein typisches Projekt?",
-    a: "White Label: 4–6 Wochen ab Bestellung. Private Label mit bestehender Rezeptur: 4–6 Monate. Full Service mit Custom-Entwicklung und globalem Launch: 14–22 Monate. Reine Produktentwicklung: 8–12 Monate. Genaue Zeitachsen klären wir im ersten Workshop.",
+    a: "White Label: 4-6 Wochen ab Bestellung. Private Label mit bestehender Rezeptur: 4-6 Monate. Full Service mit Custom-Entwicklung und globalem Launch: 14-22 Monate. Reine Produktentwicklung: 8-12 Monate. Genaue Zeitachsen klären wir im ersten Workshop.",
   },
   {
     q: "Wem gehört die Rezeptur am Ende?",
-    a: "Bei Private-Label-Custom-Entwicklungen und reinen R&D-Aufträgen liegt das Eigentum vollständig beim Auftraggeber, vertraglich abgesichert. Bei White Label nutzen Sie unsere bestehenden Rezepturen. Wir können auch hybride Modelle abbilden – sprechen Sie uns an.",
+    a: "Bei Private-Label-Custom-Entwicklungen und reinen R&D-Aufträgen liegt das Eigentum vollständig beim Auftraggeber, vertraglich abgesichert. Bei White Label nutzen Sie unsere bestehenden Rezepturen. Wir können auch hybride Modelle abbilden - sprechen Sie uns an.",
   },
   {
     q: "Wie hoch ist die minimale Bestellmenge?",
-    a: "White Label: ab 3’000 Einheiten. Private Label Pilot-Batches: ab 1’000 Einheiten. Serienproduktion: typisch 5’000–50’000 Einheiten pro Charge, abhängig von Darreichungsform und Verpackung. Skalierung bis 1 Million Einheiten ohne Standortwechsel.",
+    a: "White Label: ab 3’000 Einheiten. Private Label Pilot-Batches: ab 1’000 Einheiten. Serienproduktion: typisch 5’000-50’000 Einheiten pro Charge, abhängig von Darreichungsform und Verpackung. Skalierung bis 1 Million Einheiten ohne Standortwechsel.",
   },
   {
     q: "Was kostet eine Zusammenarbeit?",
-    a: "Reine R&D-Aufträge starten bei CHF 35’000 für einfache Single-Compound-Rezepturen. Komplexe Multi-Wirkstoff-Formeln liegen zwischen CHF 80’000 und CHF 250’000. White-Label-Bestellungen rechnen sich pro Einheit nach Volumen. Full-Service-Mandate arbeiten typisch mit Phasen-Honoraren plus erfolgsabhängiger Komponente.",
+    a: "Das hängt von Umfang, Darreichungsform und Projekttiefe ab. White-Label-Bestellungen rechnen sich pro Einheit nach Volumen. R&D- und Full-Service-Mandate arbeiten typisch mit Phasen-Honoraren. Genaue Zahlen besprechen wir nach einem ersten Briefing - sprechen Sie uns an.",
   },
   {
     q: "In welchen Märkten könnt ihr regulatorisch unterstützen?",
@@ -66,8 +66,7 @@ export function HomeFAQ() {
               Acht Antworten, ohne Schnörkel.
             </h2>
             <p className="mt-6 text-[16.5px] leading-[1.65] text-[var(--color-stone-700)]">
-              Die Fragen, die unsere Kunden uns am häufigsten stellen – gleich am Anfang
-              beantwortet, damit Sie sich nicht durch Marketing-Text kämpfen müssen.
+              Die Fragen, die unsere Kunden uns am häufigsten stellen - gleich am Anfang beantwortet, damit Sie sich nicht durch Marketing-Text kämpfen müssen. Und falls Ihre Frage nicht dabei ist: wir antworten persönlich, innerhalb eines Werktages.
             </p>
             <div className="mt-8">
               <Button href="/kontakt?type=enquiry" variant="primary" arrow>
