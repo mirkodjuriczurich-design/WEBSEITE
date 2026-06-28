@@ -34,15 +34,15 @@ export interface NavGroup {
 export const navGroups: NavGroup[] = [
   {
     label: "Services",
-    href: "/services",
+    href: "/leistungen",
     intro: "Sechs Säulen – einzeln oder integriert buchbar.",
     items: [
-      { label: "Private Label", href: "/services/private-label", description: "Eure Marke, unsere Rezeptur." },
-      { label: "White Label", href: "/services/white-label", description: "Unsere Rezeptur, eure Marke." },
-      { label: "Full Service & R&D", href: "/services/full-service-rd", description: "End-to-End unter einem Dach." },
-      { label: "Produktentwicklung", href: "/services/produktentwicklung", description: "Rezeptur, Galenik, Stabilität." },
-      { label: "Regulatorik & Compliance", href: "/services/regulatorik", description: "Swissmedic, EFSA, FDA, EU." },
-      { label: "Distribution", href: "/services/distribution", description: "Logistik weltweit, effizient & sicher." },
+      { label: "Private Label", href: "/leistungen/private-label", description: "Eure Marke, unsere Rezeptur." },
+      { label: "White Label", href: "/leistungen/white-label", description: "Unsere Rezeptur, eure Marke." },
+      { label: "Full Service & R&D", href: "/leistungen/full-service-rd", description: "End-to-End unter einem Dach." },
+      { label: "Produktentwicklung", href: "/leistungen/produktentwicklung", description: "Rezeptur, Galenik, Stabilität." },
+      { label: "Regulatorik & Compliance", href: "/leistungen/regulatorik", description: "Swissmedic, EFSA, FDA, EU." },
+      { label: "Distribution", href: "/leistungen/distribution", description: "Logistik weltweit, effizient & sicher." },
     ],
   },
   {

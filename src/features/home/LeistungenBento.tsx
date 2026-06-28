@@ -22,7 +22,7 @@ export function LeistungenBento() {
           {leistungen.map((l) => (
             <Link
               key={l.slug}
-              href={`/services/${l.slug}`}
+              href={`/leistungen/${l.slug}`}
               className="group relative flex flex-col gap-6 bg-[var(--color-paper)] p-8 lg:p-10 transition-colors duration-300 hover:bg-[var(--color-off-white)]"
             >
               <div className="flex items-baseline gap-4">
@@ -59,7 +59,7 @@ export function LeistungenBento() {
         </div>
 
         <div className="mt-12 flex justify-center">
-          <Button href="/services" variant="secondary" arrow>
+          <Button href="/leistungen" variant="secondary" arrow>
             Alle Services ansehen
           </Button>
         </div>
