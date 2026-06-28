@@ -60,7 +60,11 @@ export const navGroups: NavGroup[] = [
     label: "Produkte",
     href: "/#produkte",
     intro: "Drei Produkte unter Schweizer Eigenmarke.",
-    items: [],
+    items: [
+      { label: "Deep Sleep", href: "/produkte/deep-sleep", description: "Schlaf · Anti-Aging" },
+      { label: "ResilienceRX21", href: "/produkte/resiliencerx21", description: "Stress · Adaptogen" },
+      { label: "RenewXA", href: "/produkte/renewxa", description: "Autophagie · Ritual" },
+    ],
   },
   {
     label: "Unternehmen",
