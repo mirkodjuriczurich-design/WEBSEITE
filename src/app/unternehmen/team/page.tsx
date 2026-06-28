@@ -68,7 +68,7 @@ export default function TeamPage() {
                       alt="Fabienne"
                       width={860}
                       height={1080}
-                      className="h-full w-full object-cover object-center"
+                      className="h-full w-full object-cover object-left"
                     />
                   </div>
                   <div className="flex flex-col gap-0.5">
