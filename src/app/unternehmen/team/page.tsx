@@ -79,7 +79,7 @@ export default function TeamPage() {
                 {/* Placeholder 2 */}
                 <div className="flex flex-col gap-2">
                   <div
-                    className="aspect-[3/4] w-full border border-[var(--color-stone-200)]"
+                    className="aspect-square w-full border border-[var(--color-stone-200)]"
                     style={{ background: "var(--color-stone-100)" }}
                   >
                     <div className="h-full w-full grid place-items-center">
@@ -94,7 +94,7 @@ export default function TeamPage() {
                 {/* Placeholder 3 */}
                 <div className="flex flex-col gap-2">
                   <div
-                    className="aspect-[3/4] w-full border border-[var(--color-stone-200)]"
+                    className="aspect-square w-full border border-[var(--color-stone-200)]"
                     style={{ background: "var(--color-stone-100)" }}
                   >
                     <div className="h-full w-full grid place-items-center">
@@ -117,7 +117,7 @@ export default function TeamPage() {
                 {Array.from({ length: 7 }).map((_, i) => (
                   <div key={i} className="flex flex-col gap-2">
                     <div
-                      className="aspect-[3/4] w-full border border-[var(--color-stone-200)]"
+                      className="aspect-square w-full border border-[var(--color-stone-200)]"
                       style={{ background: "var(--color-stone-100)" }}
                     >
                       <div className="h-full w-full grid place-items-center">
