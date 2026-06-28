@@ -62,13 +62,13 @@ export default function TeamPage() {
               <div className="grid grid-cols-3 gap-4 pt-2 max-w-[480px]">
                 {/* Fabienne */}
                 <div className="flex flex-col gap-2">
-                  <div className="aspect-[3/4] w-full overflow-hidden border border-[var(--color-stone-200)]">
+                  <div className="aspect-[3/4] w-full border border-[var(--color-stone-200)]" style={{ background: "var(--color-stone-100)" }}>
                     <Image
                       src="/TEAM/fabienne-v1.png"
                       alt="Fabienne"
-                      width={860}
-                      height={1080}
-                      className="h-full w-full object-cover object-left"
+                      width={859}
+                      height={896}
+                      className="h-full w-full object-contain object-top"
                     />
                   </div>
                   <div className="flex flex-col gap-0.5">
