@@ -64,7 +64,7 @@ export default function TeamPage() {
                 <div className="flex flex-col gap-2">
                   <div className="aspect-[3/4] w-full overflow-hidden border border-[var(--color-stone-200)]">
                     <Image
-                      src="/TEAM/Fabienne LaRoche GL Assistentin Juni 2026.png"
+                      src="/TEAM/fabienne.png"
                       alt="Fabienne"
                       width={400}
                       height={533}
