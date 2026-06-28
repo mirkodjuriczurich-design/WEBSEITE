@@ -62,12 +62,12 @@ export default function TeamPage() {
               <div className="grid grid-cols-3 gap-4 pt-2 max-w-[480px]">
                 {/* Fabienne */}
                 <div className="flex flex-col gap-2">
-                  <div className="aspect-[12/5] w-full overflow-hidden border border-[var(--color-stone-200)]">
+                  <div className="aspect-[3/4] w-full overflow-hidden border border-[var(--color-stone-200)]">
                     <Image
-                      src="/TEAM/fabienne-cropped.png"
+                      src="/TEAM/fabienne-v1.png"
                       alt="Fabienne"
-                      width={1200}
-                      height={520}
+                      width={860}
+                      height={1080}
                       className="h-full w-full object-cover object-center"
                     />
                   </div>
@@ -79,7 +79,7 @@ export default function TeamPage() {
                 {/* Placeholder 2 */}
                 <div className="flex flex-col gap-2">
                   <div
-                    className="aspect-[12/5] w-full border border-[var(--color-stone-200)]"
+                    className="aspect-[3/4] w-full border border-[var(--color-stone-200)]"
                     style={{ background: "var(--color-stone-100)" }}
                   >
                     <div className="h-full w-full grid place-items-center">
@@ -94,7 +94,7 @@ export default function TeamPage() {
                 {/* Placeholder 3 */}
                 <div className="flex flex-col gap-2">
                   <div
-                    className="aspect-[12/5] w-full border border-[var(--color-stone-200)]"
+                    className="aspect-[3/4] w-full border border-[var(--color-stone-200)]"
                     style={{ background: "var(--color-stone-100)" }}
                   >
                     <div className="h-full w-full grid place-items-center">
