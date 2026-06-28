@@ -163,7 +163,7 @@ export function Header() {
                 </Link>
                 <ul className="mt-3 ml-[44px] flex flex-col gap-2">
                   {group.items.map((item) => (
-                    <li key={item.href}>
+                    <li key={item.label}>
                       <Link
                         href={item.href}
                         onClick={() => setMobileOpen(false)}
@@ -230,7 +230,7 @@ function DropdownPanel({ group, onClose, onMouseEnter }: DropdownProps) {
               }`}
             >
               {group.items.map((item, i) => (
-                <li key={item.href}>
+                <li key={item.label}>
                   <Link
                     href={item.href}
                     onClick={onClose}
