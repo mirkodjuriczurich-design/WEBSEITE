@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Button } from "@/ui/Button";
 import { amp } from "@/lib/render";
 
@@ -59,23 +60,52 @@ export default function TeamPage() {
               <span className="font-[var(--font-mono)] text-[12px] tracking-[0.1em] text-[var(--color-swiss-red)]">00</span>
               <h2 className="text-[22px] leading-[1.25]">SPOC Single Point of Contact</h2>
               <div className="grid grid-cols-3 gap-4 pt-2 max-w-[480px]">
-                {Array.from({ length: 3 }).map((_, i) => (
-                  <div key={i} className="flex flex-col gap-2">
-                    <div
-                      className="aspect-[3/4] w-full border border-[var(--color-stone-200)]"
-                      style={{ background: "var(--color-stone-100)" }}
-                    >
-                      <div className="h-full w-full grid place-items-center">
-                        <span className="font-[var(--font-mono)] text-[8px] uppercase tracking-[0.1em] text-[var(--color-stone-400)]">Foto</span>
-                      </div>
-                    </div>
-                    <div className="flex flex-col gap-0.5">
-                      <span className="font-[var(--font-mono)] text-[9px] uppercase tracking-[0.08em] text-[var(--color-stone-400)]">Titel</span>
-                      <span className="text-[12px] font-medium leading-[1.3] text-[var(--color-stone-400)]">Vorname Name</span>
-                      <span className="text-[11px] leading-[1.4] text-[var(--color-stone-400)]">Position</span>
+                {/* Fabienne */}
+                <div className="flex flex-col gap-2">
+                  <div className="aspect-[3/4] w-full overflow-hidden border border-[var(--color-stone-200)]">
+                    <Image
+                      src="/TEAM/Fabienne LaRoche GL Assistentin Juni 2026.png"
+                      alt="Fabienne"
+                      width={400}
+                      height={533}
+                      className="h-full w-full object-cover object-top"
+                    />
+                  </div>
+                  <div className="flex flex-col gap-0.5">
+                    <span className="text-[12px] font-medium leading-[1.3] text-[var(--color-ink)]">Fabienne</span>
+                    <span className="text-[11px] leading-[1.4] text-[var(--color-stone-700)]">Management & Board Assistant</span>
+                  </div>
+                </div>
+                {/* Placeholder 2 */}
+                <div className="flex flex-col gap-2">
+                  <div
+                    className="aspect-[3/4] w-full border border-[var(--color-stone-200)]"
+                    style={{ background: "var(--color-stone-100)" }}
+                  >
+                    <div className="h-full w-full grid place-items-center">
+                      <span className="font-[var(--font-mono)] text-[8px] uppercase tracking-[0.1em] text-[var(--color-stone-400)]">Foto</span>
                     </div>
                   </div>
-                ))}
+                  <div className="flex flex-col gap-0.5">
+                    <span className="text-[12px] font-medium leading-[1.3] text-[var(--color-stone-400)]">Vorname Name</span>
+                    <span className="text-[11px] leading-[1.4] text-[var(--color-stone-400)]">Position</span>
+                  </div>
+                </div>
+                {/* Placeholder 3 */}
+                <div className="flex flex-col gap-2">
+                  <div
+                    className="aspect-[3/4] w-full border border-[var(--color-stone-200)]"
+                    style={{ background: "var(--color-stone-100)" }}
+                  >
+                    <div className="h-full w-full grid place-items-center">
+                      <span className="font-[var(--font-mono)] text-[8px] uppercase tracking-[0.1em] text-[var(--color-stone-400)]">Foto</span>
+                    </div>
+                  </div>
+                  <div className="flex flex-col gap-0.5">
+                    <span className="text-[12px] font-medium leading-[1.3] text-[var(--color-stone-400)]">Vorname Name</span>
+                    <span className="text-[11px] leading-[1.4] text-[var(--color-stone-400)]">Position</span>
+                  </div>
+                </div>
               </div>
             </article>
 
