@@ -116,7 +116,7 @@ export default function TeamPage() {
                 className="flex flex-col gap-5 bg-[var(--color-paper)] p-8 lg:p-10"
               >
                 <span className="font-[var(--font-mono)] text-[12px] tracking-[0.1em] text-[var(--color-swiss-red)]">
-                  {String(i + 2).padStart(2, "0")}
+                  {String(i + 1).padStart(2, "0")}
                 </span>
                 <h2 className="text-[22px] leading-[1.25]">{amp(g.title)}</h2>
                 <p className="text-[15px] leading-[1.65] text-[var(--color-stone-700)]">
