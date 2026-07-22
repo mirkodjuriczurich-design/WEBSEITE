@@ -109,31 +109,6 @@ export default function TeamPage() {
               </div>
             </article>
 
-            {/* 01 Advisory Board — volle Breite */}
-            <article className="md:col-span-2 flex flex-col gap-6 bg-[var(--color-paper)] p-8 lg:p-10">
-              <span className="font-[var(--font-mono)] text-[12px] tracking-[0.1em] text-[var(--color-swiss-red)]">01</span>
-              <h2 className="text-[22px] leading-[1.25]">{amp("Scientific & Medical Advisory Board")}</h2>
-              <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 gap-4 pt-2">
-                {Array.from({ length: 7 }).map((_, i) => (
-                  <div key={i} className="flex flex-col gap-2">
-                    <div
-                      className="aspect-square w-full border border-[var(--color-stone-200)]"
-                      style={{ background: "var(--color-stone-100)" }}
-                    >
-                      <div className="h-full w-full grid place-items-center">
-                        <span className="font-[var(--font-mono)] text-[8px] uppercase tracking-[0.1em] text-[var(--color-stone-400)]">Foto</span>
-                      </div>
-                    </div>
-                    <div className="flex flex-col gap-0.5">
-                      <span className="font-[var(--font-mono)] text-[9px] uppercase tracking-[0.08em] text-[var(--color-stone-400)]">Titel</span>
-                      <span className="text-[12px] font-medium leading-[1.3] text-[var(--color-stone-400)]">Vorname Name</span>
-                      <span className="text-[11px] leading-[1.4] text-[var(--color-stone-400)]">Position</span>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </article>
-
             {/* 02–05 */}
             {teamGroups.map((g, i) => (
               <article
