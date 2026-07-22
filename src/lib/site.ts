@@ -22,6 +22,7 @@ export interface SubNavItem {
   label: string;
   href: string;
   description: string;
+  bold?: boolean;
 }
 
 export interface NavGroup {
@@ -37,8 +38,8 @@ export const navGroups: NavGroup[] = [
     href: "/leistungen",
     intro: "Sechs Säulen – einzeln oder integriert buchbar.",
     items: [
-      { label: "Private Label", href: "/leistungen/private-label", description: "Eure Marke, unsere Rezeptur." },
-      { label: "White Label", href: "/leistungen/white-label", description: "Unsere Rezeptur, eure Marke." },
+      { label: "Private Label", href: "/leistungen/private-label", description: "Eure Marke, unsere Rezeptur.", bold: true },
+      { label: "White Label", href: "/leistungen/white-label", description: "Unsere Rezeptur, eure Marke.", bold: true },
       { label: "Full Service & R&D", href: "/leistungen/full-service-rd", description: "End-to-End unter einem Dach." },
       { label: "Produktentwicklung", href: "/leistungen/produktentwicklung", description: "Rezeptur, Galenik, Stabilität." },
       { label: "Regulatorik & Compliance", href: "/leistungen/regulatorik", description: "Swissmedic, EFSA, FDA, EU." },

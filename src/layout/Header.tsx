@@ -240,7 +240,7 @@ function DropdownPanel({ group, onClose, onMouseEnter }: DropdownProps) {
                       {String(i + 1).padStart(2, "0")}
                     </span>
                     <div>
-                      <p className="font-[var(--font-display)] text-[17px] leading-[1.3] tracking-[-0.005em] text-[var(--color-ink)] group-hover:text-[var(--color-swiss-red)] transition-colors">
+                      <p className={`font-[var(--font-display)] text-[17px] leading-[1.3] tracking-[-0.005em] text-[var(--color-ink)] group-hover:text-[var(--color-swiss-red)] transition-colors${item.bold ? " font-bold" : ""}`}>
                         {item.label}
                       </p>
                       <p className="mt-1 text-[13px] leading-[1.5] text-[var(--color-stone-700)]">
