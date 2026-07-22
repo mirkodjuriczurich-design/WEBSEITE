@@ -57,7 +57,6 @@ export default function TeamPage() {
 
             {/* 00 SPOC — volle Breite */}
             <article className="md:col-span-2 flex flex-col gap-6 bg-[var(--color-paper)] p-8 lg:p-10">
-              <span className="font-[var(--font-mono)] text-[12px] tracking-[0.1em] text-[var(--color-swiss-red)]">00</span>
               <h2 className="text-[22px] leading-[1.25]">SPOC Single Point of Contact</h2>
               <div className="grid grid-cols-3 gap-4 pt-2 max-w-[480px]">
                 {/* Fabienne */}
