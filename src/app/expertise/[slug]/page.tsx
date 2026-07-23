@@ -124,23 +124,23 @@ export default async function ExpertiseDetailPage({
           <div className="grid gap-12 lg:grid-cols-12 lg:gap-16 items-end">
             <div className="lg:col-span-7">
               <span className="eyebrow" style={{ color: "#B8C2D6" }}>
-                Werks-Besuch
+                Partnerschaft
               </span>
               <h2
                 className="mt-6 max-w-[20ch] text-[clamp(2rem,3.5vw,3rem)] leading-[1.05] tracking-[-0.015em]"
                 style={{ color: "var(--color-paper)" }}
               >
-                Lieber selbst sehen, als nur lesen.
+                Reden wir. Konkret.
               </h2>
             </div>
             <div className="lg:col-span-5 flex flex-col items-start gap-4">
               <p className="text-[17px] leading-[1.6]" style={{ color: "#B8C2D6" }}>
-                Wir empfangen Sie gerne vor Ort. Eine geführte Tour durch Labor, Produktion und
-                Lager dauert typisch zwei bis drei Stunden.
+                Erzählen Sie uns von Ihrem Projekt — wir melden uns innerhalb von zwei Werktagen
+                mit einem konkreten Vorschlag.
               </p>
               <div className="mt-4 flex flex-wrap gap-3">
-                <Button href="/kontakt?type=consultation" variant="primary" arrow>
-                  Werks-Besuch vereinbaren
+                <Button href="/kontakt" variant="primary" arrow>
+                  Gespräch anfragen
                 </Button>
               </div>
             </div>

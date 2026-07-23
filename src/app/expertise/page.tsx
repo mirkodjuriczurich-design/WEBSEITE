@@ -27,8 +27,8 @@ export default function ExpertiseHubPage() {
               Qualitätsstandards und ein konzentrierter Schweizer Standort.
             </p>
             <div className="mt-10">
-              <Button href="/kontakt?type=consultation" variant="primary" arrow>
-                Werks-Besuch vereinbaren
+              <Button href="/kontakt" variant="primary" arrow>
+                Gespräch anfragen
               </Button>
             </div>
           </div>
