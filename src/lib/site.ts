@@ -157,6 +157,7 @@ export interface Produkt {
   developmentTime: string;
   stufe: string;
   format?: string;
+  linkDisabled?: boolean;
 }
 
 export const produkte: Produkt[] = [
@@ -196,6 +197,7 @@ export const produkte: Produkt[] = [
     developmentTime: "Sofort verfügbar",
     stufe: "Stufe 1 · sofort",
     format: "Kapsel oder Getränk",
+    linkDisabled: true,
   },
   {
     slug: "resiliencerx21",

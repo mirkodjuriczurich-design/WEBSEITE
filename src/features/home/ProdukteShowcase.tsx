@@ -1,3 +1,4 @@
+import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { produkte } from "@/lib/site";
@@ -27,11 +28,14 @@ export function ProdukteShowcase() {
         </div>
 
         <div className="mt-16 grid gap-px overflow-hidden border border-[var(--color-stone-200)] sm:grid-cols-2 lg:grid-cols-3">
-          {produkte.map((p) => (
-            <Link
+          {produkte.map((p) => {
+            const Wrapper = (p.linkDisabled ? "div" : Link) as React.ElementType;
+            const wrapperProps = p.linkDisabled ? {} : { href: `/produkte/${p.slug}` };
+            return (
+            <Wrapper
               key={p.slug}
-              href={`/produkte/${p.slug}`}
-              className="group relative flex flex-col bg-[var(--color-paper)] transition-colors duration-300 hover:bg-[var(--color-off-white)]"
+              {...wrapperProps}
+              className={`group relative flex flex-col bg-[var(--color-paper)] transition-colors duration-300${p.linkDisabled ? "" : " hover:bg-[var(--color-off-white)]"}`}
             >
               <div
                 aria-hidden
@@ -79,8 +83,9 @@ export function ProdukteShowcase() {
                 </div>
 
               </div>
-            </Link>
-          ))}
+            </Wrapper>
+            );
+          })}
         </div>
       </div>
     </section>
