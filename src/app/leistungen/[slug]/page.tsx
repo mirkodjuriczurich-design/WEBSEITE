@@ -73,7 +73,10 @@ export default async function LeistungDetailPage({
               <span className="eyebrow">
                 Leistung {content.number} · {content.eyebrow}
               </span>
-              <h1 className="mt-8 font-[var(--font-dm-serif)] text-[clamp(2.5rem,5.5vw,4rem)] leading-[1.05] tracking-[-0.015em]">
+              <h1
+                className="mt-8 text-[clamp(2.5rem,5.5vw,4rem)] leading-[1.05] tracking-[-0.015em]"
+                style={{ fontFamily: "var(--font-dm-serif), 'DM Serif Display', Georgia, serif" }}
+              >
                 {amp(content.title)}
               </h1>
               <div className="mt-8 max-w-[58ch] space-y-5 text-[19px] leading-[1.55] text-[var(--color-stone-700)]">
