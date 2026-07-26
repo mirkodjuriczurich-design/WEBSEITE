@@ -108,10 +108,10 @@ export default async function ProduktDetailPage({
                 <span className="font-[var(--font-mono)] text-[12px] tracking-[0.1em] text-[var(--color-swiss-red)]">
                   {p.number}
                 </span>
-                <span className="text-[10px] font-semibold uppercase tracking-[0.15em] text-[var(--color-stone-400)]">
+                <span className="text-[11px] font-semibold uppercase tracking-[0.15em] text-[var(--color-stone-400)]">
                   {p.category}
                 </span>
-                <span className="text-[10px] font-semibold uppercase tracking-[0.15em] text-[var(--color-ink)] border-l border-[var(--color-stone-200)] pl-3">
+                <span className="text-[11px] font-semibold uppercase tracking-[0.15em] text-[var(--color-ink)] border-l border-[var(--color-stone-200)] pl-3">
                   {p.stufe}
                 </span>
               </div>

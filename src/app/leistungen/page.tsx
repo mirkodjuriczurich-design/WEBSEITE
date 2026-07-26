@@ -51,7 +51,7 @@ export default function LeistungenHubPage() {
                   <span className="font-[var(--font-mono)] text-[12px] tracking-[0.1em] text-[var(--color-swiss-red)]">
                     {l.number}
                   </span>
-                  <span className="text-[10px] font-semibold uppercase tracking-[0.15em] text-[var(--color-stone-400)]">
+                  <span className="text-[11px] font-semibold uppercase tracking-[0.15em] text-[var(--color-stone-400)]">
                     Leistung
                   </span>
                 </div>
