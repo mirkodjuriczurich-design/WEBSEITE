@@ -281,6 +281,10 @@ export const leistungsContent: Record<string, LeistungsContent> = {
     number: "03",
     title: "Full Service & R&D",
     eyebrow: "End-to-End unter einem Dach",
+    image: "/images/leistung-full-service-rd.png",
+    imageWidth: 1076,
+    imageHeight: 1025,
+    imageSpan: 5,
     lead:
       "Von der ersten Idee bis zum globalen Launch. Strategische Begleitung mit eigenem R&D-Team, GMP-Produktion, regulatorischer Expertise und Distribution – orchestriert als eine integrierte Wertschöpfungskette.",
     whatWeOffer: [
