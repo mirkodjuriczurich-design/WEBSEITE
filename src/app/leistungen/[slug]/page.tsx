@@ -399,7 +399,7 @@ export default async function LeistungDetailPage({
                 className="mt-6 max-w-[20ch] text-[clamp(2rem,3.5vw,3rem)] leading-[1.05] tracking-[-0.015em]"
                 style={{ color: "var(--color-paper)" }}
               >
-                Lassen Sie uns über {content.title} sprechen.
+                Lassen Sie uns über {amp(content.title)} sprechen.
               </h2>
             </div>
             <div className="lg:col-span-5 flex flex-col items-start gap-4">
