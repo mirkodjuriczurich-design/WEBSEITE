@@ -233,6 +233,7 @@ export const produkte: Produkt[] = [
     pricePerMonth: "CHF 40–70",
     developmentTime: "Sofort verfügbar",
     stufe: "Stufe 1 · sofort",
+    linkDisabled: true,
   },
   {
     slug: "renewxa",
@@ -268,6 +269,7 @@ export const produkte: Produkt[] = [
     developmentTime: "4–6 Monate",
     stufe: "Stufe 2 · 4–6 Monate",
     format: "30-ml-Glasampulle",
+    linkDisabled: true,
   },
 ];
 
