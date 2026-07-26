@@ -8,7 +8,7 @@ const intents = [
   { value: "enquiry", label: "Allgemeine Anfrage stellen" },
   { value: "partnership", label: "Partnerschaft anbahnen" },
   { value: "consultation", label: "Beratungstermin vereinbaren" },
-  { value: "product", label: "Produkt-Anfrage / Warteliste" },
+  { value: "product", label: "Produkt-Anfrage" },
   { value: "other", label: "Etwas anderes" },
 ];
 
