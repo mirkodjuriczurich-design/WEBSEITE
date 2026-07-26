@@ -186,7 +186,7 @@ export function ContactForm({ initialType, initialService, initialProduct }: Pro
               htmlFor="email"
               className="font-[var(--font-mono)] text-[11px] uppercase tracking-[0.12em] text-[var(--color-stone-400)]"
             >
-              E-Mail *
+              Business E-Mail *
             </label>
             <input id="email" name="email" type="email" required className="input-editorial mt-2" />
           </div>
