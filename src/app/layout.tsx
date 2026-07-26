@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Inter, JetBrains_Mono, Spectral } from "next/font/google";
+import { Playfair_Display, Inter, JetBrains_Mono } from "next/font/google";
 import { Header } from "@/layout/Header";
 import { Footer } from "@/layout/Footer";
 import { CookieBanner } from "@/layout/CookieBanner";
@@ -21,13 +21,6 @@ const inter = Inter({
   variable: "--font-inter",
   display: "swap",
   weight: ["400", "500", "600", "700"],
-});
-
-const spectral = Spectral({
-  subsets: ["latin"],
-  variable: "--font-spectral",
-  display: "swap",
-  weight: ["400", "500"],
 });
 
 const jetbrains = JetBrains_Mono({
@@ -83,7 +76,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const plausibleProps = getPlausibleScriptProps();
 
   return (
-    <html lang="de-CH" className={`${playfair.variable} ${inter.variable} ${jetbrains.variable} ${spectral.variable}`}>
+    <html lang="de-CH" className={`${playfair.variable} ${inter.variable} ${jetbrains.variable}`}>
       <body>
         <a
           href="#main-content"
