@@ -62,7 +62,8 @@ export const navGroups: NavGroup[] = [
     href: "/#produkte",
     intro: "Drei Produkte unter Schweizer Eigenmarke.",
     items: [
-{ label: "ResilienceRX21", href: "/#produkte", description: "Stress · Adaptogen" },
+      { label: "Deep Sleep", href: "/#produkte", description: "Schlaf · Anti-Aging" },
+      { label: "ResilienceRX21", href: "/#produkte", description: "Stress · Adaptogen" },
       { label: "RenewXA", href: "/#produkte", description: "Autophagie · Ritual" },
     ],
   },
@@ -159,6 +160,43 @@ export interface Produkt {
 }
 
 export const produkte: Produkt[] = [
+  {
+    slug: "deep-sleep",
+    number: "01",
+    name: "Deep Sleep",
+    category: "Schlaf · Anti-Aging",
+    tagline:
+      "Das erste Supplement weltweit, das Schlaf als Anti-Aging-Waffe positioniert – nicht als Sedativum.",
+    pitch:
+      "Schlaf ist der biologisch mächtigste Erneuerungsprozess, den der menschliche Körper besitzt.",
+    short:
+      "NMN, Magnesium L-Threonat und Glycin für Tiefschlaf-getriebene DNA-Reparatur – die nächtliche Anti-Aging-Strategie.",
+    marketGap:
+      "Der globale Markt für Schlafsupplemente ist über 8 Milliarden Dollar wert. Dennoch kommuniziert kein Produkt Schlaf als zentrale Strategie für gesundes Altern – die gesamte Kategorie wartet auf den Ersten, der diesen Schritt wagt.",
+    description:
+      "In der Tiefschlafphase wird DNA repariert, Proteine werden korrekt gefaltet und metabolischer Abfall wird über das glymphatische System aus dem Gehirn gespült. Kein Produkt auf dem Markt adressiert Schlafqualität und zelluläre Regeneration als integrierte Strategie. Alle bestehenden Lösungen sind Sedativa zum Einschlafen.",
+    ingredients: [
+      { name: "NMN", dose: "500 mg", function: "Zelluläre DNA-Reparatur während der nächtlichen Erholung" },
+      { name: "Magnesium L-Threonat", dose: "1000 mg", function: "Durchdringt die Blut-Hirn-Schranke" },
+      { name: "Glycin", dose: "3000 mg", function: "Senkt die Körpertemperatur für tiefen Schlaf" },
+      { name: "Ashwagandha KSM-66", dose: "600 mg", function: "Cortisolreduktion, zertifizierte Form" },
+      { name: "Safran Affron", dose: "28 mg", function: "Klinisch bestätigte Schlafarchitektur" },
+      { name: "Apigenin", dose: "50 mg", function: "Natürlicher GABA-Modulator, anxiolytisch" },
+      { name: "L-Theanin", dose: "200 mg", function: "Entspannung ohne Schläfrigkeit" },
+    ],
+    positioning: "„Schlaf ist dein mächtigstes Anti-Aging-Werkzeug.“ Premium, nicht Wellness.",
+    strategicNotes: [
+      "Elegante Nachtkapsel oder rituelles warmes Getränk (Vanille / Kakao).",
+      "B2B-Bedeutung: Miniaturformat für Luxushotels – Premium-Amenity auf dem Kissen.",
+      "Abonnementmodell mit hoher Retentionsrate dank täglicher Verwendung.",
+    ],
+    targetGroup: "35–65 · Premium-Segment",
+    channel: "DTC + Luxushotels + Longevity-Kliniken",
+    pricePerMonth: "CHF 60–90",
+    developmentTime: "Sofort verfügbar",
+    stufe: "Stufe 1 · sofort",
+    format: "Kapsel oder Getränk",
+  },
   {
     slug: "resiliencerx21",
     number: "02",
