@@ -5,12 +5,12 @@ const monoAmp = (
 );
 
 export function amp(text: string): ReactNode {
-  const parts = text.split(" & ");
-  if (parts.length === 1) return text;
+  if (!text.includes("&")) return text;
+  const parts = text.split("&");
   return parts.map((part, i) => (
     <span key={i}>
       {part}
-      {i < parts.length - 1 && <> {monoAmp} </>}
+      {i < parts.length - 1 && monoAmp}
     </span>
   ));
 }
