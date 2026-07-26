@@ -4,6 +4,21 @@ import { useState } from "react";
 import { Button } from "@/ui/Button";
 import { leistungen } from "@/lib/site";
 
+const CONSUMER_DOMAINS = new Set([
+  "gmail.com","googlemail.com","yahoo.com","yahoo.de","yahoo.fr","yahoo.co.uk","yahoo.es","yahoo.it",
+  "hotmail.com","hotmail.de","hotmail.fr","hotmail.co.uk","hotmail.es","hotmail.it",
+  "outlook.com","outlook.de","live.com","live.de","msn.com",
+  "bluewin.ch","bluemail.ch","sunrise.ch","icloud.com","me.com","mac.com",
+  "gmx.de","gmx.ch","gmx.at","gmx.net","gmx.com","web.de","t-online.de",
+  "freenet.de","arcor.de","aol.com","protonmail.com","proton.me",
+  "mailbox.org","tutanota.com","tutanota.de","posteo.de",
+]);
+
+function isConsumerEmail(email: string): boolean {
+  const domain = email.split("@")[1]?.toLowerCase() ?? "";
+  return CONSUMER_DOMAINS.has(domain);
+}
+
 const intents = [
   { value: "enquiry", label: "Allgemeine Anfrage stellen" },
   { value: "partnership", label: "Partnerschaft anbahnen" },
@@ -29,6 +44,12 @@ export function ContactForm({ initialType, initialService, initialProduct }: Pro
     setErrorMessage(null);
 
     const form = new FormData(e.currentTarget);
+    const emailValue = String(form.get("email") ?? "").trim();
+    if (isConsumerEmail(emailValue)) {
+      setErrorMessage("Bitte verwenden Sie Ihre geschäftliche E-Mail-Adresse.");
+      setStatus("error");
+      return;
+    }
     const payload = {
       intent,
       firstName: String(form.get("firstName") ?? "").trim(),

@@ -15,6 +15,16 @@ interface ContactPayload {
   consent: boolean;
 }
 
+const CONSUMER_DOMAINS = new Set([
+  "gmail.com","googlemail.com","yahoo.com","yahoo.de","yahoo.fr","yahoo.co.uk","yahoo.es","yahoo.it",
+  "hotmail.com","hotmail.de","hotmail.fr","hotmail.co.uk","hotmail.es","hotmail.it",
+  "outlook.com","outlook.de","live.com","live.de","msn.com",
+  "bluewin.ch","bluemail.ch","sunrise.ch","icloud.com","me.com","mac.com",
+  "gmx.de","gmx.ch","gmx.at","gmx.net","gmx.com","web.de","t-online.de",
+  "freenet.de","arcor.de","aol.com","protonmail.com","proton.me",
+  "mailbox.org","tutanota.com","tutanota.de","posteo.de",
+]);
+
 function isValid(p: Partial<ContactPayload>): p is ContactPayload {
   if (!p.intent || typeof p.intent !== "string") return false;
   if (!p.firstName || !p.lastName) return false;
@@ -34,6 +44,11 @@ export async function POST(request: Request) {
 
   if (!isValid(body)) {
     return NextResponse.json({ ok: false, error: "Invalid payload" }, { status: 422 });
+  }
+
+  const domain = body.email.split("@")[1]?.toLowerCase() ?? "";
+  if (CONSUMER_DOMAINS.has(domain)) {
+    return NextResponse.json({ ok: false, error: "Bitte verwenden Sie Ihre geschäftliche E-Mail-Adresse." }, { status: 422 });
   }
 
   // ─── Phase 2 hook: actually deliver the message ───────────────────────
