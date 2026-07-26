@@ -25,8 +25,7 @@ export default async function KontaktPage({
                 Sprechen Sie mit uns.
               </h1>
               <p className="mt-8 max-w-[58ch] text-[19px] leading-[1.55] text-[var(--color-stone-700)]">
-                Wir hören zu, fragen nach und melden uns innerhalb von zwei Werktagen mit einer
-                ersten Einschätzung. Vertraulich, präzise, ohne Sales-Geräusche.
+                Wir hören zu, stellen die richtigen Fragen und melden uns innerhalb von zwei Werktagen mit einer ersten Einschätzung. Vertraulich, präzise und ohne leere Versprechen.
               </p>
             </div>
             <aside className="lg:col-span-5 lg:pl-16">
