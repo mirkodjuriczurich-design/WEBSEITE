@@ -19,23 +19,21 @@ export default function ImpressumPage() {
           heading: "Anbieterin",
           body: [
             "Swiss Longevity Labs AG",
-            "[Strasse, Hausnummer]",
-            "[PLZ Ort]",
+            "Sihlbruggstrasse 105",
+            "6340 Baar",
             "Schweiz",
           ],
         },
         {
           heading: "Kontakt",
           body: [
-            "Telefon: +41 00 000 00 00",
-            "E-Mail: hello@swisslongevitylabs.com",
+            "E-Mail: miroslav.vuletic@swisslongevitylabs.ch",
           ],
         },
         {
-          heading: "Eintrag im Handelsregister",
+          heading: "Handelsregisterauszugsnummer",
           body: [
-            "Handelsregister-Eintragung beim Handelsregisteramt des Kantons [Kanton].",
-            "Handelsregisternummer: CHE-XXX.XXX.XXX",
+            "CHE-427.358.353",
           ],
         },
         {
@@ -45,8 +43,7 @@ export default function ImpressumPage() {
         {
           heading: "Vertretungsberechtigte Personen",
           body: [
-            "[Vorname Nachname], Verwaltungsratspräsident:in",
-            "[Vorname Nachname], Geschäftsführer:in",
+            "Miroslav Vuletic, Geschäftsführer",
           ],
         },
         {
@@ -60,12 +57,6 @@ export default function ImpressumPage() {
           heading: "Urheberrecht",
           body: [
             "Alle Inhalte dieser Website (Texte, Bilder, Grafiken, Layouts, Quellcode) sind urheberrechtlich geschützt. Eine Verwendung ausserhalb der vorgesehenen Nutzung der Website bedarf der vorherigen schriftlichen Zustimmung.",
-          ],
-        },
-        {
-          heading: "Hinweis zu diesem Dokument",
-          body: [
-            "Dieses Impressum ist ein Platzhalter und wird vor dem produktiven Launch mit den finalen Unternehmensangaben gefüllt.",
           ],
         },
       ]}
