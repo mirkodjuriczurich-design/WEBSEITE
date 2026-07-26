@@ -366,6 +366,10 @@ export const leistungsContent: Record<string, LeistungsContent> = {
     number: "04",
     title: "Produktentwicklung",
     eyebrow: "Rezeptur, Galenik, Stabilität",
+    image: "/images/leistung-produktentwicklung.png",
+    imageWidth: 4608,
+    imageHeight: 3712,
+    imageSpan: 5,
     lead:
       "Wissenschaftliches Engineering vom Wirkstoff zur stabilen, marktreifen Darreichungsform – auch als eigenständige Leistung, ohne dass wir produzieren müssen.",
     whatWeOffer: [
