@@ -245,7 +245,7 @@ function DropdownPanel({ group, onClose, onMouseEnter }: DropdownProps) {
                         {amp(item.label)}
                       </p>
                       <p className="mt-1 text-[13px] leading-[1.5] text-[var(--color-stone-700)]">
-                        {item.description}
+                        {amp(item.description)}
                       </p>
                     </div>
                   </Link>

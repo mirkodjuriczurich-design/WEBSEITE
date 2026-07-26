@@ -1,6 +1,7 @@
 import { colors } from "@/design/tokens";
 import { Check, X } from "lucide-react";
 import { FadeUp } from "@/components/ui/FadeUp";
+import { amp } from "@/lib/render";
 
 interface Row {
   criterion: string;
@@ -119,7 +120,7 @@ export function Comparison() {
                   className="mt-1 flex-shrink-0"
                   style={{ color: colors.stone400 }}
                 />
-                <span>{row.generic}</span>
+                <span>{amp(row.generic)}</span>
               </div>
               <div
                 className="flex items-start gap-3 px-8 py-7 text-[14.5px] leading-[1.6]"
@@ -131,7 +132,7 @@ export function Comparison() {
                   className="mt-1 flex-shrink-0"
                   style={{ color: colors.swissRed }}
                 />
-                <span>{row.sll}</span>
+                <span>{amp(row.sll)}</span>
               </div>
             </div>
           ))}
@@ -158,7 +159,7 @@ export function Comparison() {
                     <X size={12} strokeWidth={1.5} /> Typischer CDMO
                   </div>
                   <p className="mt-2 text-[14px] leading-[1.55] text-[var(--color-stone-700)]">
-                    {row.generic}
+                    {amp(row.generic)}
                   </p>
                 </div>
                 <div>
@@ -169,7 +170,7 @@ export function Comparison() {
                     <Check size={12} strokeWidth={2} /> SLL
                   </div>
                   <p className="mt-2 text-[14px] leading-[1.55] text-[var(--color-ink)]">
-                    {row.sll}
+                    {amp(row.sll)}
                   </p>
                 </div>
               </div>

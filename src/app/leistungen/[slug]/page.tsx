@@ -78,7 +78,7 @@ export default async function LeistungDetailPage({
               </h1>
               <div className="mt-8 max-w-[58ch] space-y-5 text-[19px] leading-[1.55] text-[var(--color-stone-700)]">
                 {content.lead.split("\n\n").map((p, i) => (
-                  <p key={i}>{p}</p>
+                  <p key={i}>{amp(p)}</p>
                 ))}
               </div>
               <div className="mt-10 flex flex-wrap gap-3">
@@ -139,11 +139,11 @@ export default async function LeistungDetailPage({
             <div className="lg:col-span-8 space-y-14">
               {content.whatWeOffer.map((block) => (
                 <div key={block.heading}>
-                  <h2 className="text-[28px] leading-[1.2] tracking-[-0.005em]">{block.heading}</h2>
+                  <h2 className="text-[28px] leading-[1.2] tracking-[-0.005em]">{amp(block.heading)}</h2>
                   <div className="mt-6 space-y-5">
                     {block.paragraphs.map((p, i) => (
                       <p key={i} className="text-[17px] leading-[1.65] text-[var(--color-stone-700)]">
-                        {p}
+                        {amp(p)}
                       </p>
                     ))}
                   </div>
@@ -156,7 +156,7 @@ export default async function LeistungDetailPage({
                             className="mt-[10px] inline-block h-1 w-1 flex-shrink-0"
                             style={{ background: "var(--color-swiss-red)" }}
                           />
-                          {b}
+                          {amp(b)}
                         </li>
                       ))}
                     </ul>
@@ -184,8 +184,8 @@ export default async function LeistungDetailPage({
                 <span className="font-[var(--font-mono)] text-[12px] tracking-[0.15em] text-[var(--color-swiss-red)]">
                   {s.step}
                 </span>
-                <h3 className="text-[20px] leading-[1.25] tracking-[-0.005em]">{s.title}</h3>
-                <p className="text-[14px] leading-[1.6] text-[var(--color-stone-700)]">{s.body}</p>
+                <h3 className="text-[20px] leading-[1.25] tracking-[-0.005em]">{amp(s.title)}</h3>
+                <p className="text-[14px] leading-[1.6] text-[var(--color-stone-700)]">{amp(s.body)}</p>
               </li>
             ))}
           </ol>
@@ -209,8 +209,8 @@ export default async function LeistungDetailPage({
                     {String(i + 1).padStart(2, "0")}
                   </span>
                   <p className="text-[16.5px] leading-[1.55] text-[var(--color-ink)]">
-                    <strong className="font-medium">{u.label}</strong>{" "}
-                    <span className="text-[var(--color-stone-700)]">{u.body}</span>
+                    <strong className="font-medium">{amp(u.label)}</strong>{" "}
+                    <span className="text-[var(--color-stone-700)]">{amp(u.body)}</span>
                   </p>
                 </li>
               ))}
@@ -254,7 +254,7 @@ export default async function LeistungDetailPage({
                 {content.deliverables.map((d, i) => (
                   <tr key={i} className="align-top">
                     <td className="border-b border-[var(--color-stone-200)] px-6 py-5 font-medium text-[var(--color-ink)]">
-                      {d.output}
+                      {amp(d.output)}
                     </td>
                     <td className="border-b border-[var(--color-stone-200)] px-6 py-5 font-[var(--font-mono)] text-[13px] text-[var(--color-stone-700)]">
                       {d.timing}
@@ -263,7 +263,7 @@ export default async function LeistungDetailPage({
                       {d.format}
                     </td>
                     <td className="border-b border-[var(--color-stone-200)] px-6 py-5 text-[var(--color-stone-700)]">
-                      {d.qualityGate}
+                      {amp(d.qualityGate)}
                     </td>
                   </tr>
                 ))}
@@ -302,19 +302,19 @@ export default async function LeistungDetailPage({
                     <span className="font-[var(--font-mono)] text-[10px] tracking-[0.1em] uppercase text-[var(--color-stone-400)] block mb-1">
                       Aufgabe
                     </span>
-                    {c.aufgabe}
+                    {amp(c.aufgabe)}
                   </p>
                   <p>
                     <span className="font-[var(--font-mono)] text-[10px] tracking-[0.1em] uppercase text-[var(--color-stone-400)] block mb-1">
                       Lösung
                     </span>
-                    {c.loesung}
+                    {amp(c.loesung)}
                   </p>
                   <p>
                     <span className="font-[var(--font-mono)] text-[10px] tracking-[0.1em] uppercase text-[var(--color-stone-400)] block mb-1">
                       Resultat
                     </span>
-                    <span className="text-[var(--color-ink)]">{c.resultat}</span>
+                    <span className="text-[var(--color-ink)]">{amp(c.resultat)}</span>
                   </p>
                 </div>
               </article>
@@ -343,9 +343,9 @@ export default async function LeistungDetailPage({
                   <span className="font-[var(--font-mono)] text-[12px] tracking-[0.1em] text-[var(--color-swiss-red)]">
                     {c.number}
                   </span>
-                  <h3 className="text-[20px] leading-[1.25] tracking-[-0.005em]">{c.title}</h3>
+                  <h3 className="text-[20px] leading-[1.25] tracking-[-0.005em]">{amp(c.title)}</h3>
                   <p className="font-[var(--font-display)] italic text-[15px] text-[var(--color-stone-700)]">
-                    {c.tagline}
+                    {amp(c.tagline)}
                   </p>
                   <div className="mt-auto inline-flex items-center gap-2 text-[13px] font-medium text-[var(--color-ink)] group-hover:text-[var(--color-swiss-red)]">
                     Mehr
@@ -372,10 +372,10 @@ export default async function LeistungDetailPage({
               {content.faqs.map((f, i) => (
                 <div key={i} className="py-8">
                   <dt className="font-[var(--font-display)] text-[20px] leading-[1.3] tracking-[-0.005em] text-[var(--color-ink)]">
-                    {f.q}
+                    {amp(f.q)}
                   </dt>
                   <dd className="mt-4 text-[16px] leading-[1.65] text-[var(--color-stone-700)]">
-                    {f.a}
+                    {amp(f.a)}
                   </dd>
                 </div>
               ))}

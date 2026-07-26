@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Minus, Plus } from "lucide-react";
 import { Button } from "@/ui/Button";
+import { amp } from "@/lib/render";
 
 const faqs = [
   {
@@ -95,7 +96,7 @@ export function HomeFAQ() {
                           {String(i + 1).padStart(2, "0")}
                         </span>
                         <span className="font-[var(--font-display)] text-[20px] leading-[1.3] tracking-[-0.005em] text-[var(--color-ink)]">
-                          {f.q}
+                          {amp(f.q)}
                         </span>
                       </div>
                       <span
@@ -113,7 +114,7 @@ export function HomeFAQ() {
                       <div className="grid grid-cols-[28px_1fr] gap-6 pb-6 pr-12 lg:pr-16">
                         <span />
                         <p className="text-[16px] leading-[1.65] text-[var(--color-stone-700)]">
-                          {f.a}
+                          {amp(f.a)}
                         </p>
                       </div>
                     )}

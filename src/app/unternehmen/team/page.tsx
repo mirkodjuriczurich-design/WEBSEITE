@@ -72,7 +72,7 @@ export default function TeamPage() {
                   </div>
                   <div className="flex flex-col gap-0.5">
                     <span className="text-[12px] font-medium leading-[1.3] text-[var(--color-ink)]">Fabienne</span>
-                    <span className="text-[11px] leading-[1.4] text-[var(--color-stone-700)]">Management & Board Assistant</span>
+                    <span className="text-[11px] leading-[1.4] text-[var(--color-stone-700)]">{amp("Management & Board Assistant")}</span>
                   </div>
                 </div>
               </div>

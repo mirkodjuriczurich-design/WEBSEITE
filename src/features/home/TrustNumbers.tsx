@@ -1,3 +1,5 @@
+import { amp } from "@/lib/render";
+
 const stats = [
   { value: "27", suffix: "+", label: "Jahre Forschungs­erfahrung", note: "Im Team verankert" },
   { value: "12", suffix: "", label: "Internationale Märkte", note: "Aktive Zulassungen" },
@@ -23,7 +25,7 @@ export function TrustNumbers() {
           {stats.map((s) => (
             <div key={s.label} className="flex flex-col border-t border-[var(--color-stone-200)] pt-6">
               <dt className="order-2 mt-4 text-[15.5px] leading-[1.45] text-[var(--color-ink)]">
-                {s.label}
+                {amp(s.label)}
               </dt>
               <dd className="order-1 flex items-baseline gap-1 text-[var(--color-ink)]">
                 <span className="font-[var(--font-display)] text-[clamp(3rem,6vw,5rem)] leading-[1] tracking-[-0.02em]">
