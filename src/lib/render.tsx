@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 
 const monoAmp = (
-  <span style={{ fontFamily: "var(--font-mono), monospace", fontStyle: "normal" }}>&amp;</span>
+  <span style={{ fontFamily: "var(--font-spectral), Spectral, Georgia, serif", fontStyle: "italic" }}>&amp;</span>
 );
 
 export function amp(text: string): ReactNode {
