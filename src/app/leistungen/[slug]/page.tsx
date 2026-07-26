@@ -86,7 +86,7 @@ export default async function LeistungDetailPage({
                   Anfrage starten
                 </Button>
                 <Button href="/kontakt?type=partnership" variant="ghost" arrow>
-                  Partnerschaft anfragen
+                  Beratung anfragen
                 </Button>
               </div>
             </div>
@@ -412,7 +412,7 @@ export default async function LeistungDetailPage({
                   variant="primary"
                   arrow
                 >
-                  Partnerschaft anfragen
+                  Beratung anfragen
                 </Button>
                 <Button
                   href="/kontakt?type=consultation"
