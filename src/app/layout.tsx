@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Inter, JetBrains_Mono } from "next/font/google";
+import { Playfair_Display, Inter, JetBrains_Mono, DM_Serif_Display } from "next/font/google";
 import { Header } from "@/layout/Header";
 import { Footer } from "@/layout/Footer";
 import { CookieBanner } from "@/layout/CookieBanner";
@@ -28,6 +28,13 @@ const jetbrains = JetBrains_Mono({
   variable: "--font-jetbrains-mono",
   display: "swap",
   weight: ["400", "500"],
+});
+
+const dmSerif = DM_Serif_Display({
+  subsets: ["latin"],
+  variable: "--font-dm-serif",
+  display: "swap",
+  weight: "400",
 });
 
 export const metadata: Metadata = {
@@ -76,7 +83,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const plausibleProps = getPlausibleScriptProps();
 
   return (
-    <html lang="de-CH" className={`${playfair.variable} ${inter.variable} ${jetbrains.variable}`}>
+    <html lang="de-CH" className={`${playfair.variable} ${inter.variable} ${jetbrains.variable} ${dmSerif.variable}`}>
       <body>
         <a
           href="#main-content"
