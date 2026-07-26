@@ -199,7 +199,7 @@ export default async function LeistungDetailPage({
             <div className="lg:col-span-5">
               <span className="eyebrow">Wann es passt</span>
               <h2 className="mt-6 text-[clamp(1.875rem,3vw,2.5rem)] leading-[1.15] tracking-[-0.01em]">
-                {content.title} ist die richtige Wahl, wenn…
+                {amp(content.title)} ist die richtige Wahl, wenn…
               </h2>
             </div>
             <ul className="lg:col-span-7 divide-y divide-[var(--color-stone-200)] border-y border-[var(--color-stone-200)]">

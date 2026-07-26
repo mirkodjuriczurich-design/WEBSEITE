@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { leistungen } from "@/lib/site";
 import { Button } from "@/ui/Button";
+import { amp } from "@/lib/render";
 
 export const metadata: Metadata = {
   title: "Leistungen",
@@ -57,7 +58,7 @@ export default function LeistungenHubPage() {
                 </div>
 
                 <div>
-                  <h2 className="text-[26px] leading-[1.2] tracking-[-0.005em]">{l.title}</h2>
+                  <h2 className="text-[26px] leading-[1.2] tracking-[-0.005em]">{amp(l.title)}</h2>
                   <p className="mt-2 font-[var(--font-display)] italic text-[17px] leading-[1.4] text-[var(--color-stone-700)]">
                     {l.tagline}
                   </p>

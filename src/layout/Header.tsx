@@ -6,6 +6,7 @@ import { X, ArrowUpRight } from "lucide-react";
 import { Logo } from "@/ui/Logo";
 import { Button } from "@/ui/Button";
 import { navGroups, type NavGroup } from "@/lib/site";
+import { amp } from "@/lib/render";
 
 const CLOSE_DELAY = 120;
 
@@ -169,7 +170,7 @@ export function Header() {
                         onClick={() => setMobileOpen(false)}
                         className="block py-1 text-[14px] text-[var(--color-stone-700)] hover:text-[var(--color-swiss-red)] transition-colors"
                       >
-                        {item.label}
+                        {amp(item.label)}
                       </Link>
                     </li>
                   ))}
@@ -241,7 +242,7 @@ function DropdownPanel({ group, onClose, onMouseEnter }: DropdownProps) {
                     </span>
                     <div>
                       <p className={`font-[var(--font-display)] text-[17px] leading-[1.3] tracking-[-0.005em] text-[var(--color-ink)] group-hover:text-[var(--color-swiss-red)] transition-colors${item.bold ? " font-bold" : ""}`}>
-                        {item.label}
+                        {amp(item.label)}
                       </p>
                       <p className="mt-1 text-[13px] leading-[1.5] text-[var(--color-stone-700)]">
                         {item.description}
