@@ -52,9 +52,9 @@ export default async function KontaktPage({
                   <dd className="mt-2 text-[var(--color-ink)]">
                     Swiss Longevity Labs AG
                     <br />
-                    [Strasse]
+                    Sihlbruggstrasse 105
                     <br />
-                    [PLZ Ort], Schweiz
+                    6340 Baar, Switzerland
                   </dd>
                 </div>
               </dl>
