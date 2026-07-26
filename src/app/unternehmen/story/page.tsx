@@ -2,9 +2,9 @@
 import { Button } from "@/ui/Button";
 
 export const metadata: Metadata = {
-  title: "Story",
+  title: "Geschichte & Vision – Schweizer Longevity Hersteller",
   description:
-    "Wie Swiss Longevity Labs entstanden ist, was uns antreibt und wie wir die nächsten Jahre denken.",
+    "Wie Swiss Longevity Labs AG entstanden ist: Schweizer Qualitätsanspruch, GMP-Produktion und die Vision eines Full-Service-Partners für Longevity-Brands weltweit.",
   alternates: { canonical: "/unternehmen/story" },
 };
 

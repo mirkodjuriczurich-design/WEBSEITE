@@ -7,8 +7,8 @@
 
 @theme {
   /* Brand */
-  --color-swiss-red: #b70102;
-  --color-swiss-red-hover: #9e0101;
+  --color-swiss-red: #e30613;
+  --color-swiss-red-hover: #c8102e;
 
   /* Neutrals */
   --color-ink: #0b0b0b;
@@ -55,7 +55,12 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
   }
 
   body {

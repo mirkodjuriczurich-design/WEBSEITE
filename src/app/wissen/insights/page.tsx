@@ -6,9 +6,9 @@ import { getAllInsights } from "@/lib/content";
 const insightsArticles = getAllInsights();
 
 export const metadata: Metadata = {
-  title: "Insights",
+  title: "Longevity-Insights – Regulatorik, Wissenschaft & Branche",
   description:
-    "Editorial-Artikel zu Regulatorik, Wissenschaft und Branchenentwicklung im Schweizer Longevity-Markt.",
+    "Fachbeiträge von Longevity-Experten: Swissmedic-Regulatorik, NAD⁺-Forschung, White-Label-Praxis und Marktentwicklung im Schweizer Supplement-Bereich.",
   alternates: { canonical: "/wissen/insights" },
 };
 

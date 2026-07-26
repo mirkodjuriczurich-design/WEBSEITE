@@ -11,13 +11,27 @@ export function buildOrganizationJsonLd(options: OrganizationOptions = {}): Json
   return {
     "@context": "https://schema.org",
     "@type": ["Organization", "Manufacturer"],
+    "@id": `${site.url}/#organization`,
     name: site.name,
-    alternateName: site.shortName,
+    legalName: "Swiss Longevity Labs AG",
+    alternateName: [site.shortName, "SLL"],
     url: site.url,
-    logo: options.logoUrl ?? `${site.url}/icon.svg`,
-    description: site.description,
+    logo: {
+      "@type": "ImageObject",
+      url: options.logoUrl ?? `${site.url}/icon.svg`,
+      contentUrl: options.logoUrl ?? `${site.url}/icon.svg`,
+    },
+    description: site.llmDescription,
+    taxID: "CHE-427.358.353",
     foundingLocation: { "@type": "Country", name: "Schweiz" },
-    address: { "@type": "PostalAddress", addressCountry: "CH" },
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Sihlbruggstrasse 105",
+      addressLocality: "Baar",
+      postalCode: "6340",
+      addressCountry: "CH",
+    },
+    areaServed: ["CH", "EU", "UK", "US"],
     contactPoint: [
       {
         "@type": "ContactPoint",
@@ -27,13 +41,58 @@ export function buildOrganizationJsonLd(options: OrganizationOptions = {}): Json
         areaServed: ["CH", "EU", "UK", "US"],
       },
     ],
-    award: [
-      "Swissmedic-konforme Produktion",
-      "GMP-Zertifizierung",
-      "ISO 22000",
-      "ISO 13485",
+    knowsAbout: [
+      "Longevity-Wissenschaft",
+      "Nahrungsergänzungsmittel",
+      "Dietary Supplements",
+      "GMP-Produktion",
+      "Pharmazeutische Galenik",
+      "Swissmedic-Regulatorik",
+      "EFSA Health Claims",
+      "NAD⁺-Metabolismus",
+      "Spermidin",
+      "Senolytika",
+      "NMN",
+      "Autophagie",
+      "Private Label Supplements",
+      "CDMO Pharma Schweiz",
+    ],
+    hasCredential: [
+      {
+        "@type": "EducationalOccupationalCredential",
+        name: "GMP-Zertifizierung",
+        credentialCategory: "Manufacturing Certification",
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        name: "ISO 22000",
+        credentialCategory: "Food Safety Certification",
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        name: "ISO 13485",
+        credentialCategory: "Medical Device Quality Certification",
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        name: "Swissmedic-konforme Produktion",
+        credentialCategory: "Regulatory Compliance",
+      },
     ],
     sameAs: options.sameAs ?? [],
+  };
+}
+
+export function buildWebSiteJsonLd(): JsonLd {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": `${site.url}/#website`,
+    name: site.name,
+    url: site.url,
+    description: site.description,
+    inLanguage: "de-CH",
+    publisher: { "@id": `${site.url}/#organization` },
   };
 }
 
@@ -62,22 +121,53 @@ interface ArticleOptions {
   authorRole: string;
   date: string;
   section: string;
+  imageUrl?: string;
+  about?: string[];
 }
 
+const sectionToAbout: Record<string, string[]> = {
+  Wissenschaft: [
+    "NAD⁺-Metabolismus",
+    "Longevity-Wissenschaft",
+    "Nahrungsergänzungsmittel",
+    "Anti-Aging",
+  ],
+  Regulatorik: [
+    "Swissmedic",
+    "EFSA Health Claims",
+    "Regulatorik Nahrungsergänzungsmittel",
+    "Schweizer Heilmittelrecht",
+  ],
+  Branche: [
+    "Longevity-Markt",
+    "Supplement-Industrie",
+    "Private Label Supplements",
+    "CDMO",
+  ],
+};
+
 export function buildArticleJsonLd(opts: ArticleOptions): JsonLd {
+  const about = opts.about ?? sectionToAbout[opts.section] ?? ["Longevity", "Nahrungsergänzungsmittel"];
   return {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: opts.title,
     description: opts.excerpt,
+    image: opts.imageUrl ?? `${site.url}/opengraph-image`,
+    about: about.map((t) => ({ "@type": "Thing", name: t })),
     author: {
       "@type": "Person",
       name: opts.authorName,
       jobTitle: opts.authorRole,
-      worksFor: { "@type": "Organization", name: site.name },
+      worksFor: {
+        "@type": "Organization",
+        "@id": `${site.url}/#organization`,
+        name: site.name,
+      },
     },
     publisher: {
       "@type": "Organization",
+      "@id": `${site.url}/#organization`,
       name: site.name,
       url: site.url,
     },
@@ -85,6 +175,7 @@ export function buildArticleJsonLd(opts: ArticleOptions): JsonLd {
     dateModified: opts.date,
     articleSection: opts.section,
     mainEntityOfPage: `${site.url}/wissen/insights/${opts.slug}`,
+    isPartOf: { "@id": `${site.url}/#website` },
   };
 }
 

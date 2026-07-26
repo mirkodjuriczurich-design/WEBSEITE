@@ -12,6 +12,13 @@ export function generateStaticParams() {
   return leistungsSlugs.map((slug) => ({ slug }));
 }
 
+function trimDescription(text: string, max = 155): string {
+  const first = text.split("\n\n")[0];
+  if (first.length <= max) return first;
+  const cut = first.lastIndexOf(" ", max);
+  return first.slice(0, cut > 0 ? cut : max) + " …";
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -21,8 +28,8 @@ export async function generateMetadata({
   const content = leistungsContent[slug];
   if (!content) return {};
   return {
-    title: content.title,
-    description: content.lead,
+    title: content.seoTitle ?? content.title,
+    description: trimDescription(content.lead),
     alternates: { canonical: `/leistungen/${content.slug}` },
   };
 }
@@ -51,11 +58,61 @@ export default async function LeistungDetailPage({
     })),
   };
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Swiss Longevity Labs", item: "https://swisslongevitylabs.com" },
+      { "@type": "ListItem", position: 2, name: "Leistungen", item: "https://swisslongevitylabs.com/leistungen" },
+      { "@type": "ListItem", position: 3, name: content.title, item: `https://swisslongevitylabs.com/leistungen/${content.slug}` },
+    ],
+  };
+
+  const serviceJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: content.title,
+    description: content.lead,
+    provider: {
+      "@type": "Organization",
+      name: "Swiss Longevity Labs AG",
+      url: "https://swisslongevitylabs.com",
+    },
+    areaServed: ["CH", "EU", "UK", "US"],
+    serviceType: "Contract Manufacturing",
+    category: "Longevity Supplement Manufacturing",
+  };
+
+  const howToJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: `Wie funktioniert ${content.title} bei Swiss Longevity Labs?`,
+    description: `Fünf Schritte von der Anfrage bis zur Marktreife: ${content.title}`,
+    step: content.process.map((s) => ({
+      "@type": "HowToStep",
+      name: s.title,
+      text: s.body,
+      position: parseInt(s.step),
+    })),
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }}
       />
 
       {/* 1. HERO */}

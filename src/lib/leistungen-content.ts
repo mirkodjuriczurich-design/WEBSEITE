@@ -34,6 +34,7 @@ export interface LeistungsContent {
   slug: string;
   number: string;
   title: string;
+  seoTitle?: string;
   eyebrow: string;
   lead: string;
   image?: string;
@@ -54,6 +55,7 @@ export const leistungsContent: Record<string, LeistungsContent> = {
     slug: "private-label",
     number: "01",
     title: "Private Label",
+    seoTitle: "Private Label Nahrungsergänzung GMP Schweiz",
     eyebrow: "Eure Marke, unsere Rezeptur",
     lead:
       "Sie kommen mit einer Rezeptur, einer Produktidee oder einem klaren Konzept. Wir entwickeln, formulieren und produzieren hochwertige Private-Label-Longevity-Produkte, Nahrungsergänzungsmittel und Supplements nach GMP-Standards – präzise, wissenschaftlich fundiert und unter Schweizer Qualitätsstandards.\n\nVon der ersten Formulierung über Pilot-Batches und regulatorische Anforderungen bis zur internationalen Serienproduktion begleiten wir Sie als erfahrener Private Label Hersteller aus der Schweiz. So entsteht aus Ihrer Idee ein marktreifes Produkt mit höchster Qualität, voller Compliance und globalem Skalierungspotenzial.",
@@ -192,6 +194,7 @@ export const leistungsContent: Record<string, LeistungsContent> = {
     slug: "white-label",
     number: "02",
     title: "White Label",
+    seoTitle: "White Label Supplements Schweiz ab 4 Wochen",
     eyebrow: "Unsere Rezeptur, eure Marke",
     image: "/images/leistung-white-label.png",
     imageWidth: 1535,
@@ -280,6 +283,7 @@ export const leistungsContent: Record<string, LeistungsContent> = {
     slug: "full-service-rd",
     number: "03",
     title: "Full Service & R&D",
+    seoTitle: "Full Service & R&D Longevity CDMO Schweiz",
     eyebrow: "End-to-End unter einem Dach",
     image: "/images/leistung-full-service-rd.png",
     imageWidth: 1076,
@@ -369,6 +373,7 @@ export const leistungsContent: Record<string, LeistungsContent> = {
     slug: "produktentwicklung",
     number: "04",
     title: "Produktentwicklung",
+    seoTitle: "Supplement Produktentwicklung Schweiz – Rezeptur & Galenik",
     eyebrow: "Rezeptur, Galenik, Stabilität",
     image: "/images/leistung-produktentwicklung.png",
     imageWidth: 4608,
@@ -459,6 +464,7 @@ export const leistungsContent: Record<string, LeistungsContent> = {
     slug: "regulatorik",
     number: "05",
     title: "Regulatorik & Compliance",
+    seoTitle: "Swissmedic & EFSA Regulatorik Longevity Schweiz",
     eyebrow: "Swissmedic, EFSA, FDA, EU",
     lead:
       "Marktzulassungen weltweit. Wir navigieren Health Claims, Notifizierungen und Compliance-Anforderungen vom ersten Dossier bis zur finalen Zulassung – auch ohne dass wir produzieren müssen.",
@@ -544,6 +550,7 @@ export const leistungsContent: Record<string, LeistungsContent> = {
     slug: "distribution",
     number: "06",
     title: "Distribution",
+    seoTitle: "Pharma Distribution & Fulfillment weltweit – Schweiz",
     eyebrow: "Logistik weltweit, effizient & sicher",
     lead:
       "Pharma-konforme Lagerung, Fulfillment und ein etabliertes Partner-Netzwerk für die globale Distribution Ihrer Longevity-Produkte – auch wenn wir nicht produziert haben.",

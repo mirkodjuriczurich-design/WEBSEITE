@@ -51,4 +51,8 @@ Disallow: /
 User-agent: ImagesiftBot
 Disallow: /
 
+# Block internal API routes
+User-agent: *
+Disallow: /api/
+
 Sitemap: https://swisslongevitylabs.com/sitemap.xml

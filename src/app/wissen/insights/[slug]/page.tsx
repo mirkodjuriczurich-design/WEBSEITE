@@ -48,6 +48,7 @@ export default async function InsightArticlePage({
     authorRole: article.authorRole,
     date: article.date,
     section: article.tag,
+    imageUrl: "https://swisslongevitylabs.com/opengraph-image",
   });
 
   return (
@@ -126,6 +127,47 @@ export default async function InsightArticlePage({
               className="prose-editorial mx-auto max-w-[64ch]"
               dangerouslySetInnerHTML={{ __html: article.bodyHtml }}
             />
+          </div>
+        </section>
+
+        <aside
+          role="note"
+          className="border-b border-[var(--color-stone-200)] bg-[var(--color-stone-100)]"
+        >
+          <div className="container-editorial py-6">
+            <div className="mx-auto max-w-[64ch] flex gap-4 items-start">
+              <div
+                aria-hidden
+                className="mt-1 h-3 w-3 flex-shrink-0"
+                style={{ background: "var(--color-swiss-red)" }}
+              />
+              <p className="text-[13px] leading-[1.6] text-[var(--color-stone-700)]">
+                <strong className="font-semibold text-[var(--color-ink)]">Hinweis:</strong>{" "}
+                Dieser Artikel dient ausschliesslich Informationszwecken und ersetzt keine professionelle
+                medizinische Beratung, Diagnose oder Behandlung. Nahrungsergänzungsmittel sind keine
+                Arzneimittel und dienen nicht der Prävention, Behandlung oder Heilung von Krankheiten.
+                Konsultieren Sie bei gesundheitlichen Fragen eine Ärztin oder einen Arzt.
+              </p>
+            </div>
+          </div>
+        </aside>
+
+        <section className="border-b border-[var(--color-stone-200)] bg-[var(--color-off-white)]">
+          <div className="container-editorial py-12 lg:py-16">
+            <div className="mx-auto max-w-[64ch]">
+              <span className="eyebrow">Über den Autor</span>
+              <div className="mt-6 border-t border-[var(--color-stone-200)] pt-6">
+                <p className="text-[15px] font-semibold text-[var(--color-ink)]">{article.author}</p>
+                <p className="mt-1 text-[12px] font-semibold uppercase tracking-[0.1em] text-[var(--color-stone-400)]">
+                  {article.authorRole} · Swiss Longevity Labs AG
+                </p>
+                <p className="mt-4 text-[14.5px] leading-[1.65] text-[var(--color-stone-700)]">
+                  Swiss Longevity Labs AG ist ein Schweizer Full-Service-Hersteller für Longevity-Produkte.
+                  Das Unternehmen entwickelt, produziert und vertreibt GMP-konforme Supplements für
+                  Pharma-Brands, Kliniken und Supplement-Startups weltweit.
+                </p>
+              </div>
+            </div>
           </div>
         </section>
 

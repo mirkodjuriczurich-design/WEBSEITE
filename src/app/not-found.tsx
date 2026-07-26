@@ -4,14 +4,14 @@ import { Button } from "@/ui/Button";
 
 const suggestions = [
   {
-    label: "Services",
-    href: "/services",
-    description: "Die sechs Säulen unseres Full-Service-Angebots.",
+    label: "Leistungen",
+    href: "/leistungen",
+    description: "Sechs Full-Service-Leistungen – einzeln oder integriert buchbar.",
   },
   {
     label: "Produkte",
     href: "/produkte",
-    description: "Unsere sechs Eigenmarken-Produkte im Überblick.",
+    description: "Unsere drei Longevity-Eigenmarken-Produkte im Überblick.",
   },
   {
     label: "Kontakt",

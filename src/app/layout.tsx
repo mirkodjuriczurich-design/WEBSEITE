@@ -5,7 +5,7 @@ import { Footer } from "@/layout/Footer";
 import { CookieBanner } from "@/layout/CookieBanner";
 import { StickyMobileCTA } from "@/layout/StickyMobileCTA";
 import { site } from "@/lib/site";
-import { buildOrganizationJsonLd } from "@/lib/seo";
+import { buildOrganizationJsonLd, buildWebSiteJsonLd } from "@/lib/seo";
 import { getPlausibleScriptProps } from "@/lib/analytics";
 import "./globals.css";
 
@@ -73,6 +73,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const orgJsonLd = buildOrganizationJsonLd();
+  const webSiteJsonLd = buildWebSiteJsonLd();
   const plausibleProps = getPlausibleScriptProps();
 
   return (
@@ -87,6 +88,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteJsonLd) }}
         />
         {plausibleProps && (
           <script defer src={plausibleProps.src} data-domain={plausibleProps["data-domain"]} />

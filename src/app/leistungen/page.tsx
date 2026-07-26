@@ -6,9 +6,9 @@ import { Button } from "@/ui/Button";
 import { amp } from "@/lib/render";
 
 export const metadata: Metadata = {
-  title: "Leistungen",
+  title: "Private Label & White Label Longevity Schweiz",
   description:
-    "Sechs Full-Solution-Säulen für Longevity: Private Label, White Label, Full Service & R&D, Produktentwicklung, Regulatorik und Distribution. Einzeln buchbar oder integriert.",
+    "Sechs Full-Service-Leistungen für Longevity-Brands: Private Label, White Label, Full Service & R&D, Produktentwicklung, Regulatorik und Distribution.",
   alternates: { canonical: "/leistungen" },
 };
 
@@ -20,7 +20,7 @@ export default function LeistungenHubPage() {
           <div className="max-w-[60ch]">
             <span className="eyebrow">Leistungen</span>
             <h1 className="mt-8 text-[clamp(2.5rem,5.5vw,4rem)] leading-[1.05] tracking-[-0.015em]">
-              Die ganze Wertschöpfungskette – oder genau die Stufe, die Sie brauchen.
+              Private Label, White Label & Full Service – Longevity-Produkte aus der Schweiz.
             </h1>
             <p className="mt-8 text-[18px] leading-[1.6] text-[var(--color-stone-700)]">
               Sechs Leistungen, einzeln buchbar, integriert orchestriert. Was wir für unsere
@@ -69,7 +69,7 @@ export default function LeistungenHubPage() {
                 </p>
 
                 <div className="mt-auto flex items-center gap-2 text-[13px] font-medium text-[var(--color-ink)] group-hover:text-[var(--color-swiss-red)] transition-colors duration-300">
-                  Im Detail ansehen
+                  {l.title} im Detail
                   <ArrowRight
                     size={14}
                     strokeWidth={1.5}

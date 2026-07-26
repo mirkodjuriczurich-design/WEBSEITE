@@ -45,7 +45,7 @@ export function ProdukteShowcase() {
                 {produktBilder[p.slug] ? (
                   <Image
                     src={produktBilder[p.slug]}
-                    alt={p.name}
+                    alt={`${p.name} – ${p.category} Supplement von Swiss Longevity Labs AG`}
                     fill
                     className="object-cover"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"

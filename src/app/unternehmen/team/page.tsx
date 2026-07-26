@@ -4,8 +4,8 @@ import { Button } from "@/ui/Button";
 import { amp } from "@/lib/render";
 
 export const metadata: Metadata = {
-  title: "Team",
-  description: "Die Personen hinter Swiss Longevity Labs AG – Wissenschaft, Produktion, Strategie.",
+  title: "Wissenschafts- & Produktionsteam Longevity Schweiz",
+  description: "Das Team von Swiss Longevity Labs AG – Pharmazeutische Forschung, GMP-Produktion, Regulatorik und Strategie an einem Schweizer Standort.",
   alternates: { canonical: "/unternehmen/team" },
 };
 

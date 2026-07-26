@@ -11,10 +11,10 @@ export function LeistungenBento() {
       <div className="container-editorial">
         <FadeUp className="max-w-[64ch]">
           <h2 className="text-[clamp(2rem,3.5vw,2.75rem)] leading-[1.15] tracking-[-0.01em]">
-            Die ganze Wertschöpfungskette - oder genau die Stufe, die Sie brauchen.
+            Private Label, White Label & Full Service – sechs Leistungen, ein Partner.
           </h2>
           <p className="mt-6 text-[18px] leading-[1.6] text-[var(--color-stone-700)]">
-            Von der ersten Rezeptur bis zum globalen Rollout - unsere Kunden sind Pharma-Startups die schnell launchen wollen, Kliniken die eine Eigenmarke aufbauen, und Brands die von Lohnproduktion auf Schweizer Qualität upgraden. Jeder Service ist einzeln buchbar.
+            Von der ersten Rezeptur bis zum globalen Rollout – unsere Kunden sind Pharma-Startups die schnell launchen wollen, Kliniken die eine Eigenmarke aufbauen, und Brands die von Lohnproduktion auf Schweizer Qualität upgraden. Jede Leistung ist einzeln buchbar.
           </p>
         </FadeUp>
 
@@ -30,7 +30,7 @@ export function LeistungenBento() {
                   {l.number}
                 </span>
                 <span className="text-[12px] font-semibold uppercase tracking-[0.15em] text-[var(--color-stone-400)]">
-                  Service
+                  Leistung
                 </span>
               </div>
 
@@ -46,7 +46,7 @@ export function LeistungenBento() {
               </p>
 
               <div className="mt-auto flex items-center gap-2 text-[13px] font-medium text-[var(--color-ink)] group-hover:text-[var(--color-swiss-red)] transition-colors duration-300">
-                Mehr erfahren
+                {l.title} entdecken
                 <ArrowRight size={14} strokeWidth={1.5} className="transition-transform duration-300 group-hover:translate-x-1" />
               </div>
 
@@ -60,7 +60,7 @@ export function LeistungenBento() {
 
         <div className="mt-12 flex justify-center">
           <Button href="/leistungen" variant="secondary" arrow>
-            Alle Services ansehen
+            Alle Leistungen ansehen
           </Button>
         </div>
       </div>

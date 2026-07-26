@@ -10,19 +10,19 @@ export function Hero() {
             <span className="eyebrow">Schweizer Full-Service-Partner für Longevity</span>
 
             <h1 className="mt-8 max-w-[26ch] text-[clamp(1.5rem,3.5vw,2.75rem)] leading-[1.15] tracking-[-0.015em]">
-              Ihre Longevity-Marke - in Wochen, nicht Jahren. Produziert in der Schweiz.
+              Ihre Longevity-Marke – in Wochen, nicht Jahren. Produziert in der Schweiz.
             </h1>
 
             <p className="mt-8 max-w-[52ch] text-[19px] leading-[1.55] text-[var(--color-stone-700)]">
-              Private Label, White Label, Produktentwicklung, Regulatorik und Distribution - aus einer Hand. Für Pharma-Brands, Kliniken und Supplement-Startups, die skalieren wollen.
+              Private Label, White Label, Produktentwicklung, Regulatorik und Distribution – aus einer Hand. Für Pharma-Brands, Kliniken und Supplement-Startups, die skalieren wollen.
             </p>
 
             <div className="mt-10 flex flex-wrap items-center gap-4">
               <Button href="/kontakt?type=enquiry" variant="primary" arrow>
                 Anfrage starten
               </Button>
-              <Button href="/services" variant="ghost" arrow>
-                Services entdecken
+              <Button href="/leistungen" variant="ghost" arrow>
+                Leistungen entdecken
               </Button>
             </div>
 

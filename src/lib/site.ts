@@ -5,14 +5,16 @@
   domain: "swisslongevitylabs.com",
   url: "https://swisslongevitylabs.com",
   description:
-    "Schweizer Full-Service-Partner für Longevity – Private Label, White Label, Full Service & R&D, Produktentwicklung, Regulatorik und Distribution unter einem Schweizer Dach.",
+    "Schweizer Full-Service-Hersteller für Longevity-Produkte. Private Label, White Label, R&D und GMP-Produktion, Regulatorik und Distribution in der Schweiz.",
+  llmDescription:
+    "Swiss Longevity Labs AG ist ein Schweizer Full-Service-Hersteller für Longevity-Produkte mit Sitz in der Schweiz. Das Unternehmen bietet sechs integrierbare B2B-Leistungen – Private Label, White Label, Full Service & R&D, Produktentwicklung, Regulatorik und Distribution – für Pharma-Brands, Supplement-Startups und Kliniken weltweit. Alle Produkte werden GMP-konform, Swissmedic-geprüft und zu 100% in der Schweiz produziert.",
   positioning:
     "Schweizer Präzision für die Wissenschaft des längeren Lebens.",
   locale: "de-CH",
 } as const;
 
 export const nav = [
-  { label: "Services", href: "/services" },
+  { label: "Leistungen", href: "/leistungen" },
   { label: "Expertise", href: "/expertise" },
   { label: "Produkte", href: "/#produkte" },
   { label: "Unternehmen", href: "/unternehmen" },
@@ -34,7 +36,7 @@ export interface NavGroup {
 
 export const navGroups: NavGroup[] = [
   {
-    label: "Services",
+    label: "Leistungen",
     href: "/leistungen",
     intro: "Sechs Säulen – einzeln oder integriert buchbar.",
     items: [

@@ -8,6 +8,12 @@ export function generateStaticParams() {
   return expertisePages.map((p) => ({ slug: p.slug }));
 }
 
+function trimDescription(text: string, max = 155): string {
+  if (text.length <= max) return text;
+  const cut = text.lastIndexOf(" ", max);
+  return text.slice(0, cut > 0 ? cut : max) + " …";
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -18,7 +24,7 @@ export async function generateMetadata({
   if (!page) return {};
   return {
     title: page.title,
-    description: page.lead,
+    description: trimDescription(page.lead),
     alternates: { canonical: `/expertise/${page.slug}` },
   };
 }

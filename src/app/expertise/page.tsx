@@ -5,7 +5,7 @@ import { expertisePages } from "@/lib/expertise-content";
 import { Button } from "@/ui/Button";
 
 export const metadata: Metadata = {
-  title: "Expertise",
+  title: "GMP Produktion & Qualität Schweiz",
   description:
     "Capabilities, Prozess, Qualität und Standort – die Substanz hinter unseren Leistungen. Schweizer Pharma-Standard, dokumentiert und auditierbar.",
   alternates: { canonical: "/expertise" },
@@ -57,7 +57,7 @@ export default function ExpertiseHubPage() {
                   {p.lead}
                 </p>
                 <div className="mt-auto flex items-center gap-2 text-[13px] font-medium text-[var(--color-ink)] group-hover:text-[var(--color-swiss-red)] transition-colors duration-300">
-                  Im Detail ansehen
+                  {p.title} ansehen
                   <ArrowRight
                     size={14}
                     strokeWidth={1.5}

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { Button } from "@/ui/Button";
 
 export const metadata: Metadata = {
-  title: "Forschung",
+  title: "Longevity-Forschung & Wirkstoff-Expertise",
   description:
-    "Eigene Studien, Methoden-Reviews und wissenschaftliche Synthesen aus der SLL-Forschungs-Abteilung.",
+    "Angewandte Forschung zu Longevity-Wirkstoffen: NAD⁺-Vorstufen, Senolytika, Spermidin und pharmazeutische Galenik aus dem SLL-Forschungslabor.",
   alternates: { canonical: "/wissen/forschung" },
 };
 
@@ -39,12 +39,13 @@ export default function ForschungPage() {
           <div className="max-w-[64ch]">
             <span className="eyebrow">Wissen · 01 · Forschung</span>
             <h1 className="mt-8 text-[clamp(2.5rem,5.5vw,4rem)] leading-[1.05] tracking-[-0.015em]">
-              Eigene Forschung. Veröffentlicht.
+              Angewandte Forschung zu Longevity-Wirkstoffen.
             </h1>
             <p className="mt-8 text-[19px] leading-[1.55] text-[var(--color-stone-700)]">
-              Wir betreiben in unserer Abteilung anwendungsorientierte Forschung an
-              Longevity-Wirkstoffen und ihren Formulierungen. Die wichtigsten Erkenntnisse
-              veröffentlichen wir laufend als Methoden-Reviews und Studien-Synthesen.
+              Unsere Forschungsabteilung arbeitet an praxisnahen Fragestellungen zu
+              Longevity-Wirkstoffen und ihrer Formulierung. Schwerpunkte: NAD⁺-Vorstufen,
+              Senolytika, Spermidin-Galenik und Bioverfügbarkeits-Optimierung. Erste
+              Methoden-Reviews werden in Phase 2 veröffentlicht.
             </p>
           </div>
         </div>

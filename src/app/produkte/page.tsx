@@ -6,9 +6,9 @@ import { produkte } from "@/lib/site";
 import { Button } from "@/ui/Button";
 
 export const metadata: Metadata = {
-  title: "Produkte",
+  title: "Longevity Supplements Schweiz",
   description:
-    "Sechs Longevity-Produkte unter Schweizer Eigenmarke. Wissenschaftlich fundiert, Schweizer produziert, kompromisslos rein.",
+    "Drei Longevity-Produkte unter Schweizer Eigenmarke. Wissenschaftlich fundiert, in der Schweiz produziert, kompromisslos rein.",
   alternates: { canonical: "/produkte" },
 };
 
@@ -20,7 +20,7 @@ export default function ProdukteHubPage() {
           <div className="max-w-[60ch]">
             <span className="eyebrow">Eigene Marke</span>
             <h1 className="mt-8 text-[clamp(2.5rem,5.5vw,4rem)] leading-[1.05] tracking-[-0.015em]">
-              Sechs Produkte. Eine Schweizer Linie.
+              Drei Produkte. Eine Schweizer Linie.
             </h1>
             <p className="mt-8 text-[19px] leading-[1.55] text-[var(--color-stone-700)]">
               Die Substanz, die wir für andere fertigen – auch in unserer eigenen Linie.

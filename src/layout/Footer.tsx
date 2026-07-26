@@ -4,8 +4,8 @@ import { leistungen, site } from "@/lib/site";
 
 const columns = [
   {
-    title: "Services",
-    links: leistungen.map((l) => ({ label: l.title, href: `/services/${l.slug}` })),
+    title: "Leistungen",
+    links: leistungen.map((l) => ({ label: l.title, href: `/leistungen/${l.slug}` })),
   },
   {
     title: "Expertise",
